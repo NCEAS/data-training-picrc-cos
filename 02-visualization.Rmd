@@ -5,4 +5,11 @@ date: "8/31/2021"
 output: html_document
 ---
 
-Place holder for Module 3: Visualizing Data
+# Visualizing Data
+
+**In this Session**
+
+1. XXX
+2. XXX
+
+## Overview
