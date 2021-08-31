@@ -1,6 +1,10 @@
 introduction-to-course
 training-overview
 how-to-use-these-materials
+working-with-data
+overview
+visualizing-data
+overview-1
 communication-principles
 learning-objectives
 prioritizing-engagement
@@ -8,3 +12,5 @@ crafting-your-message
 the-message-box
 practice-exercise-fill-out-the-message-box
 resources
+conclusion
+overview-2
