@@ -28,10 +28,10 @@ github-repo: rstudio/bookdown-demo
 
 3. ***Content:*** In this training package, you will learn about three core elements of data management and visualization.
 
-    - *Chapter 2: Working with Data* - including management of data resources, cleaning datasets, and normalizing & standardizing data sets and databases.
-    - *Chapter 3: Visualizing Data* - including a focus on using Tableau software to build or enhance visualization skills and resources.
-    - *Chapter 4: Communicating Data Stories* - including core principles in overall data communication, lessons in building and telling stories using your data sets, and working with external partners on visuals (such as graphic designers).
-    - The concluding module (*Chapter 5*) includes a collection of final messages and resources to aid you in your path forward.
+    - *Module 2: Working with Data* - including management of data resources, cleaning datasets, and normalizing & standardizing data sets and databases.
+    - *Mocule 3: Visualizing Data* - including a focus on using Tableau software to build or enhance visualization skills and resources.
+    - *Module 4: Communicating Data Stories* - including core principles in overall data communication, lessons in building and telling stories using your data sets, and working with external partners on visuals (such as graphic designers).
+    - The concluding module (*Module 5*) includes a collection of final messages and resources to aid you in your path forward.
     
 ![](images/Content_Overview_Intro.png)
 
@@ -45,7 +45,7 @@ github-repo: rstudio/bookdown-demo
 
 ## How to Use These Materials
 
-1. ***Overview:*** The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their  skill set. Each chapter contains links to additional sessions or resources for those that are interested in deeper topical dives. 
+1. ***Overview:*** The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their  skill set. Each module contains links to additional sessions or resources for those that are interested in deeper topical dives. 
 
 2. ***Materials:*** Some sessions include distilled handouts or briefs as well as short exercises to help you practice the skills while you are developing them.
 
@@ -53,8 +53,8 @@ github-repo: rstudio/bookdown-demo
 
 4. ***Exercises:*** Self-guided practical work to facilitate learning and enable exploration from a more conceptual framework. 
 
-5. ***Video Tutorials:*** Recorded lessons (primarily in Chapter 4: Tableau) providing stepwise guidance to the interface and content.
+5. ***Video Tutorials:*** Recorded lessons (primarily in Module 4: Tableau) providing stepwise guidance to the interface and content.
 
-6. ***Iteration:*** As previously mentioned, the content in this training package is intended to be revisited on an iterative basis as needed. You can proceed through the content in sequence or focus on the chapters or sessions of most interest to you. Regardless of your specific data-related role in an organization, there are opportunities to gain greater mastery through iterative practice and collaborative learning.
+6. ***Iteration:*** As previously mentioned, the content in this training package is intended to be revisited on an iterative basis as needed. You can proceed through the content in sequence or focus on the modules or sessions of most interest to you. Regardless of your specific data-related role in an organization, there are opportunities to gain greater mastery through iterative practice and collaborative learning.
 
-7. ***Conclusion:*** The concluding chapter (Chapter 5) includes a compilation of resources for “at-a-glance” skill reminders and references for further investigation.
+7. ***Conclusion:*** The concluding module (Module 5) includes a compilation of resources for “at-a-glance” skill reminders and references for further investigation.
