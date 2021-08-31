@@ -1,5 +1,6 @@
 introduction-to-course
 training-overview
+how-to-use-these-materials
 communication-principles
 learning-objectives
 prioritizing-engagement
