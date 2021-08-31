@@ -1,6 +1,5 @@
 introduction-to-course
 communication-principles
-in-this-session
 learning-objectives
 prioritizing-engagement
 crafting-your-message
