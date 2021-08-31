@@ -14,6 +14,7 @@ github-repo: rstudio/bookdown-demo
 # Introduction to Course
 
 **In this Session**
+
 1. Training Overview
 2. Structural Approach for Using the Material
 
