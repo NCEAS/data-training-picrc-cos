@@ -19,9 +19,13 @@ github-repo: rstudio/bookdown-demo
 2. Structural Approach for Using the Material
 
 ## Training Overview
+
 1. ***Relevance:*** As environmental issues increase in scale and scope, there will be an increasing need to “tell the story” of monitoring and conservation efforts. To address this need, data enthusiasts - such as you - have an opportunity to expand their knowledge base in working with complex data sets to creatively convey impactful, data-driven messages to a variety of audiences. This compilation of training materials is intended to provide an accessible, digestible resource for anyone interested in any aspect of data management or visualization.
+
 2. ***Background:*** This compilation of data management and visualization training materials stems from a multi-year engagement amongst the Palau International Coral Reef Center (PICRC), the Stanford Center for Ocean Solutions (COS), and the National Center for Ecological Analysis and Synthesis (NCEAS) through financial support by Future Earth. The funding supported a collaborative working group requested by former Palauan President, Tommy Remengesau, Jr. to investigate major implications of the full implementation of the Palau National Marine Sanctuary and compile a report of the findings (see PICRC page or COS page). One key lesson from that experience was the importance of enhancing the capacity for managing and visualizing data driven messages to more effectively communicate significant management findings.
+
 3. ***Content:*** In this training package, you will learn about three core elements of data management and visualization.
+
   - Module 2: Working with Data - including management of data resources, cleaning datasets, and normalizing & standardizing data sets and databases.
   - Module 3: Visualizing Data - including a focus on using Tableau software to build or enhance visualization skills and resources.
   - Module 4: Communicating Data Stories - including core principles in overall data communication, lessons in building and telling stories using your data sets, and working with external partners on visuals (such as graphic designers).
