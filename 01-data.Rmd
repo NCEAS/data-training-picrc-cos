@@ -1,0 +1,8 @@
+---
+title: "01-data"
+author: "Amber Budden"
+date: "8/31/2021"
+output: html_document
+---
+
+Place holder for Module 2: Working with Data
