@@ -29,7 +29,7 @@ github-repo: rstudio/bookdown-demo
 3. ***Content:*** In this training package, you will learn about three core elements of data management and visualization.
 
     - *Module 2: Working with Data* - including management of data resources, cleaning datasets, and normalizing & standardizing data sets and databases.
-    - *Mocule 3: Visualizing Data* - including a focus on using Tableau software to build or enhance visualization skills and resources.
+    - *Module 3: Visualizing Data* - including a focus on using Tableau software to build or enhance visualization skills and resources.
     - *Module 4: Communicating Data Stories* - including core principles in overall data communication, lessons in building and telling stories using your data sets, and working with external partners on visuals (such as graphic designers).
     - The concluding module (*Module 5*) includes a collection of final messages and resources to aid you in your path forward.
     
