@@ -37,16 +37,16 @@ github-repo: rstudio/bookdown-demo
 
 ## How to Use These Materials
 
-1. ***Overview::*** The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their  skill set. Each module contains links to additional sessions or resources for those that are interested in deeper topical dives. 
+1. ***Overview:*** The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their  skill set. Each module contains links to additional sessions or resources for those that are interested in deeper topical dives. 
 
-2. ***Materials::*** Some sessions include distilled handouts or briefs as well as short exercises to help you practice the skills while you are developing them.
+2. ***Materials:*** Some sessions include distilled handouts or briefs as well as short exercises to help you practice the skills while you are developing them.
 
-3. ***Briefs::*** Documents that can be utilized as a standalone resource - compiling core messages from a session.
+3. ***Briefs:*** Documents that can be utilized as a standalone resource - compiling core messages from a session.
 
-4. ***Exercises::*** Self-guided practical work to facilitate learning and enable exploration from a more conceptual framework. 
+4. ***Exercises:*** Self-guided practical work to facilitate learning and enable exploration from a more conceptual framework. 
 
-5. ***Video Tutorials::*** Recorded lessons (primarily in Module 4: Tableau) providing stepwise guidance to the interface and content.
+5. ***Video Tutorials:*** Recorded lessons (primarily in Module 4: Tableau) providing stepwise guidance to the interface and content.
 
-6. ***Iteration::*** As previously mentioned, the content in this training package is intended to be revisited on an iterative basis as needed. You can proceed through the content in sequence or focus on the modules or sessions of most interest to you. Regardless of your specific data-related role in an organization, there are opportunities to gain greater mastery through iterative practice and collaborative learning.
+6. ***Iteration:*** As previously mentioned, the content in this training package is intended to be revisited on an iterative basis as needed. You can proceed through the content in sequence or focus on the modules or sessions of most interest to you. Regardless of your specific data-related role in an organization, there are opportunities to gain greater mastery through iterative practice and collaborative learning.
 
-7. ***Conclusion::*** The concluding Module (Module 5) includes a compilation of resources for “at-a-glance” skill reminders and references for further investigation.
+7. ***Conclusion:*** The concluding Module (Module 5) includes a compilation of resources for “at-a-glance” skill reminders and references for further investigation.
