@@ -5,4 +5,10 @@
 1. XXX
 2. XXX
 
-## Overview
+## Data Management
+
+## Data Cleaning
+
+## Normalization and Standardization
+
+## Terminology for Tableau

@@ -5,4 +5,16 @@
 1. XXX
 2. XXX
 
-## Overview
+## Tableau Basics
+
+## Tableau Skills Part 1: Basic plots with single variables
+
+## Tableau Skills Part 2: Multiple factors and dynamic tables
+
+## Tableau Skills Part 3: Operations and calculated fields
+
+## Tableau Dashboards Part 1: Basic dashboards
+
+## Tableau Dashboards Part 2: Graphic design elements
+
+## TPublishing to the web from Tableau

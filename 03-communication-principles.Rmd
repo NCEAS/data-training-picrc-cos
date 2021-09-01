@@ -1,4 +1,5 @@
-# Communication Principles
+# Storytelling
+## Communication Principles
 
 **In this Session**
 
@@ -10,14 +11,14 @@
 6. [Practice Exercise: Fill Out The Message Box](#the-message-box) 
 7. Resources
 
-## Learning Objectives
+### Learning Objectives
 
 1. Approach science communication from an engagement framework
 2. Utilize tools like the "Message Box" for developing and crafting your message (Practice Exercise)
 
 ![](images/Mantra_for_Lilli.png)
 
-## Prioritizing Engagement
+### Prioritizing Engagement
 
 1. Science communication is more than dumping information on your audience. Rather, a successful communication approach will include learning what your audience desires and needs as well as building a relationship with the community you are trying to reach in order to anticipate future interests.
 
@@ -27,7 +28,7 @@
 
 Source: Twitter @TheComNetwork
 
-## Salience, Credibility and Legitimacy: Cornerstones of Effective Communication
+### Salience, Credibility and Legitimacy: Cornerstones of Effective Communication
 
   1. A focal point in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience’s perspective ([Cash et. al. 2002](https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4)). Another way to think of these terms could be the “when,” “who,” and “how” of the information provided.
   
@@ -38,7 +39,7 @@ Source: Twitter @TheComNetwork
    - Legitimacy: “...whether an actor perceives the process in a system as unbiased and meeting standards of political and procedural fairness.” 
      - In many cases, audience members strongly consider how the information was collected, analyzed and conveyed - as well as the process for engaging communities that are most closely tied to the content. This requires transparency in the process and ensuring that perspectives of impacted stakeholders are integrated into the overall message.
 
-## Crafting your message
+### Crafting your message
 
  1. In order to create messages that stick, brainstorm your call to action and draft your core message.
 
@@ -76,7 +77,7 @@ Write before you write.
       - Can I tell this message through a story? People gravitate to stories and narrative structures. A good story captivates an audience's attention and makes the message memorable.
 
   
-## The Message Box
+### The Message Box
 
 1. In preparing to communicate your scientific information, consider the use of targeted tools or practices to best focus your messages. One of the most popular tools in the science communication field is the Message Box - developed and shared by [COMPASS](https://www.compassscicomm.org/about-us/).
 
@@ -123,7 +124,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
  - In addition to the [Message Box Workbook](https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf), COMPASS have resources on how to [increase the impact](https://www.compassscicomm.org/practice/) of your message (include important statistics, draw comparisons, reduce jargon, use examples), exercises for practicing and [refining](https://www.compassscicomm.org/compare/) your message and published [examples](https://www.compassscicomm.org/examples/).
 
 
-## Practice Exercise: Fill Out The Message Box
+### Practice Exercise: Fill Out The Message Box
 
 1. For your own practice, fill out a sample Message Box with an example audience from your own work (e.g. a local school, government agency, or even internal leadership). You can [download a blank message box](files/Message-Box-Blank.pdf) or draft your own.
 
@@ -134,13 +135,13 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ![](images/Message-Box-Blank.png)
 
-## Resources
+### Resources
 
 1. If you'd like to learn more watch [DataONE Webinar: Communication Strategies to Increase Your Impact](https://vimeo.com/323261612) from [DataONE](https://vimeo.com/dataoneorg) on [Vimeo](https://vimeo.com/).
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/323261612?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=2dc6b6a91a" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DataONE Webinar: Communication Strategies to Increase Your Impact"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-# Data Storytelling
+## Data Storytelling
 
 **In this Session**
 
@@ -156,6 +157,8 @@ The five sections of the Message Box are provided below. For a detailed explanat
 10. Summary
 
 
-## Learning Objectives
+### Learning Objectives
 
-### Test of subheaders in navigation bar
+## Working with Graphic Designers
+
+### Learning Objectives
