@@ -15,5 +15,6 @@ practice-exercise-fill-out-the-message-box
 resources
 data-storytelling
 learning-objectives-1
+test-of-subheaders-in-navigation-bar
 conclusion
 overview-2
