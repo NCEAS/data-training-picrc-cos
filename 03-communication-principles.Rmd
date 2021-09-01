@@ -13,6 +13,7 @@
 1. Approach science communication from an engagement framework
 2. Utilize tools like the "Message Box" for developing and crafting your message (Practice Exercise)
 
+![images/Mantra_for_Lilli.png]
 
 ## Prioritizing Engagement
 
@@ -24,6 +25,16 @@
 
 Source: Twitter @TheComNetwork
 
+## Salience, Credibility and Legitimacy: Cornerstones of Effective Communication
+
+  1. A focal point in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience’s perspective ([Cash et. al. 2002](https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4)). Another way to think of these terms could be the “when,” “who,” and “how” of the information provided.
+  
+    - Salience: “... the relevance of information for an actor’s decision choices.” 
+        - Ensure that the content you are providing is relevant to the decisions that your audience members encounter in a time frame that meets their needs. For example, there is limited value in informing a tourist that traveled to a beach that the water quality was unhealthy a week after they visited. Rather, aim to anticipate the needs of your audience members such that you can provide digestible information right when they need it.
+    - Credibility: “...whether an actor perceives information as meeting standards of scientific plausibility and technical adequacy.” 
+        - The reputation of an organization or individual is of paramount importance when providing actionable information. Ensuring that “honest brokers of unbiased information” are the leading communicators enhances the perceived credibility of the information. This “credibility” consideration extends to every member of an organization or collaborative working group involved. Furthermore, after a period of time, audience members may desire to reflect on the accuracy of previous statements to gain an understanding of “how often have they been right?” 
+    - Legitimacy: “...whether an actor perceives the process in a system as unbiased and meeting standards of political and procedural fairness.” 
+        - In many cases, audience members strongly consider how the information was collected, analyzed and conveyed - as well as the process for engaging communities that are most closely tied to the content. This requires transparency in the process and ensuring that perspectives of impacted stakeholders are integrated into the overall message.
 
 ## Crafting your message
 
