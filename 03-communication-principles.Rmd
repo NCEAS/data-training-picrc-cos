@@ -3,10 +3,12 @@
 **In this Session**
 
 1. Learning Objectives
-2. Value Statement -- Prioritizing Engagement
+2. Prioritizing Engagement
 3. Crafting your message
-4. Practice Exercise: Fill Out The Message Box
-5. Resources
+4. Salience, Credibility and Legitimacy
+5. Crafting your Message
+6. [Practice Exercise: Fill Out The Message Box](#the-message-box) 
+7. Resources
 
 ## Learning Objectives
 
@@ -138,3 +140,20 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/323261612?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=2dc6b6a91a" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DataONE Webinar: Communication Strategies to Increase Your Impact"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+# Data Storytelling
+
+**In this Session**
+
+1. Learning Objectives
+2. Value Statement
+3. New Terms
+4. Receive Your Data
+5. Identifying Your Audience
+6. Understand Key Insights
+7. Connect Stories to Key Insights
+8. Utilize Engaging Visuals
+9. Share Your Data Stories
+10. Summary
+
+
+## Learning Objectives
