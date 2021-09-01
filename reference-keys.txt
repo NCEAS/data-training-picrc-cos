@@ -13,5 +13,7 @@ crafting-your-message
 the-message-box
 practice-exercise-fill-out-the-message-box
 resources
+data-storytelling
+learning-objectives-1
 conclusion
 overview-2
