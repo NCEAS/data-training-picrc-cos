@@ -62,9 +62,11 @@ Write before you write.
         - Harmful algal blooms → outbreak of toxic algae
         - Submerged aquatic vegetation → underwater grasses
      - We want to make our messages accessible by leveraging our audience’s existing knowledge and framing the language to be socially and culturally relevant. Note that this approach is distinct from simply “dumbing down” the content.
+  
     
   - Share about yourself to connect to their values, interests, and concerns.
     - By sharing details about yourself and your background you can build trust with your audience and relate to them on a deeper level. Personal stories and connections can aid in establishing credibility and an attachment to the issue.
+ 
     
   - Help people see themselves in your story. 
     - Find compelling hooks. A hook is the first part of a story that pulls people in. It conveys the significance and entices readers to keep reading. 
@@ -90,7 +92,8 @@ In a scientific paper, we establish credibility in the introduction and methods,
  
 The five sections of the Message Box are provided below. For a detailed explanation of the sections and guidance on how to use the Message Box, work through the [Message Box Workbook](https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf).
 
- 1. Message Box Sections
+ 3. Message Box Sections
+ 
 **The Issue**
 
   - The "Issue" section in the center of the box identifies and describes the overarching issue or topic that you're addressing in broad terms. It's the big-picture context of your work. This should be very concise and clear; no more than a short phrase. You might find you revisit the Issue after you've filled out your Message Box, to see if your thinking on the overarching topic has changed since you started.
