@@ -13,7 +13,7 @@
 1. Approach science communication from an engagement framework
 2. Utilize tools like the "Message Box" for developing and crafting your message (Practice Exercise)
 
-![images/Mantra_for_Lilli.png]
+![](images/Mantra_for_Lilli.png)
 
 ## Prioritizing Engagement
 
@@ -49,35 +49,34 @@ Write before you write.
 
 > "Consider and articulate what your story is really about. Not the noun, the verb. It's not enough to say your story is about, say, salmon. Is it a story about bears that eat salmon? Salmon that eat bears?" - Michelle Nijhuis in The Science Writers' Handbook: Everything You Need to Know to Pitch, Publish, and Prosper in the Digital Age (2013)
 
-  2. *Good messages ...*
+  2. ***Good messages ...***
   
   - Invite your audience into conversation
+  
     - Avoid jargon
      - Instead, use descriptive language that your audience would be familiar with
      - When you can’t find a perfect synonym for a jargon term, define the term or provide an analogy to something they are familiar with. 
      - Consider these examples of “jargony” terms and their “audience-friendly” counterparts:
-
-        Anthropogenic → human-caused
-        Ecosystem services → benefits from nature
-        Harmful algal blooms → outbreak of toxic algae
-        Submerged aquatic vegetation → underwater grasses
-
-    - We want to make our messages accessible by leveraging our audience’s existing knowledge and framing the language to be socially and culturally relevant. Note that this approach is distinct from simply “dumbing down” the content.
+        - Anthropogenic → human-caused
+        - Ecosystem services → benefits from nature
+        - Harmful algal blooms → outbreak of toxic algae
+        - Submerged aquatic vegetation → underwater grasses
+     - We want to make our messages accessible by leveraging our audience’s existing knowledge and framing the language to be socially and culturally relevant. Note that this approach is distinct from simply “dumbing down” the content.
     
   - Share about yourself to connect to their values, interests, and concerns.
     - By sharing details about yourself and your background you can build trust with your audience and relate to them on a deeper level. Personal stories and connections can aid in establishing credibility and an attachment to the issue.
+    
   - Help people see themselves in your story. 
     - Find compelling hooks. A hook is the first part of a story that pulls people in. It conveys the significance and entices readers to keep reading. 
       - For example: Why is it important now? What makes this story timely?
       - Can I tell this message through a story? People gravitate to stories and narrative structures. A good story captivates an audience's attention and makes the message memorable.
 
   
-
 ## The Message Box
 
 1. In preparing to communicate your scientific information, consider the use of targeted tools or practices to best focus your messages. One of the most popular tools in the science communication field is the Message Box - developed and shared by [COMPASS](https://www.compassscicomm.org/about-us/).
 
-2. The [Message Box](https://www.compassscicomm.org/leadership-development/the-message-box/) is a tool that helps researchers take the information they hold about their research and communicate it in a way that resonates with the chosen audience. It can be used to help prepare for interviews with journalists or employers, plan for a presentation, outline a paper or lecture, prepare a grant proposal, or clearly, and with relevancy, communicate your work to others. While the message box _can_ be used in all these ways, you must first identify the audience for your communication.
+2. The [Message Box](https://www.compassscicomm.org/leadership-development/the-message-box/) is a tool that helps researchers take the information they hold about their research and communicate it in a way that resonates with the chosen audience. It can be used to help prepare for interviews with journalists or employers, plan for a presentation, outline a paper or lecture, prepare a grant proposal, or clearly, and with relevancy, communicate your work to others. While the message box _can_ be used in all these ways, you must first identify the audience for your communication as that will drive your messaging. You would have a very different delivery for a group of scientists compared to a group of school children even with the same core message.
 
 The Message Box comprises five sections to help you sort and distill your knowledge in a way that will resonate with your (chosen) audience. How we communicate with other scientists (through scholarly publications) is not how the rest of the rest of the world typically communicates.
 
@@ -121,7 +120,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ## Practice Exercise: Fill Out The Message Box
 
-1. For your own practice, fill out a sample Message Box with an example audience from your own work (e.g. a local school, government agency, or even internal leadership). You can [download a blank message box](https://www.compassscicomm.org/wp-content/uploads/2020/06/Message-Box-Blank.pdf) or draft your own.
+1. For your own practice, fill out a sample Message Box with an example audience from your own work (e.g. a local school, government agency, or even internal leadership). You can [download a blank message box](files/Message-Box-Blank.pdf) or draft your own.
 
     - Fill in your audience at the top of the Message Box.
     - Fill out the Message Boxes 5 sections: "Issue", "Problems", "So What?", "Solutions", and "Benefits".
@@ -133,3 +132,6 @@ The five sections of the Message Box are provided below. For a detailed explanat
 ## Resources
 
 1. If you'd like to learn more watch [DataONE Webinar: Communication Strategies to Increase Your Impact](https://vimeo.com/323261612) from [DataONE](https://vimeo.com/dataoneorg) on [Vimeo](https://vimeo.com/).
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/323261612?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=2dc6b6a91a" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DataONE Webinar: Communication Strategies to Increase Your Impact"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
