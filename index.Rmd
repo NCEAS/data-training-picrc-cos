@@ -18,7 +18,7 @@ github-repo: rstudio/bookdown-demo
 1. Training Overview
 2. Structural Approach for Using the Material
 
-### Training Overview
+## Training Overview
 
 1. ***Relevance:*** As environmental issues increase in scale and scope, there will be an increasing need to “tell the story” of monitoring and conservation efforts. To address this need, data enthusiasts - such as you - have an opportunity to expand their knowledge base in working with complex data sets to creatively convey impactful, data-driven messages to a variety of audiences. This compilation of training materials is intended to provide an accessible, digestible resource for anyone interested in any aspect of data management or visualization.
 
