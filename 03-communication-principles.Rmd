@@ -155,6 +155,90 @@ The five sections of the Message Box are provided below. For a detailed explanat
 9. Share Your Data Stories
 10. Summary
 
+### Learning Objectives
+
+1. To learn the importance and potential of data storytelling.
+   - ***Data storytelling:** The process of translating data sets into stories, or messages that your target audience can understand.*
+2. To learn a sample of approaches to data storytelling, including connecting stories and visuals to data for maximal effectiveness.
+
+
+### Value Statement
+
+![](images/Data-Storytelling-Quote-2.png)
+
+1. Do not let your data go to waste! Learning how to effectively share engaging stories from data will allow your data, research, and synthesis to reach an increased range of audiences.
+1. Not everyone knows how to derive key insights and stories from your data, so increasing your data storytelling capacity will allow you to increase understanding and engagement from both internal and external organizational partners.
+
+### New Terms
+1. ***Data storytelling:*** The process of translating data sets into stories, or messages that your target audience can understand. 
+
+![](images/Data-Storytelling-Graphic-3.png)
+
+
+### Receive Your Data
+1. The first step in effective data storytelling is to ensure you are working with clean, standardized data:
+   - This section assumes that the data you have to tell stories from is clean and standardized already. If your data is still raw and not cleaned, please refer to *Module 2* in this training curriculum, titled *“Data”* to learn more about how to clean and standardize your data set.
+
+### Identify Your Audience 
+
+![](images/Data-Storytelling-2.png)
+
+1. Knowing your audience is one of the primary steps in effective communication.
+2. Crafting good messages is about building connections. The science you are representing will be more accessible to the communities who need it if messaging is customized for each audience.  
+3. Take time to think about who your audience is for this project:
+   - Is this for local school kids, or for large international agencies?
+   - What are your audience's needs or goals? 
+   - How can members of your audience help co-create these materials?
+4. To help facilitate your thought process on who your audience is, we have included a handout and self-guided practice exercise below for you to use as a tool:
+    - [***"Identify Your Audience" Handout + Exercise***](PDF-Files/M4-S2.Data-Storytelling.Audience-Handout+Exercise.pdf)
+5. What considerations are most relevant as we create these data stories? Drafting a short list of these considerations can be a helpful starting point when initiating a data visualization process.
+
+
+### Understand Key Insights
+1. After receiving your clean, standardized data, and identifying your audience, reserve time to review your data to discover key data insights that would be highly relevant to your audience:
+   - *For example, if you are creating material for your internal conservation agency, look and see if there are any trends or relationships between your conservation practices and your measured conservation performance indicators.*
+2. Determine insights that will draw the attention of your audience because these can amplify both the relevance and impact these insights will have.
+
+
+### Connect Stories To Key Insights
+1. Even if you have convincing graphs or numbers behind these key insights, it can still be hard for audience members to relate personally to these messages.
+2. Use relatable stories to bring key insights to life:
+   - *For example, if you are sharing data insights on conservation efforts working with local fisheries, consider including a story of how local fishery members are reacting to recent conservation policy. Perhaps multiple stakeholders note the growing pains of the transition yet later begin to receive and recognize the value that results from the revised actions. The different perspectives noting the implications of the policy on their daily lives—in the short and long term—would make the material more approachable and engaging.*
+3. Include these relatable, or personable, stories and anecdotes to more fully engage your audience in the story of your data.
+4. If you have difficulty selecting which stories to share, think about your target audience, and choose stories that they will likely relate to, or resonate with. Focus on what they need to hear; not just on what you want to say.
+
+![](images/Data-Storytelling-Quote.png)
+
+
+### Utilize Engaging Visuals
+
+![](images/Data-Storytelling-3.png)
+
+1. Furthermore, some audience members might only become more fully engaged with your data if you include engaging visuals—like graphs, maps, or other data visualizations—in your data storytelling. 
+2. Data can be hard to visualize mentally, so having graphs or maps showcasing data for an audience can alleviate a lot of mental labor your audience will have to do:
+    - *For example, audience members may not remember all the places a certain fish species lives, but having a map that shows the picture of the fish next to each of its local habitats can easily illustrate where this particular  fish species is known to exist.*
+3. Remember to focus on visuals or aesthetic details that will resonate with your audience.
+
+
+### Share Your Data Stories
+1. The last step is to share your data stories with your audience.
+
+![](images/Data-Storytelling-4.png)
+
+2. In whatever way is most appropriate, share your data stories with your target audience. Whether you made a recorded Zoom presentation, or an Instagram post, share your data stories so that all this work does not go to waste:
+   - *For example, imagine you recorded a short Instagram live video to share a data story on national conservation efforts for mangroves. If your goal is to increase general public awareness, then you could send that video along to local community organizations like schools, work places, or any other frequented community space.*
+3. The main point in data storytelling is to encourage you to develop and share your data stories with the people who need them! Do not let the effort you and your colleagues have put into your research remain as untold stories. 
+
+
+### Summary - Distilled details in this [session brief](PDF-Files/M4-S2.Data-Storytelling.Brief.pdf)
+1. Receive Your Data
+1. Identify Your Audience
+1. Understand Key Insights
+1. Connect Stories To Key Insights
+1. Utilize Engaging Visuals
+1. Share Your Data Stories
+
+
 
 ### Learning Objectives
 

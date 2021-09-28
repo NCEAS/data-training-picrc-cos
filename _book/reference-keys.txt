@@ -59,3 +59,12 @@ show-me-menu
 troubleshooting-switching-rows-and-columns
 basic-plots-using-the-marks-menu
 creating-your-first-graph
+value-statement-2
+new-terms
+receive-your-data
+identify-your-audience
+understand-key-insights
+connect-stories-to-key-insights
+utilize-engaging-visuals
+share-your-data-stories
+summary---distilled-details-in-this-session-brief
