@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Module 2 Working with Data | Data Management and Visualization Training</title>
+  <meta name="description" content="Materials for the Stanford and NCEAS PICRC Training" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Module 2 Working with Data | Data Management and Visualization Training" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Materials for the Stanford and NCEAS PICRC Training" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Module 2 Working with Data | Data Management and Visualization Training" />
+  
+  <meta name="twitter:description" content="Materials for the Stanford and NCEAS PICRC Training" />
+  
+
+<meta name="author" content="Stanford Center for Open Solutions, National Center for Ecological Analysis and Synthesis" />
+
+
+<meta name="date" content="2021-09-28" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="visualizing-data.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Data Mgmt & Visualization Training</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like <span>https://bookdown.org/yihui/bookdown</span></a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#training-overview"><i class="fa fa-check"></i><b>1.1</b> Training Overview</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#how-to-use-these-materials"><i class="fa fa-check"></i><b>1.1.1</b> How to Use These Materials</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="working-with-data.html"><a href="working-with-data.html"><i class="fa fa-check"></i><b>2</b> Working with Data</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="working-with-data.html"><a href="working-with-data.html#data-management"><i class="fa fa-check"></i><b>2.1</b> Data Management</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="working-with-data.html"><a href="working-with-data.html#learning-objectives"><i class="fa fa-check"></i><b>2.1.1</b> Learning objectives</a></li>
+<li class="chapter" data-level="2.1.2" data-path="working-with-data.html"><a href="working-with-data.html#value-statement"><i class="fa fa-check"></i><b>2.1.2</b> Value statement</a></li>
+<li class="chapter" data-level="2.1.3" data-path="working-with-data.html"><a href="working-with-data.html#file-naming"><i class="fa fa-check"></i><b>2.1.3</b> File naming</a></li>
+<li class="chapter" data-level="2.1.4" data-path="working-with-data.html"><a href="working-with-data.html#creating-a-working-folder-structure"><i class="fa fa-check"></i><b>2.1.4</b> Creating a working folder structure</a></li>
+<li class="chapter" data-level="2.1.5" data-path="working-with-data.html"><a href="working-with-data.html#metadata"><i class="fa fa-check"></i><b>2.1.5</b> Metadata</a></li>
+<li class="chapter" data-level="2.1.6" data-path="working-with-data.html"><a href="working-with-data.html#version-control"><i class="fa fa-check"></i><b>2.1.6</b> Version control</a></li>
+<li class="chapter" data-level="2.1.7" data-path="working-with-data.html"><a href="working-with-data.html#summary"><i class="fa fa-check"></i><b>2.1.7</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="working-with-data.html"><a href="working-with-data.html#data-cleaning"><i class="fa fa-check"></i><b>2.2</b> Data Cleaning</a></li>
+<li class="chapter" data-level="2.3" data-path="working-with-data.html"><a href="working-with-data.html#normalization-and-standardization"><i class="fa fa-check"></i><b>2.3</b> Normalization and Standardization</a></li>
+<li class="chapter" data-level="2.4" data-path="working-with-data.html"><a href="working-with-data.html#terminology-for-tableau"><i class="fa fa-check"></i><b>2.4</b> Terminology for Tableau</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="visualizing-data.html"><a href="visualizing-data.html"><i class="fa fa-check"></i><b>3</b> Visualizing Data</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-basics"><i class="fa fa-check"></i><b>3.1</b> Tableau Basics</a></li>
+<li class="chapter" data-level="3.2" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-skills-part-1-basic-plots-with-single-variables"><i class="fa fa-check"></i><b>3.2</b> Tableau Skills Part 1: Basic plots with single variables</a></li>
+<li class="chapter" data-level="3.3" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-skills-part-2-multiple-factors-and-dynamic-tables"><i class="fa fa-check"></i><b>3.3</b> Tableau Skills Part 2: Multiple factors and dynamic tables</a></li>
+<li class="chapter" data-level="3.4" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-skills-part-3-operations-and-calculated-fields"><i class="fa fa-check"></i><b>3.4</b> Tableau Skills Part 3: Operations and calculated fields</a></li>
+<li class="chapter" data-level="3.5" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-dashboards-part-1-basic-dashboards"><i class="fa fa-check"></i><b>3.5</b> Tableau Dashboards Part 1: Basic dashboards</a></li>
+<li class="chapter" data-level="3.6" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-dashboards-part-2-graphic-design-elements"><i class="fa fa-check"></i><b>3.6</b> Tableau Dashboards Part 2: Graphic design elements</a></li>
+<li class="chapter" data-level="3.7" data-path="visualizing-data.html"><a href="visualizing-data.html#publishing-to-the-web-from-tableau"><i class="fa fa-check"></i><b>3.7</b> Publishing to the web from Tableau</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="storytelling.html"><a href="storytelling.html"><i class="fa fa-check"></i><b>4</b> Storytelling</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="storytelling.html"><a href="storytelling.html#communication-principles"><i class="fa fa-check"></i><b>4.1</b> Communication Principles</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="storytelling.html"><a href="storytelling.html#learning-objectives-1"><i class="fa fa-check"></i><b>4.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.1.2" data-path="storytelling.html"><a href="storytelling.html#prioritizing-engagement"><i class="fa fa-check"></i><b>4.1.2</b> Prioritizing Engagement</a></li>
+<li class="chapter" data-level="4.1.3" data-path="storytelling.html"><a href="storytelling.html#salience-credibility-and-legitimacy-cornerstones-of-effective-communication"><i class="fa fa-check"></i><b>4.1.3</b> Salience, Credibility and Legitimacy: Cornerstones of Effective Communication</a></li>
+<li class="chapter" data-level="4.1.4" data-path="storytelling.html"><a href="storytelling.html#crafting-your-message"><i class="fa fa-check"></i><b>4.1.4</b> Crafting your message</a></li>
+<li class="chapter" data-level="4.1.5" data-path="storytelling.html"><a href="storytelling.html#the-message-box"><i class="fa fa-check"></i><b>4.1.5</b> The Message Box</a></li>
+<li class="chapter" data-level="4.1.6" data-path="storytelling.html"><a href="storytelling.html#practice-exercise-fill-out-the-message-box"><i class="fa fa-check"></i><b>4.1.6</b> Practice Exercise: Fill Out The Message Box</a></li>
+<li class="chapter" data-level="4.1.7" data-path="storytelling.html"><a href="storytelling.html#resources"><i class="fa fa-check"></i><b>4.1.7</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="storytelling.html"><a href="storytelling.html#data-storytelling"><i class="fa fa-check"></i><b>4.2</b> Data Storytelling</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="storytelling.html"><a href="storytelling.html#learning-objectives-2"><i class="fa fa-check"></i><b>4.2.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="storytelling.html"><a href="storytelling.html#working-with-graphic-designers"><i class="fa fa-check"></i><b>4.3</b> Working with Graphic Designers</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="storytelling.html"><a href="storytelling.html#learning-objectives-3"><i class="fa fa-check"></i><b>4.3.1</b> Learning Objectives</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>5</b> Conclusion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="conclusion.html"><a href="conclusion.html#content-review"><i class="fa fa-check"></i><b>5.1</b> Content Review</a></li>
+<li class="chapter" data-level="5.2" data-path="conclusion.html"><a href="conclusion.html#overview-of-best-practices"><i class="fa fa-check"></i><b>5.2</b> Overview of Best Practices</a></li>
+<li class="chapter" data-level="5.3" data-path="conclusion.html"><a href="conclusion.html#resource-list"><i class="fa fa-check"></i><b>5.3</b> Resource List</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Management and Visualization Training</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="working-with-data" class="section level1" number="2">
+<h1><span class="header-section-number">Module 2</span> Working with Data</h1>
+<div id="data-management" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Data Management</h2>
+<p><strong>In this session </strong></p>
+<ol style="list-style-type: decimal">
+<li>File naming</li>
+<li>Storage</li>
+<li>Metadata</li>
+<li>Version control</li>
+</ol>
+<div id="learning-objectives" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Learning objectives</h3>
+<ol style="list-style-type: decimal">
+<li>Learn good practices to store, name and, keep track of different versions of your data files</li>
+<li>Understand the importance of metadata and use a template to create your own format</li>
+</ol>
+</div>
+<div id="value-statement" class="section level3" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> Value statement</h3>
+<ol style="list-style-type: decimal">
+<li>Learning how to properly store, name, and version control your files is the basis to developing systematic procedures to analyze and visualize data.</li>
+<li>Creating metadata files is essential to capturing key information about the context and content of a data file. Every data file should be accompanied by its metadata. By doing this, you can enable others to better understand your data and work more efficiently.</li>
+</ol>
+</div>
+<div id="file-naming" class="section level3" number="2.1.3">
+<h3><span class="header-section-number">2.1.3</span> File naming</h3>
+<ol style="list-style-type: decimal">
+<li>While there is not a unique way to properly name your files, it is important to be consistent within your organization. Some of the best practices to do this include:
+1 Use descriptive names that would make sense to any reader. For example, don’t use acronyms or abbreviations.
+<ol style="list-style-type: decimal">
+<li>Avoid the use of special characters, such as !@#$%^&amp;*() and others, these are sometimes not supported by some software.</li>
+<li>Make consistent use of capitalization. Are you going to use capital letters in every word? Maybe only at the beginning of the column name? For example: My_File1.xlsx vs. my_file1.xslx. While none of them is wrong, it is good to choose one format and stick to it</li>
+<li>Use underscores instead of blank spaces, just as in the example above.</li>
+<li>If you want to keep track of versions, don’t use endings such as “final”, “v5”, etc. Instead, we suggest that you either use the date in format YYYYMMDD, or use a version control system, as we will see in a later section.</li>
+<li>Don’t start a file name with a number, though it is fine to use numbers elsewhere in the name, as in the examples above.</li>
+</ol></li>
+</ol>
+</div>
+<div id="creating-a-working-folder-structure" class="section level3" number="2.1.4">
+<h3><span class="header-section-number">2.1.4</span> Creating a working folder structure</h3>
+<ol style="list-style-type: decimal">
+<li>It is important to create a folder structure that will allow you and your colleagues to easily organize and retrieve any files that you are working with.</li>
+<li>There are some key principles to creating an efficient folder structure:
+<ol style="list-style-type: decimal">
+<li>Store your raw data in its own folder. Every time that you get new data, the first thing you should do is to create a backup by adding it to your raw data folder. This will allow you to always be able to come back to the original file and look for processing errors.</li>
+<li>Create a separate folder for “working” files. These are the files where you will change column names, clean data errors and merge multiple files when necessary. For example, if your team performs annual assessments of reef fish biomass, you may want to store separate files for each year, but combine them in a “master” file, which should be located in your “working” files folder.</li>
+<li>Having a consistent file structure across projects, such as folders for script outputs or figures, can make it easier for colleagues and collaborators to understand where to find the files they need.</li>
+</ol></li>
+</ol>
+</div>
+<div id="metadata" class="section level3" number="2.1.5">
+<h3><span class="header-section-number">2.1.5</span> Metadata</h3>
+<ol style="list-style-type: decimal">
+<li>Metadata are documentation describing the content, context, and structure of data to enable future interpretation and reuse of the data. Generally, metadata describe who collected the data, what data were collected, when and where it was collected, and why it was collected.</li>
+<li>Along with this class, we provided you with a metadata template. Please notice that this template can be adjusted to reflect your organization’s needs, therefore some of the requested information might change accordingly. Below, you will find an example of a filled out metadata template for the data that we will be using in Module 3.</li>
+<li>Make sure to always share the metadata along with your data files. Some recommendations to do this include:
+<ol style="list-style-type: decimal">
+<li>If working in Excel, create a new tab named “metadata” and put the information there</li>
+<li>If working in other data formats, create a new file with the metadata, store it in the same folder, and name it exactly the same as the data file, adding “_metadata” at the end.</li>
+</ol></li>
+</ol>
+<p><img src="images/m2s1_metadata_template_filled.jpg" /></p>
+</div>
+<div id="version-control" class="section level3" number="2.1.6">
+<h3><span class="header-section-number">2.1.6</span> Version control</h3>
+<ol style="list-style-type: decimal">
+<li>Version control is the process of tracking and organizing the changes you make to files over time. Throughout the lifetime of a project, using a system to keep track of different versions of your files and how and why you changed them can make it easier to revert to earlier versions of files or work collaboratively on the same files. Software like Git and the associated interface GitHub provide a version control framework, particularly useful for code scripts. If you are interested in learning more about Git and GitHub, <a href="https://nceas.github.io/oss-lessons/version-control/1-git-basics.html">this lesson</a> and <a href="http://ohi-science.org/data-science-training/github.html">this portion</a> of a course from NCEAS, focusing on using Git with R, are some starting points. For a broader overview of reproducible science, including the utility of version control, see [this paper] (<a href="https://www.nature.com/articles/s41559-017-0160" class="uri">https://www.nature.com/articles/s41559-017-0160</a>) by Lowndes and colleagues.</li>
+</ol>
+</div>
+<div id="summary" class="section level3" number="2.1.7">
+<h3><span class="header-section-number">2.1.7</span> Summary</h3>
+<ol style="list-style-type: decimal">
+<li>Well done, having a good folder structure, file naming practices, and version control capabilities are valuable tools to enable easy collaboration and to streamline workflows.</li>
+<li>Remember that using metadata is extremely important, this is the only way to make sure that you and your team know exactly what is included in a data file. Never share a database without its corresponding metadata.</li>
+</ol>
+</div>
+</div>
+<div id="data-cleaning" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Data Cleaning</h2>
+</div>
+<div id="normalization-and-standardization" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Normalization and Standardization</h2>
+</div>
+<div id="terminology-for-tableau" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Terminology for Tableau</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="visualizing-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-data.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

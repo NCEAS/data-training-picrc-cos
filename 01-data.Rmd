@@ -1,11 +1,62 @@
 # Working with Data
 
-**In this Session**
-
-1. XXX
-2. XXX
-
 ## Data Management
+
+**In this session **
+
+1. File naming
+2. Storage
+3. Metadata
+4. Version control
+
+### Learning objectives
+
+1. Learn good practices to store, name and, keep track of different versions of your data files
+1. Understand the importance of metadata and use a template to create your own format
+
+### Value statement
+
+1. Learning how to properly store, name, and version control your files is the basis to developing systematic procedures to analyze and visualize data. 
+1. Creating metadata files is essential to capturing key information about the context and content of a data file. Every data file should be accompanied by its metadata. By doing this, you can enable others to better understand your data and work more efficiently.
+
+### File naming
+
+1. While there is not a unique way to properly name your files, it is important to be consistent within your organization. Some of the best practices to do this include:
+    1 Use descriptive names that would make sense to any reader. For example, don’t use acronyms or abbreviations.
+    1. Avoid the use of special characters, such as !@#$%^&*() and others, these are sometimes not supported by some software.
+    1. Make consistent use of capitalization. Are you going to use capital letters in every word? Maybe only at the beginning of the column name? For example: My_File1.xlsx vs. my_file1.xslx. While none of them is wrong, it is good to choose one format and stick to it
+    1. Use underscores instead of blank spaces, just as in the example above.
+    1. If you want to keep track of versions, don’t use endings such as “final”, “v5”, etc. Instead, we suggest that you either use the date in format YYYYMMDD, or use a version control system, as we will see in a later section.
+    1. Don’t start a file name with a number, though it is fine to use numbers elsewhere in the name, as in the examples above.
+
+### Creating a working folder structure
+
+1. It is important to create a folder structure that will allow you and your colleagues to easily organize and retrieve any files that you are working with.
+1. There are some key principles to creating an efficient folder structure:
+    1. Store your raw data in its own folder. Every time that you get new data, the first thing you should do is to create a backup by adding it to your raw data folder. This will allow you to always be able to come back to the original file and look for processing errors.
+    1. Create a separate folder for “working” files. These are the files where you will change column names, clean data errors and merge multiple files when necessary. For example, if your team performs annual assessments of reef fish biomass, you may want to store separate files for each year, but combine them in a “master” file, which should be located in your “working” files folder.
+    1. Having a consistent file structure across projects, such as folders for script outputs or figures, can make it easier for colleagues and collaborators to understand where to find the files they need.
+
+### Metadata
+
+1. Metadata are documentation describing the content, context, and structure of data to enable future interpretation and reuse of the data. Generally, metadata describe who collected the data, what data were collected, when and where it was collected, and why it was collected.
+1. Along with this class, we provided you with a metadata template. Please notice that this template can be adjusted to reflect your organization’s needs, therefore some of the requested information might change accordingly. Below, you will find an example of a filled out metadata template for the data that we will be using in Module 3.
+1. Make sure to always share the metadata along with your data files. Some recommendations to do this include:
+    1. If working in Excel, create a new tab named “metadata” and put the information there
+    1. If working in other data formats, create a new file with the metadata, store it in the same folder, and name it exactly the same as the data file, adding “_metadata” at the end.
+ 
+
+![](images/m2s1_metadata_template_filled.jpg)
+
+### Version control
+
+1. Version control is the process of tracking and organizing the changes you make to files over time. Throughout the lifetime of a project, using a system to keep track of different versions of your files and how and why you changed them can make it easier to revert to earlier versions of files or work collaboratively on the same files. Software like Git and the associated interface GitHub provide a version control framework, particularly useful for code scripts. If you are interested in learning more about Git and GitHub, [this lesson](https://nceas.github.io/oss-lessons/version-control/1-git-basics.html) and [this portion](http://ohi-science.org/data-science-training/github.html) of a course from NCEAS, focusing on using Git with R, are some starting points. For a broader overview of reproducible science, including the utility of version control, see [this paper](https://www.nature.com/articles/s41559-017-0160) by Lowndes and colleagues. 
+
+### Summary 
+1. Well done, having a good folder structure, file naming practices, and version control capabilities are valuable tools to enable easy collaboration and to streamline workflows.
+2. Remember that using metadata is extremely important, this is the only way to make sure that you and your team know exactly what is included in a data file. Never share a database without its corresponding metadata.
+
+
 
 ## Data Cleaning
 
