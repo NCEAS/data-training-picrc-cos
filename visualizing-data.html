@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Module 3 Visualizing Data | Data Management and Visualization Training</title>
   <meta name="description" content="Materials for the Stanford and NCEAS PICRC Training" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Module 3 Visualizing Data | Data Management and Visualization Training" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Stanford Center for Open Solutions, National Center for Ecological Analysis and Synthesis" />
 
 
-<meta name="date" content="2021-09-02" />
+<meta name="date" content="2021-09-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -34,6 +34,7 @@
 <link rel="prev" href="working-with-data.html"/>
 <link rel="next" href="storytelling.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -41,7 +42,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -79,23 +79,49 @@
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="working-with-data.html"><a href="working-with-data.html"><i class="fa fa-check"></i><b>2</b> Working with Data</a><ul>
-<li class="chapter" data-level="2.1" data-path="working-with-data.html"><a href="working-with-data.html#data-management"><i class="fa fa-check"></i><b>2.1</b> Data Management</a></li>
+<li class="chapter" data-level="2.1" data-path="working-with-data.html"><a href="working-with-data.html#data-management"><i class="fa fa-check"></i><b>2.1</b> Data Management</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="working-with-data.html"><a href="working-with-data.html#learning-objectives"><i class="fa fa-check"></i><b>2.1.1</b> Learning objectives</a></li>
+<li class="chapter" data-level="2.1.2" data-path="working-with-data.html"><a href="working-with-data.html#value-statement"><i class="fa fa-check"></i><b>2.1.2</b> Value statement</a></li>
+<li class="chapter" data-level="2.1.3" data-path="working-with-data.html"><a href="working-with-data.html#file-naming"><i class="fa fa-check"></i><b>2.1.3</b> File naming</a></li>
+<li class="chapter" data-level="2.1.4" data-path="working-with-data.html"><a href="working-with-data.html#creating-a-working-folder-structure"><i class="fa fa-check"></i><b>2.1.4</b> Creating a working folder structure</a></li>
+<li class="chapter" data-level="2.1.5" data-path="working-with-data.html"><a href="working-with-data.html#metadata"><i class="fa fa-check"></i><b>2.1.5</b> Metadata</a></li>
+<li class="chapter" data-level="2.1.6" data-path="working-with-data.html"><a href="working-with-data.html#version-control"><i class="fa fa-check"></i><b>2.1.6</b> Version control</a></li>
+<li class="chapter" data-level="2.1.7" data-path="working-with-data.html"><a href="working-with-data.html#summary"><i class="fa fa-check"></i><b>2.1.7</b> Summary</a></li>
+</ul></li>
 <li class="chapter" data-level="2.2" data-path="working-with-data.html"><a href="working-with-data.html#data-cleaning"><i class="fa fa-check"></i><b>2.2</b> Data Cleaning</a></li>
 <li class="chapter" data-level="2.3" data-path="working-with-data.html"><a href="working-with-data.html#normalization-and-standardization"><i class="fa fa-check"></i><b>2.3</b> Normalization and Standardization</a></li>
 <li class="chapter" data-level="2.4" data-path="working-with-data.html"><a href="working-with-data.html#terminology-for-tableau"><i class="fa fa-check"></i><b>2.4</b> Terminology for Tableau</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="visualizing-data.html"><a href="visualizing-data.html"><i class="fa fa-check"></i><b>3</b> Visualizing Data</a><ul>
-<li class="chapter" data-level="3.1" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-basics"><i class="fa fa-check"></i><b>3.1</b> Tableau Basics</a></li>
-<li class="chapter" data-level="3.2" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-skills-part-1-basic-plots-with-single-variables"><i class="fa fa-check"></i><b>3.2</b> Tableau Skills Part 1: Basic plots with single variables</a></li>
+<li class="chapter" data-level="3.1" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-basics"><i class="fa fa-check"></i><b>3.1</b> Tableau Basics</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-basics-learning-objectives"><i class="fa fa-check"></i><b>3.1.1</b> Tableau Basics: Learning Objectives</a></li>
+<li class="chapter" data-level="3.1.2" data-path="visualizing-data.html"><a href="visualizing-data.html#why-tableau"><i class="fa fa-check"></i><b>3.1.2</b> Why Tableau?</a></li>
+<li class="chapter" data-level="3.1.3" data-path="visualizing-data.html"><a href="visualizing-data.html#installing-tableau"><i class="fa fa-check"></i><b>3.1.3</b> Installing Tableau</a></li>
+<li class="chapter" data-level="3.1.4" data-path="visualizing-data.html"><a href="visualizing-data.html#user-interface"><i class="fa fa-check"></i><b>3.1.4</b> User Interface</a></li>
+<li class="chapter" data-level="3.1.5" data-path="visualizing-data.html"><a href="visualizing-data.html#loading-data"><i class="fa fa-check"></i><b>3.1.5</b> Loading Data</a></li>
+<li class="chapter" data-level="3.1.6" data-path="visualizing-data.html"><a href="visualizing-data.html#opening-a-file"><i class="fa fa-check"></i><b>3.1.6</b> Opening a file</a></li>
+<li class="chapter" data-level="3.1.7" data-path="visualizing-data.html"><a href="visualizing-data.html#checking-data-types"><i class="fa fa-check"></i><b>3.1.7</b> Checking Data Types</a></li>
+<li class="chapter" data-level="3.1.8" data-path="visualizing-data.html"><a href="visualizing-data.html#sheets"><i class="fa fa-check"></i><b>3.1.8</b> Sheets</a></li>
+<li class="chapter" data-level="3.1.9" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-basics-summary"><i class="fa fa-check"></i><b>3.1.9</b> Tableau Basics Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-skills-part-1-basic-plots-with-single-variables"><i class="fa fa-check"></i><b>3.2</b> Tableau Skills Part 1: Basic plots with single variables</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="visualizing-data.html"><a href="visualizing-data.html#basic-plots-learning-objectives"><i class="fa fa-check"></i><b>3.2.1</b> Basic Plots: Learning Objectives</a></li>
+<li class="chapter" data-level="3.2.2" data-path="visualizing-data.html"><a href="visualizing-data.html#value-statement-1"><i class="fa fa-check"></i><b>3.2.2</b> Value statement</a></li>
+<li class="chapter" data-level="3.2.3" data-path="visualizing-data.html"><a href="visualizing-data.html#creating-your-first-graph"><i class="fa fa-check"></i><b>3.2.3</b> Creating your first graph</a></li>
+<li class="chapter" data-level="3.2.4" data-path="visualizing-data.html"><a href="visualizing-data.html#entire-view-and-sorting"><i class="fa fa-check"></i><b>3.2.4</b> Entire View and Sorting</a></li>
+<li class="chapter" data-level="3.2.5" data-path="visualizing-data.html"><a href="visualizing-data.html#show-me-menu"><i class="fa fa-check"></i><b>3.2.5</b> Show Me Menu</a></li>
+<li class="chapter" data-level="3.2.6" data-path="visualizing-data.html"><a href="visualizing-data.html#troubleshooting-switching-rows-and-columns"><i class="fa fa-check"></i><b>3.2.6</b> Troubleshooting: Switching Rows and Columns</a></li>
+<li class="chapter" data-level="3.2.7" data-path="visualizing-data.html"><a href="visualizing-data.html#basic-plots-using-the-marks-menu"><i class="fa fa-check"></i><b>3.2.7</b> Basic plots using the Marks menu</a></li>
+</ul></li>
 <li class="chapter" data-level="3.3" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-skills-part-2-multiple-factors-and-dynamic-tables"><i class="fa fa-check"></i><b>3.3</b> Tableau Skills Part 2: Multiple factors and dynamic tables</a></li>
 <li class="chapter" data-level="3.4" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-skills-part-3-operations-and-calculated-fields"><i class="fa fa-check"></i><b>3.4</b> Tableau Skills Part 3: Operations and calculated fields</a></li>
 <li class="chapter" data-level="3.5" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-dashboards-part-1-basic-dashboards"><i class="fa fa-check"></i><b>3.5</b> Tableau Dashboards Part 1: Basic dashboards</a></li>
 <li class="chapter" data-level="3.6" data-path="visualizing-data.html"><a href="visualizing-data.html#tableau-dashboards-part-2-graphic-design-elements"><i class="fa fa-check"></i><b>3.6</b> Tableau Dashboards Part 2: Graphic design elements</a></li>
-<li class="chapter" data-level="3.7" data-path="visualizing-data.html"><a href="visualizing-data.html#tpublishing-to-the-web-from-tableau"><i class="fa fa-check"></i><b>3.7</b> TPublishing to the web from Tableau</a></li>
+<li class="chapter" data-level="3.7" data-path="visualizing-data.html"><a href="visualizing-data.html#publishing-to-the-web-from-tableau"><i class="fa fa-check"></i><b>3.7</b> Publishing to the web from Tableau</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="storytelling.html"><a href="storytelling.html"><i class="fa fa-check"></i><b>4</b> Storytelling</a><ul>
 <li class="chapter" data-level="4.1" data-path="storytelling.html"><a href="storytelling.html#communication-principles"><i class="fa fa-check"></i><b>4.1</b> Communication Principles</a><ul>
-<li class="chapter" data-level="4.1.1" data-path="storytelling.html"><a href="storytelling.html#learning-objectives"><i class="fa fa-check"></i><b>4.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.1.1" data-path="storytelling.html"><a href="storytelling.html#communication-learning-objectives"><i class="fa fa-check"></i><b>4.1.1</b> Communication Learning Objectives</a></li>
 <li class="chapter" data-level="4.1.2" data-path="storytelling.html"><a href="storytelling.html#prioritizing-engagement"><i class="fa fa-check"></i><b>4.1.2</b> Prioritizing Engagement</a></li>
 <li class="chapter" data-level="4.1.3" data-path="storytelling.html"><a href="storytelling.html#salience-credibility-and-legitimacy-cornerstones-of-effective-communication"><i class="fa fa-check"></i><b>4.1.3</b> Salience, Credibility and Legitimacy: Cornerstones of Effective Communication</a></li>
 <li class="chapter" data-level="4.1.4" data-path="storytelling.html"><a href="storytelling.html#crafting-your-message"><i class="fa fa-check"></i><b>4.1.4</b> Crafting your message</a></li>
@@ -137,16 +163,466 @@
             <section class="normal" id="section-">
 <div id="visualizing-data" class="section level1">
 <h1><span class="header-section-number">Module 3</span> Visualizing Data</h1>
-<p><strong>In this Session</strong></p>
-<ol style="list-style-type: decimal">
-<li>XXX</li>
-<li>XXX</li>
-</ol>
 <div id="tableau-basics" class="section level2">
 <h2><span class="header-section-number">3.1</span> Tableau Basics</h2>
+<p><strong>In this Session</strong></p>
+<ol style="list-style-type: decimal">
+<li><a href="visualizing-data.html#tableau-basics-learning-objectives">Learning Objectives</a></li>
+<li><a href="visualizing-data.html#why-tableau">Why Tableau?</a></li>
+<li><a href="visualizing-data.html#installing-tableau">Installing Tableau</a></li>
+<li><a href="visualizing-data.html#user-interface">User Interface</a></li>
+<li><a href="visualizing-data.html#loading-data">Loading Data</a></li>
+<li><a href="visualizing-data.html#opening-a-file">Opening a File</a></li>
+<li><a href="visualizing-data.html#checking-data-types">Checking Data Types</a></li>
+<li><a href="visualizing-data.html#sheets">Sheets</a></li>
+<li><a href="visualizing-data.html#tableau-basics-summary">Summary</a></li>
+</ol>
+<div id="tableau-basics-learning-objectives" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Tableau Basics: Learning Objectives</h3>
+<ol style="list-style-type: decimal">
+<li>Get familiar with the user interface of Tableau</li>
+<li>Learn how to connect data sets to Tableau interface</li>
+</ol>
+</div>
+<div id="why-tableau" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Why Tableau?</h3>
+<ol style="list-style-type: decimal">
+<li>We are focusing on Tableau for two primary reasons.
+<ul>
+<li>First, Tableau can read a variety of data types, as you will learn in this session. This means that many different software applications and assets can be combined in a single visualization to present to your audience.</li>
+<li>Second, Tableau is extremely intuitive. Once you get a grasp of the basic skills, you can create compelling visualizations of data in half of the time it would take in other coding software applications.</li>
+<li>Note: For this training, all the exercises and examples were done with Tableau version 2021.1.</li>
+</ul></li>
+</ol>
+</div>
+<div id="installing-tableau" class="section level3">
+<h3><span class="header-section-number">3.1.3</span> Installing Tableau</h3>
+<ol style="list-style-type: decimal">
+<li>Let’s get started with installing the software, to do so, go to
+<a href="https://www.tableau.com/" class="uri">https://www.tableau.com/</a> and select “Try Tableau for Free”</li>
+<li>Register your email address and username and download the software</li>
+<li>Once installed, input your key (you get one when you buy the software) and you are ready to go</li>
+<li><strong>Important note:</strong> Tableau offers free 1-year licenses for educational purposes. If you belong to an academic institution, get a free license by going to <a href="https://www.tableau.com/community/academic" class="uri">https://www.tableau.com/community/academic</a>. Once there, click on “Free student license”. You will need to provide information about your academic institution to validate your educational license.</li>
+</ol>
+</div>
+<div id="user-interface" class="section level3">
+<h3><span class="header-section-number">3.1.4</span> User Interface</h3>
+<ol style="list-style-type: decimal">
+<li>Let’s open Tableau! The image below is what you will see the first time you open Tableau. Once you start to save workbooks, they will populate here under <strong>Open</strong>.</li>
+</ol>
+<p><img src="images/M3S1_image0_User_Interface.png" /></p>
+<ol style="list-style-type: lower-alpha">
+<li>The examples under <strong>Sample Workbooks</strong> are a great resource for inspiration to see the potential of Tableau.</li>
+<li>This column on the left is where you will load data.</li>
+<li>The <strong>Training</strong> and <strong>Resources tabs</strong> are very useful to help you keep learning new skills. If you are interested in investigating or expanding your skills, we recommend starting with the materials in these tabs, rather than searching for other sources on the internet. The materials in these two tabs are very well thought out and provide step-by-step instructions on how to learn new Tableau skills.</li>
+</ol>
+</div>
+<div id="loading-data" class="section level3">
+<h3><span class="header-section-number">3.1.5</span> Loading Data</h3>
+<ol style="list-style-type: decimal">
+<li>The most important section of this interface is the <strong>Connect</strong> menu, where you will load data. There are three main categories of sources that you can load into Tableau.
+<ul>
+<li><a href="https://www.tableau.com/trial/tableau-server?utm_campaign_id=2017049&amp;utm_campaign=Prospecting-PROD-ALL-ALL-ALL-ALL&amp;utm_medium=Paid+Search&amp;utm_source=Bing&amp;utm_language=EN&amp;utm_country=USCA&amp;kw=tableau%20server&amp;adgroup=CTX-Brand-Tableau+Server-E&amp;adused=ETA&amp;matchtype=e&amp;placement=&amp;gclid=c64d924d9b59166571a0f375554410ea&amp;gclsrc=3p.ds&amp;msclkid=c64d924d9b59166571a0f375554410ea"><em>Tableau Server:</em></a> Data you have saved through your Tableau account. We will not cover that process in this course because most of the users of this training will probably not have a server setup explicitly for Tableau.</li>
+<li><em>Connecting to a local file:</em> Files from your computer can be Excel files, text files, statistical files, PDFs, and spatial files
+<ul>
+<li>Text files include .csv .doc .log
+<ul>
+<li>You are going to be using <strong>Text file</strong> frequently if you have .csv (comma separated value) files.</li>
+</ul></li>
+<li>Spatial files are commonly referred to as shape files or GIS files. If you have ever dealt with shape files, you might remember that shape files are composed of a <a href="https://gisgeography.com/arcgis-shapefile-files-types-extensions/">few different files</a> – some containing the coordinates, metadata, and a table. Tableau has made the adjustments necessary to load one shape file and all the associated files.
+<ul>
+<li>As we will show this later in the course, you can load a shape file and Tableau will display it in a map with just a few clicks.</li>
+</ul></li>
+</ul></li>
+<li><em>Connecting to a server:</em> You can connect to services that are online like Google Sheets, or Microsoft Office 365.
+<ul>
+<li>One of the benefits of using this approach is that when you modify the original file, the modifications will be directly updated in Tableau.
+<ul>
+<li>Let’s say you created a report with nice graphs in 2020 because that’s the data that you had when you created the report and then in 2021 you edited your Google sheet. The next time you open your Tableau workbook, all the data will be updated and contain the new data from 2021.<br />
+</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>It’s very important to make sure that you organize and manage your files such that you know exactly where your files are. Keep in mind that if you connect to a server, any changes that you make in the original file will have an impact on how your visualization looks in Tableau.</li>
+</ol>
+</div>
+<div id="opening-a-file" class="section level3">
+<h3><span class="header-section-number">3.1.6</span> Opening a file</h3>
+<ol style="list-style-type: decimal">
+<li>Create a new folder on your desktop. Name the folder “Tableau Data Training”</li>
+<li>Download this file: CRM_Fish_edit and save it in the “Tableau Data Training” folder</li>
+<li>Follow along with this video to connect the new data file to Tableau</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EIItd2fpKDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<ol start="4" style="list-style-type: decimal">
+<li>Progress check-in. So far, you have:
+<ul>
+<li>Downloaded an excel file and connected it to Tableau</li>
+<li>In Tableau, you learned about drag and drop. As Alfredo always says, “Tableau is all about drag and drop.”</li>
+<li>You connected the two tabs CRM_Fish and CMR_Site within the CRM_fish_edit Excel file—now in the Tableau interface. There is an orange line showing the connection.</li>
+</ul></li>
+</ol>
+<p><img src="images/M3S1_image1_draganddrop.png" /></p>
+</div>
+<div id="checking-data-types" class="section level3">
+<h3><span class="header-section-number">3.1.7</span> Checking Data Types</h3>
+<ol style="list-style-type: decimal">
+<li>When you load a data file, you have to check that Tableau properly labels the data types. Here, we will discuss what those data types are and how they are assigned in Tableau.
+<ul>
+<li><strong><em>Dimensions and Measurements</em></strong>
+<ul>
+<li><strong>Dimension</strong> (also referred to as factor) is any information that is defined a priori of your actual sampling and helps to describe or categorize your results. Whenever you can call something a category it is a factor. Example: Site name, species, habitat,</li>
+<li><strong>Measurements</strong> are the actual results of your sampling. They are usually numbers that you went into the field to measure.
+<ul>
+<li>Example: Fish size, population count, temperature</li>
+</ul></li>
+<li>Tricky Case: Coordinates
+<ul>
+<li>Coordinates are a factor when you already know the coordinates where you are going to take your sample. Example: You have ten sites that you visit each year to count the number of whales. The coordinates of each site are a factor because they are predetermined. You know where you are going to gather data each time.</li>
+<li>Coordinates are a measurement when it is part of the information that you are recording and it is not predefined. Example: you put a gps tracker on a whale and every time the whale surfaces, you record the coordinates. You did not know ahead of time where the whale would surface and the location is what the study is measuring.</li>
+</ul></li>
+<li>Tricky case: Is depth a factor or a measurement?
+<ul>
+<li>Depth is a factor when indicating a transect location. Example: If you are always putting transects at either 3m or 30m you can categorize depth into shallow or deep.</li>
+<li>Depth is a measurement when it is recorded with every observation. Example: If you are swimming for 50 minutes to record visual observations of fish while also noting the depth at each observation, then depth is also a measurement. You measured and recorded your depth as you recorded the observation of the fish.</li>
+</ul></li>
+<li>Practice exercise: Time
+<ul>
+<li>SCENARIO 1: Let’s say that you are birdwatching and you want to know what time of day birds are more active. You count the birds and you write down the time that you saw each bird. Is time a measurement or a factor?
+<ul>
+<li>Answer: Measurement because you are registering the time every time you see a bird.</li>
+</ul></li>
+<li>SCENARIO 2: You want to know whether there are more birds in the morning, the afternoon, or in the evening.
+<ul>
+<li>Answer: In this case, time is a factor because you go out three times a day, you count all the birds you see at that time and categorize by morning, afternoon, or evening.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong><em>Types of Data</em></strong>
+<ul>
+<li>Different ways computers classify data:
+<ul>
+<li>Numeric - integers, decimals
+<ul>
+<li>Any kind of numeric field, except Boolean (binary or true/false statements). Examples include integer, double, floating, etc.</li>
+</ul></li>
+<li>Text - strings, including special characters</li>
+<li>Yes/no, true/false - Also known as logical or boolean</li>
+<li>Spatial Location - Coordinates, Country Name, City Name, ZIP code</li>
+<li>Date and time. Tableau can recognize different date formats. One best practice is to separate fields for year, month, and day, which can be linked together directly in Tableau.</li>
+</ul></li>
+</ul></li>
+<li><strong><em>Discrete and Continuous Data</em></strong>
+<ul>
+<li><strong>Discrete data</strong> refer to variables that can only be conceptualized in a unitary manner. <em>It is quite similar to the difference between using many vs much. In this case, discrete data would be for things described as many</em>.
+<ul>
+<li>Example for text – color, name, city</li>
+<li>Example for numbers – number of transects conducted, position in a ranking</li>
+</ul></li>
+<li><strong>Continuous data</strong> refer to variables that cannot be counted by units, but instead as continuous amounts. <em>Following the example above, continuous data would be for things described as much</em>.
+<ul>
+<li>Example: number of fish recorded, total biomass, height, depth</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>You should go through the preview of the data and ensure that each column is labeled correctly.
+<ul>
+<li><em>Note: Never skip this step even if you have worked with the data set in Tableau before!</em></li>
+</ul></li>
+<li>The type of data is shown as symbols above the column title</li>
+</ol>
+<p><img src="images/m3s1_image2_Data-Type-Symbols.png" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li><p>As you can see, the <strong>ID</strong> column is correctly labeled as a number; <strong>Data entry</strong> is a string (or text); and <strong>Date</strong> is a date (little calendar symbol).</p>
+<ul>
+<li><em>Note: Remember string is a synonym for text in Tableau.</em></li>
+</ul></li>
+<li><p>To change the label, click on the symbol and a drop-down menu will appear.</p>
+<ul>
+<li>The <strong>CRM_Fish</strong> table should look like this:</li>
+</ul>
+<p><img src="images/m3s1_image3_CRM_Fish-Data-Types.png" /></p>
+<ul>
+<li>The <strong>CMR_Site</strong> table should look like this:</li>
+</ul>
+<p><img src="images/m3s1_image4_CMR_Site-Data-Types.png" /></p>
+<ul>
+<li>Notice that Latitude and Longitude are spatial data. If you open the drop-down, you will see that you can specify the type of spatial data provided under Geographic Role.<br />
+<img src="images/m3s1_image5_Data_Types_choosing-coordinates.png" /></li>
+</ul></li>
+</ol>
+</div>
+<div id="sheets" class="section level3">
+<h3><span class="header-section-number">3.1.8</span> Sheets</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eFn2cfh6mtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<ol style="list-style-type: decimal">
+<li>Sheets Cheat Sheet
+<ul>
+<li>Discrete vs. Continuous
+<ul>
+<li><span style="color: blue;">DISCRETE is Blue</span></li>
+<li><span style="color: green;">CONTINUOUS is Green</span></li>
+</ul></li>
+<li>Factors vs. Measures
+<ul>
+<li>Above the grey line is a FACTOR</li>
+<li>Below the grey line is a MEASURE</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+<div id="tableau-basics-summary" class="section level3">
+<h3><span class="header-section-number">3.1.9</span> Tableau Basics Summary</h3>
+<ol style="list-style-type: decimal">
+<li>Great job! You have completed your first in depth Tableau session. Now, you know how to explore Tableau’s user interface, to connect a data file, check data types, and open sheets.</li>
+</ol>
+</div>
 </div>
 <div id="tableau-skills-part-1-basic-plots-with-single-variables" class="section level2">
 <h2><span class="header-section-number">3.2</span> Tableau Skills Part 1: Basic plots with single variables</h2>
+<p><strong>In this Session</strong></p>
+<ol style="list-style-type: decimal">
+<li><a href="visualizing-data.html#basic-plots-learning-objectives">Learning Objectives</a></li>
+<li><a href="working-with-data.html#value-statement">Value Statement</a></li>
+<li><a href="#Creating-Your-First-Graph">Creating Your First Graph</a></li>
+<li><a href="#Basic-Plots-using-the-Marks-Menu">Basic Plots using the Marks Menu</a></li>
+<li><a href="#line-plot">Line Plot</a></li>
+<li><a href="#area-plot">Area Plot</a></li>
+<li><a href="#map">Map</a></li>
+<li><a href="#bubble-plot">Bubble Plot</a></li>
+<li><a href="#scatter-plot">Scatter Plot</a></li>
+<li><a href="#editing-and-formatting-the-axes">Editing and Formatting the Axes</a></li>
+<li><a href="#saving-my-files">Saving my Files</a></li>
+<li><a href="#homework-exercise">Homework Exercise</a></li>
+<li><a href="working-with-data.html#summary">Summary</a></li>
+</ol>
+<div id="basic-plots-learning-objectives" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Basic Plots: Learning Objectives</h3>
+<ol style="list-style-type: decimal">
+<li>Explore the user interface</li>
+<li>Learn how to make basic plots and customize them</li>
+<li>Learn how to save and share workbooks</li>
+</ol>
+</div>
+<div id="value-statement-1" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Value statement</h3>
+<ol style="list-style-type: decimal">
+<li>Learning how to make basic plots in Tableau (e.g., bars, lines, pies, etc.) and how to take full control of the appearance will prepare you to take full advantage of Tableau’s more advanced skills.</li>
+<li><em>For this session we recommend that, if possible, have two screens open—one with Tableau and one with the course material—so you can follow along with the exercises.</em></li>
+</ol>
+</div>
+<div id="creating-your-first-graph" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Creating your first graph</h3>
+<ol style="list-style-type: decimal">
+<li>In the menu on the left, find <strong>Habitat</strong> under CRM_Fish</li>
+</ol>
+<p><img src="images/M3S2_find-habitat.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Drag and drop <strong>Habitat</strong> into <strong>Columns</strong></li>
+</ol>
+<p><img src="images/M3S2_drag-habitat.png" />
+- This will place <strong>Habitat</strong> in the x-axis of the graph</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Find <strong>Biomass</strong> under CRM_Fish</li>
+</ol>
+<p><img src="images/M3S2_find-biomass.png" /></p>
+<p>Drag and drop <strong>Biomass</strong> into <strong>Rows</strong></p>
+<p><img src="images/M3S2_drag-biomass.png" />
+- This will place <strong>Biomass</strong> in the y-axis.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Congratulations! You just made your first bar plot in Tableau!</li>
+</ol>
+</div>
+<div id="entire-view-and-sorting" class="section level3">
+<h3><span class="header-section-number">3.2.4</span> Entire View and Sorting</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ni2hh248ffM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="show-me-menu" class="section level3">
+<h3><span class="header-section-number">3.2.5</span> Show Me Menu</h3>
+<ol style="list-style-type: decimal">
+<li>The Show Me menu may pop up when you create a new graph. It looks like the image below.</li>
+</ol>
+<p><img src="images/M3S2_show-me-menu-full.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>If the Show Me menu obscures your view, you can simply click on <strong>Show Me</strong> at the top and the menu will collapse.</li>
+</ol>
+<p><img src="images/M3S2_show-me-menu-zoom.png" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>How to use the <strong>Show Me</strong> menu</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6FSgaXM__TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="troubleshooting-switching-rows-and-columns" class="section level3">
+<h3><span class="header-section-number">3.2.6</span> Troubleshooting: Switching Rows and Columns</h3>
+<ol style="list-style-type: decimal">
+<li>Lilli has a question that came up when she was exploring the Show Me menu. When she tried to go back to a bar chart, the chart was flipped! Watch Alfredo’s answer:</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DDjAZVewtUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="basic-plots-using-the-marks-menu" class="section level3">
+<h3><span class="header-section-number">3.2.7</span> Basic plots using the Marks menu</h3>
+<ol style="list-style-type: decimal">
+<li>The Show Me menu is a great tool where Tableau can suggest automated graphs, but we want to teach you how to take full control of Tableau. In order to do that, we will utilize the Marks menu.
+<ul>
+<li>The Marks menu is located to the left of your bar graph:
+<img src="images/M3S2_Marks-Menu.png" /></li>
+</ul></li>
+<li>Color
+<ul>
+<li>Here you can customize the color, opacity, and border of your graph.
+<img src="images/M3S2_color-marks-menu.png" /></li>
+<li>Click on <strong>More colors…</strong> and you will see even more options to customize your color palette.</li>
+<li>Practice: Insert a Hex Color
+<ul>
+<li>Find the Hex Color field under <strong>More colors…</strong>
+<ul>
+<li>For example, here is the “RGB Sliders” window on a Mac.
+<img src="images/M3S2_RGB-Sliders-Marks-Menu.png" /></li>
+<li>Type or paste <strong>4EC5B1</strong> in the Hex Color #</li>
+<li>Now, your graph should be this color:
+<img src="images/M3S2_Hex-Code-Medium-Turquoise.png" /></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Size
+<ul>
+<li>If you click on Size, a slider will appear. In bar graphs, the slider changes the width of each bar. Let’s see how Size affects a pie chart.
+<ul>
+<li>First, name this sheet “Bars.” <span style="color: turquoise;">REMEMBER TO ALWAYS NAME YOUR SHEETS</span><br />
+</li>
+</ul></li>
+<li>To edit, double-click on the bottom where it says “Sheet 1”
+<img src="images/M3S2_rename-sheets.png" /></li>
+<li>Create a new worksheet by clicking on the button directly to the right of “Bars”.
+<img src="images/M3S2_button.png" /></li>
+<li>Name this sheet “Pie”.</li>
+<li>In the new sheet, create exactly the same graph. Drag <strong>Habitat</strong> into <strong>Columns</strong> and <strong>Biomass</strong> into <strong>Rows</strong>.</li>
+<li>Go to <strong>Show Me</strong> and choose Pie Chart.
+<ul>
+<li>The pie chart will look very small, so change the view to Entire View. Your current sheet should look like the image below:
+<img src="images/M3S2_Pie-Chart.png" /></li>
+</ul></li>
+<li>Try using the <strong>Size</strong> function in the <strong>Marks</strong> menu. Notice that when you change the size of this graph, you are changing the size of the whole pie chart.</li>
+</ul></li>
+</ol>
+<ul>
+<li>When you are changing something like the size, you have to experiment a bit to see what the software will do. Each graph type will respond differently to changing the size.</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Labels</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YXfZ2kcLdWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<ol start="5" style="list-style-type: decimal">
+<li>Details
+<ul>
+<li>We will cover the Details marks in a later session.</li>
+</ul></li>
+<li>Tooltip</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tv4Ccex2m68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Line Plot
+Practice Exercise: Create and modify a Line Plot
+Create a new sheet and name it “Line”.
+Drag Year into Columns and drag Biomass into Rows.
+For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let’s do that.
+Right click on the field where it says SUM (Size cm) and a drop down menu will appear. Choose Measure, then click on Average.
+<img src="images/M3S2_change-measure.png" /></p>
+<p>Does your plot now look like the image below? If so, you can move on to the next steps.</p>
+<p><img src="images/M3S2_Line-Plot.png" /></p>
+<p>Area plot
+Good job! From here, it is easy to change your Line plot to an Area plot. Under the Marks menu, open the dropdown menu where it says Automatic and click on Area.</p>
+<p><img src="images/M3S2_Plot-types.png" /></p>
+<p>As you can see, there are many options in this dropdown menu. This is where you can manually change the type of plot displayed.<br />
+Map
+There are two ways to create a map.
+First, on a new sheet you can drag and drop Longitude to Columns and Latitude to Rows.
+Remember that Columns are the x-axis and Rows are the y-axis.<br />
+Your map should look like this:</p>
+<p><img src="images/M3S2_map-1.png" /></p>
+<p>Next, clear the Columns and Rows fields. You can do this either by right-clicking and then choosing Remove or you can drag Longitude and Latitude back into the left column.</p>
+<p><img src="images/M3S2_remove-column.png" /></p>
+<p>Second, there is an even easier way to plug in geographic spatial data. Double-click Latitude and then double-click Longitude. If you assigned the data properly (i.e. Dimension, Geographic Role: Latitude), Tableau will know exactly how to create this map for you.<br />
+Your map should look exactly the same as the previous visualization:
+<img src="images/M3S2_map-1.png" /></p>
+<p>Name this sheet “Map”
+Customizing the Map using the Marks menu
+Using the Color tool, change the color of the elements to a preferred color and add a black border.
+Using the Size tool, make the elements a bit larger so you can see them better.
+Remember that sliding to the right makes the elements larger and to the left makes them smaller.
+Do you notice anything missing? If we were to show this map to a collaborator, they would only see the Longitude and Latitude, but not the Site name. Let’s add the Site name to the Tooltip as dynamic text (or text that will be updated as the user interacts with the visualization).
+Find Site in the left column under CRM_Fish. Drag and drop Site into Tooltip in the Marks menu.
+Edit Tooltip to clarify the map for users.<br />
+Click on Tooltip so we can edit the text. We want the name of the site to be at the top, so cut and paste “Site: &lt;ATTR(Site)&gt;” to move it above Latitude and Longitude.
+Delete the static text “Site:” leaving just “&lt;ATTR(Site)&gt;” at the top.
+Select all the text and change the alignment to center.
+Next, add “˚N” to the right of <Latitude> and “˚W” to the right of <Longitude>
+Mac shortcut: “Option + Shift + 8”
+Windows shortcut: “”Alt + 0176” (with Num Lock on)
+If you have trouble with the degree symbol, copy and paste from this text: ˚N ˚W</p>
+<p><img src="images/M3S2_edit-tooltip-for-map.png" /></p>
+<p>Click OK to close the editing window and hover your cursor over your map to check that the tooltip is working.</p>
+<p><img src="images/M3S2_check-tooltip-for-map.png" /></p>
+<p>You have just created an interactive map showing the various sites around Palau where data was collected.
+Take a moment to explore the functionality of the map you created by moving your cursor around the map and clicking on a few of the data points.
+Bubble plot
+To create a Bubble plot, you always start with a Bar plot.
+In a new sheet, drag and drop Species into Columns and Biomass into Rows.
+Then, click on Show Me and choose Bubble</p>
+<p><img src="images/M3S2_show-me-bubble-plot.png" /></p>
+<p>E Voilá! A Bubble plot!</p>
+<p><img src="images/M3S2_bubble-plot.png" /></p>
+<p>Name this sheet “Bubble”
+Scatter plot
+Finally, let’s create a Scatter plot. Scatter plots are tricky; follow along with this video to learn about scatter plots in Tableau.
+Insert video <Tableau M3S2 Scatter Plot>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iKfEnj1RQJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Editing and Formatting the Axes
+“Biomass g” is not a very descriptive title for the x-axis. Let’s change it to give more information to a viewer. Double-click on the axis and an editing window will pop up.
+<img src="images/M3S2_edit-axis.png" /></p>
+<p>Under Title delete “Biomass g” and type “Total biomass (g)”
+Do the same for the y-axis. Replace the title with “Avg. Size (cm)”
+Now, we want to increase the font size to make the axes titles easier to read.
+Right-click on the y-axis and choose Format.</p>
+<p><img src="images/M3S2_format-axis.png" /></p>
+<p>Open the dropdown menu that says Font: and change the font size to 14</p>
+<p><img src="images/M3S2_axis-font-size.png" /></p>
+<p>Do the same for the x-axis.
+When you are done, click on the X in the right corner of the Format window to exit.
+Saving my Files
+There are two primary ways to save your work in Tableau. The first is similar to saving any other type of file on your computer.
+Click on File &gt; Save As on the menu bar at the top of your screen. Name this file “Tableau_class_skills_1”. Save the file under your Tableau Data Training folder.</p>
+<p><img src="images/M3S2_save-as.png" /></p>
+<p>Let’s take a look at the files. If you look at the Tableau Data Training folder, you’ll see that the Excel file CRM_Fish is 2.1 megabytes while the Tableau Workbook (.twb) that you just saved is 226 kilobytes. That’s significantly smaller than the original Excel file because your Tableau Workbook file doesn’t contain the data, it just has the instructions for what to do with the data. Therefore if you save .twb files (Tableau Workbook file) and you want to share them with a colleague, you also have to share the original data file.
+Packaged Workbooks
+The second way to save a file saves a compressed version of both the data file and the Tableau Workbook. This is called a Packaged Workbook.
+First, you have to create a data extract, which puts your data in Tableau format. On the menu bar at the top of your screen click on Data &gt; CRM_Fish &gt; Extract Data</p>
+<p><img src="images/M3S2_extract-data.png" /></p>
+<p><img src="images/M3S2_extract_menu_.png" /></p>
+<p>Click extract, name this file CRM_Fish_Extract, and save it in your Tableau Data Training folder.
+Now that you have created your extract, you will create a packaged file. In order to do that, go to File &gt; Export Packaged Workbook &gt; Save
+If you look at the folder in your finder, you will see that the new file type is .twbx which means it contains both the data and the instructions (Tableau Packaged Workbook file).
+If you want to share your work with colleagues who also have Tableau installed, you will share Packaged Workbooks (.twbx) with them.
+Homework Exercise
+Open data file Excel file CRM_Fish in Tableau, check field dimensions vs measure, data types, discrete vs. continuous.
+Create a bar plot, a pie chart, line, map, scatter plot
+Make presentable for an audience. Ensure that:
+Axes are legible size and descriptive titles
+Marks utilize nice and legible colors
+Tooltips provide useful information
+Name all worksheets
+Create a packaged workbook (.twbx)
+Check your work by comparing it with this file.</p>
+<p>Summary
+Congratulations! You are now equipped to create basic plots in Tableau and take full control of their design.
+You also know that when sharing your work with colleagues, you should always include the data, either as a separate file, or included in your workbook as a data extract.</p>
+</div>
 </div>
 <div id="tableau-skills-part-2-multiple-factors-and-dynamic-tables" class="section level2">
 <h2><span class="header-section-number">3.3</span> Tableau Skills Part 2: Multiple factors and dynamic tables</h2>
@@ -160,8 +636,8 @@
 <div id="tableau-dashboards-part-2-graphic-design-elements" class="section level2">
 <h2><span class="header-section-number">3.6</span> Tableau Dashboards Part 2: Graphic design elements</h2>
 </div>
-<div id="tpublishing-to-the-web-from-tableau" class="section level2">
-<h2><span class="header-section-number">3.7</span> TPublishing to the web from Tableau</h2>
+<div id="publishing-to-the-web-from-tableau" class="section level2">
+<h2><span class="header-section-number">3.7</span> Publishing to the web from Tableau</h2>
 
 </div>
 </div>
@@ -175,7 +651,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -216,7 +691,7 @@ gitbook.start({
 },
 "download": ["_main.pdf", "_main.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
