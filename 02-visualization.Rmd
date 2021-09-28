@@ -4,16 +4,17 @@
 
 **In this Session**
 
-1. Learning Objectives
-1. Value Statement
-1. User Interface
-1. Loading Data
-1. Opening a file
-1. Checking Data Types
-1. Sheets
-1. Summary
+1. [Learning Objectives](#tableau-basics-learning-objectives)
+1. [Why Tableau?](#why-tableau)
+1. [Installing Tableau](#installing-tableau)
+1. [User Interface](#user-interface)
+1. [Loading Data](#loading-data)
+1. [Opening a File](#opening-a-file)
+1. [Checking Data Types](#checking-data-types)
+1. [Sheets](#sheets)
+1. [Summary](#tableau-basics-summary)
 
-### Learning Objectives
+### Tableau Basics: Learning Objectives
 
 1. Get familiar with the user interface of Tableau
 1. Learn how to connect data sets to Tableau interface
@@ -112,15 +113,15 @@ https://www.tableau.com/ and select “Try Tableau for Free”
     - *Note: Remember string is a synonym for text in Tableau.*
 5. To change the label, click on the symbol and a drop-down menu will appear. 
     - The **CRM_Fish** table should look like this:
-
-![](images/m3s1_image3_CRM_Fish-Data-Types.png)
-
-   - The **CMR_Site** table should look like this:
-
-![](images/m3s1_image4_CMR_Site-Data-Types.png)
-
-- Notice that Latitude and Longitude are spatial data. If you open the drop-down, you will see that you can specify the type of spatial data provided under Geographic Role.  
-![](images/m3s1_image5_Data_Types_choosing-coordinates.png)
+    
+    ![](images/m3s1_image3_CRM_Fish-Data-Types.png)
+    
+    - The **CMR_Site** table should look like this:
+    
+    ![](images/m3s1_image4_CMR_Site-Data-Types.png)
+    
+    - Notice that Latitude and Longitude are spatial data. If you open the drop-down, you will see that you can specify the type of spatial data provided under Geographic Role.  
+        ![](images/m3s1_image5_Data_Types_choosing-coordinates.png)
 
 ### Sheets
 
@@ -129,18 +130,257 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 1. Sheets Cheat Sheet
     - Discrete vs. Continuous
-        - DISCRETE is Blue 
-        - CONTINUOUS is Green
+        - <span style="color: blue;">DISCRETE is Blue</span> 
+        - <span style="color: green;">CONTINUOUS is Green</span>
     - Factors vs. Measures 
         - Above the grey line is a FACTOR
         - Below the grey line is a MEASURE 
     
-### Summary
+### Tableau Basics Summary
 1. Great job! You have completed your first in depth Tableau session. Now, you know how to explore Tableau’s user interface, to connect a data file, check data types, and open sheets. 
 
 
-
 ## Tableau Skills Part 1: Basic plots with single variables
+
+**In this Session**
+
+1. [Learning Objectives](#basic-plots-learning-objectives)
+1. [Value Statement](#value-statement)
+1. [Creating Your First Graph](#Creating-Your-First-Graph)
+1. [Basic Plots using the Marks Menu](#Basic-Plots-using-the-Marks-Menu)
+1. [Line Plot](#line-plot)
+1. [Area Plot](#area-plot)
+1. [Map](#map)
+1. [Bubble Plot](#bubble-plot)
+1. [Scatter Plot](#scatter-plot)
+1. [Editing and Formatting the Axes](#editing-and-formatting-the-axes)
+1. [Saving my Files](#saving-my-files)
+1. [Homework Exercise](#homework-exercise)
+1. [Summary](#summary)
+
+### Basic Plots: Learning Objectives
+
+1. Explore the user interface
+1. Learn how to make basic plots and customize them
+1. Learn how to save and share workbooks
+
+### Value statement
+1. Learning how to make basic plots in Tableau (e.g., bars, lines, pies, etc.) and how to take full control of the appearance will prepare you to take full advantage of Tableau’s more advanced skills.
+1. *For this session we recommend that, if possible, have two screens open—one with Tableau and one with the course material—so you can follow along with the exercises.*
+
+### Creating your first graph
+
+1. In the menu on the left, find **Habitat** under CRM_Fish
+
+![](images/M3S2_find-habitat.png)
+
+2. Drag and drop **Habitat** into **Columns**
+
+![](images/M3S2_drag-habitat.png)
+    - This will place **Habitat** in the x-axis of the graph 
+
+3. Find **Biomass** under CRM_Fish
+
+![](images/M3S2_find-biomass.png)
+
+Drag and drop **Biomass** into **Rows**
+
+![](images/M3S2_drag-biomass.png)
+    - This will place **Biomass** in the y-axis. 
+    
+5. Congratulations! You just made your first bar plot in Tableau! 
+
+### Entire View and Sorting 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ni2hh248ffM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Show Me Menu
+1. The Show Me menu may pop up when you create a new graph. It looks like the image below. 
+
+![](images/M3S2_show-me-menu-full.png)
+
+2. If the Show Me menu obscures your view, you can simply click on **Show Me** at the top and the menu will collapse. 
+
+![](images/M3S2_show-me-menu-zoom.png)
+ 
+
+3. How to use the **Show Me** menu
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6FSgaXM__TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Troubleshooting: Switching Rows and Columns
+1. Lilli has a question that came up when she was exploring the Show Me menu. When she tried to go back to a bar chart, the chart was flipped! Watch Alfredo’s answer: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DDjAZVewtUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Basic plots using the Marks menu
+1. The Show Me menu is a great tool where Tableau can suggest automated graphs, but we want to teach you how to take full control of Tableau. In order to do that, we will utilize the Marks menu. 
+    - The Marks menu is located to the left of your bar graph: 
+    ![](images/M3S2_Marks-Menu.png)
+
+2. Color
+    - Here you can customize the color, opacity, and border of your graph.
+    ![](images/M3S2_color-marks-menu.png)
+    - Click on **More colors...** and you will see even more options to customize your color palette. 
+    - Practice: Insert a Hex Color 
+        - Find the Hex Color field under **More colors...** 
+            - For example, here is the “RGB Sliders” window on a Mac.
+            ![](images/M3S2_RGB-Sliders-Marks-Menu.png)
+            - Type or paste **4EC5B1** in the Hex Color # 
+            - Now, your graph should be this color:
+            ![](images/M3S2_Hex-Code-Medium-Turquoise.png)
+
+3. Size
+    - If you click on Size, a slider will appear. In bar graphs, the slider changes the width of each bar. Let’s see how Size affects a pie chart.
+        - First, name this sheet “Bars.”  <span style="color: turquoise;">REMEMBER TO ALWAYS NAME YOUR SHEETS</span>   
+    - To edit, double-click on the bottom where it says “Sheet 1”
+    ![](images/M3S2_rename-sheets.png)
+    - Create a new worksheet by clicking on the button directly to the right of “Bars”.
+    ![](images/M3S2_button.png)
+    - Name this sheet “Pie”.
+    - In the new sheet, create exactly the same graph. Drag **Habitat** into **Columns** and **Biomass** into **Rows**. 
+    - Go to **Show Me** and choose Pie Chart. 
+        - The pie chart will look very small, so change the view to Entire View. Your current sheet should look like the image below:
+        ![](images/M3S2_Pie-Chart.png)
+    - Try using the **Size** function in the **Marks** menu. Notice that when you change the size of this graph, you are changing the size of the whole pie chart. 
+- When you are changing something like the size, you have to experiment a bit to see what the software will do. Each graph type will respond differently to changing the size. 
+
+4. Labels
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YXfZ2kcLdWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+5. Details
+    - We will cover the Details marks in a later session. 
+6. Tooltip
+ 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tv4Ccex2m68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Line Plot
+Practice Exercise: Create and modify a Line Plot
+Create a new sheet and name it “Line”.
+Drag Year into Columns and drag  Biomass into Rows.
+For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let's do that. 
+Right click on the field where it says SUM (Size cm) and a drop down menu will appear. Choose Measure, then click on Average.
+![](images/M3S2_change-measure.png)
+
+Does your plot now look like the image below? If so, you can move on to the next steps. 
+
+![](images/M3S2_Line-Plot.png)
+
+Area plot
+Good job! From here, it is easy to change your Line plot to an Area plot. Under the Marks menu, open the dropdown menu where it says Automatic and click on Area.
+  
+![](images/M3S2_Plot-types.png)
+
+As you can see, there are many options in this dropdown menu. This is where you can manually change the type of plot displayed.  
+Map
+There are two ways to create a map. 
+First, on a new sheet you can drag and drop Longitude to Columns and Latitude to Rows. 
+Remember that Columns are the x-axis and Rows are the y-axis.  
+Your map should look like this: 
+
+![](images/M3S2_map-1.png)
+
+Next, clear the Columns and Rows fields. You can do this either by right-clicking and then choosing Remove or you can drag Longitude and Latitude back into the left column.
+
+![](images/M3S2_remove-column.png)
+
+Second, there is an even easier way to plug in geographic spatial data. Double-click Latitude and then double-click Longitude. If you assigned the data properly (i.e. Dimension, Geographic Role: Latitude), Tableau will know exactly how to create this map for you.  
+Your map should look exactly the same as the previous visualization:
+![](images/M3S2_map-1.png)
+
+Name this sheet “Map”
+Customizing the Map using the Marks menu
+Using the Color tool, change the color of the elements to a preferred color and add a black border. 
+Using the Size tool, make the elements a bit larger so you can see them better.
+Remember that sliding to the right makes the elements larger and to the left makes them smaller. 
+Do you notice anything missing? If we were to show this map to a collaborator, they would only see the Longitude and Latitude, but not the Site name. Let’s add the Site name to the Tooltip as dynamic text (or text that will be updated as the user interacts with the visualization). 
+Find Site in the left column under CRM_Fish.  Drag and drop Site into Tooltip in the Marks menu. 
+Edit Tooltip to clarify the map for users.  
+Click on Tooltip so we can edit the text. We want the name of the site to be at the top, so cut and paste “Site: <ATTR(Site)>” to move it above Latitude and Longitude. 
+Delete the static text “Site:” leaving just “<ATTR(Site)>” at the top. 
+Select all the text and change the alignment to center. 
+Next, add “˚N” to the right of <Latitude> and “˚W” to the right of <Longitude>
+Mac shortcut: “Option + Shift + 8”
+Windows shortcut: “”Alt + 0176” (with Num Lock on)
+If you have trouble with the degree symbol, copy and paste from this text: ˚N  ˚W
+
+![](images/M3S2_edit-tooltip-for-map.png)
+
+Click OK to close the editing window and hover your cursor over your map to check that the tooltip is working. 
+
+![](images/M3S2_check-tooltip-for-map.png)
+
+You have just created an interactive map showing the various sites around Palau where data was collected. 
+Take a moment to explore the functionality of the map you created by moving your cursor around the map and clicking on a few of the data points.
+Bubble plot
+To create a Bubble plot, you always start with a Bar plot. 
+In a new sheet, drag and drop Species into Columns and Biomass into Rows. 
+Then, click on Show Me and choose Bubble
+
+![](images/M3S2_show-me-bubble-plot.png)
+
+E Voilá! A Bubble plot!
+
+![](images/M3S2_bubble-plot.png)
+
+Name this sheet “Bubble”
+Scatter plot
+Finally, let’s create a Scatter plot. Scatter plots are tricky; follow along with this video to learn about scatter plots in Tableau. 
+Insert video <Tableau M3S2 Scatter Plot>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iKfEnj1RQJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Editing and Formatting the Axes
+ “Biomass g” is not a very descriptive title for the x-axis. Let’s change it to give more information to a viewer. Double-click on the axis and an editing window will pop up.
+![](images/M3S2_edit-axis.png)
+
+Under Title delete “Biomass g” and type “Total biomass (g)”
+Do the same for the y-axis. Replace the title with “Avg. Size (cm)” 
+Now, we want to increase the font size to make the axes titles easier to read. 
+Right-click on the y-axis and choose Format.
+
+![](images/M3S2_format-axis.png)
+
+Open the dropdown menu that says Font: and change the font size to 14 
+
+![](images/M3S2_axis-font-size.png)
+
+Do the same for the x-axis. 
+When you are done, click on the X in the right corner of the Format window to exit. 
+Saving my Files
+There are two primary ways to save your work in Tableau. The first is similar to saving any other type of file on your computer. 
+Click on File > Save As on the menu bar at the top of your screen. Name this file “Tableau_class_skills_1”. Save the file under your Tableau Data Training folder. 
+
+![](images/M3S2_save-as.png)
+
+Let’s take a look at the files. If you look at the Tableau Data Training folder, you’ll see that the Excel file CRM_Fish is 2.1 megabytes while the Tableau Workbook (.twb) that you just saved is 226 kilobytes. That’s significantly smaller than the original Excel file because your Tableau Workbook file doesn’t contain the data, it just has the instructions for what to do with the data. Therefore if you save .twb files (Tableau Workbook file) and you want to share them with a colleague, you also have to share the original data file.
+Packaged Workbooks
+The second way to save a file saves a compressed version of both the data file and the Tableau Workbook. This is called a Packaged Workbook.
+First, you have to create a data extract, which puts your data in Tableau format. On the menu bar at the top of your screen click on Data > CRM_Fish > Extract Data
+
+![](images/M3S2_extract-data.png)
+
+
+![](images/M3S2_extract_menu_.png)
+ 
+
+Click extract, name this file CRM_Fish_Extract, and save it in your Tableau Data Training folder. 
+Now that you have created your extract, you will create a packaged file. In order to do that, go to File > Export Packaged Workbook > Save
+If you look at the folder in your finder, you will see that the new file type is .twbx which means it contains both the data and the instructions (Tableau Packaged Workbook file). 
+If you want to share your work with colleagues who also have Tableau installed, you will share Packaged Workbooks (.twbx) with them. 
+Homework Exercise
+Open data file  Excel file CRM_Fish in Tableau, check field dimensions vs measure, data types, discrete vs. continuous. 
+Create a bar plot, a pie chart, line, map, scatter plot
+Make presentable for an audience. Ensure that: 
+Axes are legible size and descriptive titles
+Marks utilize nice and legible colors
+Tooltips provide useful information
+Name all worksheets
+Create a packaged workbook (.twbx)
+Check your work by comparing it with this file.
+
+Summary 
+Congratulations! You are now equipped to create basic plots in Tableau and take full control of their design.
+You also know that when sharing your work with colleagues, you should always include the data, either as a separate file, or included in your workbook as a data extract. 
+
 
 ## Tableau Skills Part 2: Multiple factors and dynamic tables
 

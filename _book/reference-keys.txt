@@ -50,3 +50,12 @@ opening-a-file
 checking-data-types
 sheets
 summary-1
+tableau-basics-learning-objectives
+tableau-basics-summary
+basic-plots-learning-objectives
+value-statement-1
+entire-view-and-sorting
+show-me-menu
+troubleshooting-switching-rows-and-columns
+basic-plots-using-the-marks-menu
+creating-your-first-graph
