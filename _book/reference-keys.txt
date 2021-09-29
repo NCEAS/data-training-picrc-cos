@@ -90,3 +90,10 @@ scatter-plot
 map
 line-plot
 area-plot
+benefits-of-clean-data
+data-types
+best-practices-data-sheet-set-up-column-names-and-data-values
+common-cleaning-procedures
+learning-objectives-4
+value-statement-5
+summary-4
