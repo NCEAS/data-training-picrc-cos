@@ -76,3 +76,17 @@ define-your-vision
 leave-execution-to-the-designer
 continue-to-iterate
 finalize-and-distribute-your-design
+saving-your-work-and-your-datasets
+sharing-your-work
+embedding-into-a-website
+value-statement-4
+summary-2
+saving-my-files
+homework-exercise
+summary-3
+editing-and-formatting-the-axes
+bubble-plot
+scatter-plot
+map
+line-plot
+area-plot

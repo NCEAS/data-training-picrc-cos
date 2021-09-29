@@ -183,18 +183,17 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ![](images/M3S2_find-biomass.png)
 
-Drag and drop **Biomass** into **Rows**
-
-![](images/M3S2_drag-biomass.png)
+4. Drag and drop **Biomass** into **Rows**
     - This will place **Biomass** in the y-axis. 
-    
+    ![](images/M3S2_drag-biomass.png)
+
 5. Congratulations! You just made your first bar plot in Tableau! 
 
-### Entire View and Sorting 
+***Entire View and Sorting ***
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ni2hh248ffM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Show Me Menu
+***Show Me Menu***
 1. The Show Me menu may pop up when you create a new graph. It looks like the image below. 
 
 ![](images/M3S2_show-me-menu-full.png)
@@ -208,7 +207,7 @@ Drag and drop **Biomass** into **Rows**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6FSgaXM__TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Troubleshooting: Switching Rows and Columns
+***Troubleshooting: Switching Rows and Columns***
 1. Lilli has a question that came up when she was exploring the Show Me menu. When she tried to go back to a bar chart, the chart was flipped! Watch Alfredo’s answer: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DDjAZVewtUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -251,135 +250,134 @@ Drag and drop **Biomass** into **Rows**
 
 5. Details
     - We will cover the Details marks in a later session. 
+
 6. Tooltip
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tv4Ccex2m68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Line Plot
-Practice Exercise: Create and modify a Line Plot
-Create a new sheet and name it “Line”.
-Drag Year into Columns and drag  Biomass into Rows.
-For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let's do that. 
-Right click on the field where it says SUM (Size cm) and a drop down menu will appear. Choose Measure, then click on Average.
-![](images/M3S2_change-measure.png)
 
-Does your plot now look like the image below? If so, you can move on to the next steps. 
+### Line Plot
 
-![](images/M3S2_Line-Plot.png)
+1. Practice Exercise: Create and modify a **Line Plot**
+    - Create a new sheet and name it “Line”.
+    - Drag **Year** into **Columns** and drag **Biomass** into **Rows**.
+    - For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let's do that. 
+    - Right click on the field where it says **SUM (Size cm)** and a drop down menu will appear. Choose **Measure**, then click on **Average**.
+    ![](images/M3S2_change-measure.png)
+    - Does your plot now look like the image below? If so, you can move on to the next steps.
+    ![](images/M3S2_Line-Plot.png)
 
-Area plot
-Good job! From here, it is easy to change your Line plot to an Area plot. Under the Marks menu, open the dropdown menu where it says Automatic and click on Area.
+### Area plot
+
+1. Good job! From here, it is easy to change your **Line** plot to an **Area** plot. Under the **Marks** menu, open the dropdown menu where it says **Automatic** and click on **Area**.
   
 ![](images/M3S2_Plot-types.png)
 
-As you can see, there are many options in this dropdown menu. This is where you can manually change the type of plot displayed.  
-Map
-There are two ways to create a map. 
-First, on a new sheet you can drag and drop Longitude to Columns and Latitude to Rows. 
-Remember that Columns are the x-axis and Rows are the y-axis.  
-Your map should look like this: 
+2. As you can see, there are many options in this dropdown menu. This is where you can manually change the type of plot displayed.  
 
-![](images/M3S2_map-1.png)
+### Map
 
-Next, clear the Columns and Rows fields. You can do this either by right-clicking and then choosing Remove or you can drag Longitude and Latitude back into the left column.
+1. There are two ways to create a map. 
+2. First, on a new sheet you can drag and drop **Longitude** to **Columns** and **Latitude** to **Rows**. 
+     - *Remember that Columns are the x-axis and Rows are the y-axis.*  
+     - Your map should look like this: 
+     ![](images/M3S2_map-1.png)
+
+3. Next, clear the **Columns** and **Rows** fields. You can do this either by right-clicking and then choosing **Remove** or you can drag **Longitude** and **Latitude** back into the left column.
 
 ![](images/M3S2_remove-column.png)
 
-Second, there is an even easier way to plug in geographic spatial data. Double-click Latitude and then double-click Longitude. If you assigned the data properly (i.e. Dimension, Geographic Role: Latitude), Tableau will know exactly how to create this map for you.  
-Your map should look exactly the same as the previous visualization:
-![](images/M3S2_map-1.png)
+4. Second, there is an even easier way to plug in geographic spatial data. Double-click **Latitude** and then double-click **Longitude**. If you assigned the data properly (i.e. Dimension, Geographic Role: Latitude), Tableau will know exactly how to create this map for you.  
+    - Your map should look exactly the same as the previous visualization:
+    ![](images/M3S2_map-1.png)
 
-Name this sheet “Map”
-Customizing the Map using the Marks menu
-Using the Color tool, change the color of the elements to a preferred color and add a black border. 
-Using the Size tool, make the elements a bit larger so you can see them better.
-Remember that sliding to the right makes the elements larger and to the left makes them smaller. 
-Do you notice anything missing? If we were to show this map to a collaborator, they would only see the Longitude and Latitude, but not the Site name. Let’s add the Site name to the Tooltip as dynamic text (or text that will be updated as the user interacts with the visualization). 
-Find Site in the left column under CRM_Fish.  Drag and drop Site into Tooltip in the Marks menu. 
-Edit Tooltip to clarify the map for users.  
-Click on Tooltip so we can edit the text. We want the name of the site to be at the top, so cut and paste “Site: <ATTR(Site)>” to move it above Latitude and Longitude. 
-Delete the static text “Site:” leaving just “<ATTR(Site)>” at the top. 
-Select all the text and change the alignment to center. 
-Next, add “˚N” to the right of <Latitude> and “˚W” to the right of <Longitude>
-Mac shortcut: “Option + Shift + 8”
-Windows shortcut: “”Alt + 0176” (with Num Lock on)
-If you have trouble with the degree symbol, copy and paste from this text: ˚N  ˚W
+5. Name this sheet “Map”
+6. Customizing the Map using the **Marks** menu
+    - Using the **Color** tool, change the color of the elements to a preferred color and add a black border. 
+    - Using the **Size** tool, make the elements a bit larger so you can see them better.
+      - Remember that sliding to the right makes the elements larger and to the left makes them smaller. 
+    - Do you notice anything missing? If we were to show this map to a collaborator, they would only see the Longitude and Latitude, but not the Site name. Let’s add the **Site** name to the **Tooltip** as dynamic text (or text that will be updated as the user interacts with the visualization). 
+      - Find **Site** in the left column under CRM_Fish.  Drag and drop **Site** into **Tooltip** in the Marks menu. 
+    - Edit **Tooltip** to clarify the map for users.  
+      - Click on **Tooltip** so we can edit the text. We want the name of the site to be at the top, so cut and paste “Site: <ATTR(Site)>” to move it above Latitude and Longitude. 
+      - Delete the static text “Site:” leaving just “<ATTR(Site)>” at the top. 
+      - Select all the text and change the alignment to center. 
+      - Next, add “˚N” to the right of <Latitude> and “˚W” to the right of <Longitude>
+        - Mac shortcut: “Option + Shift + 8”
+        - Windows shortcut: “”Alt + 0176” (with Num Lock on)
+        - If you have trouble with the degree symbol, copy and paste from this text: ˚N  ˚W
+        ![](images/M3S2_edit-tooltip-for-map.png)
+      - Click **OK** to close the editing window and hover your cursor over your map to check that the tooltip is working. 
+      ![](images/M3S2_check-tooltip-for-map.png)
 
-![](images/M3S2_edit-tooltip-for-map.png)
+7. You have just created an interactive map showing the various sites around Palau where data was collected. 
+    - Take a moment to explore the functionality of the map you created by moving your cursor around the map and clicking on a few of the data points.
 
-Click OK to close the editing window and hover your cursor over your map to check that the tooltip is working. 
+### Bubble plot
 
-![](images/M3S2_check-tooltip-for-map.png)
+1. To create a Bubble plot, you always start with a Bar plot. 
+    - In a new sheet, drag and drop **Species** into **Columns** and **Biomass** into **Rows**.
+    - Then, click on **Show Me** and choose **Bubble**
+    ![](images/M3S2_show-me-bubble-plot.png)
+    - E Voilá! A Bubble plot!
+    ![](images/M3S2_bubble-plot.png)
+    - Name this sheet “Bubble”
 
-You have just created an interactive map showing the various sites around Palau where data was collected. 
-Take a moment to explore the functionality of the map you created by moving your cursor around the map and clicking on a few of the data points.
-Bubble plot
-To create a Bubble plot, you always start with a Bar plot. 
-In a new sheet, drag and drop Species into Columns and Biomass into Rows. 
-Then, click on Show Me and choose Bubble
+### Scatter plot
 
-![](images/M3S2_show-me-bubble-plot.png)
+1. Finally, let’s create a Scatter plot. Scatter plots are tricky; follow along with this video to learn about scatter plots in Tableau. 
 
-E Voilá! A Bubble plot!
-
-![](images/M3S2_bubble-plot.png)
-
-Name this sheet “Bubble”
-Scatter plot
-Finally, let’s create a Scatter plot. Scatter plots are tricky; follow along with this video to learn about scatter plots in Tableau. 
-Insert video <Tableau M3S2 Scatter Plot>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iKfEnj1RQJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Editing and Formatting the Axes
- “Biomass g” is not a very descriptive title for the x-axis. Let’s change it to give more information to a viewer. Double-click on the axis and an editing window will pop up.
+
+### Editing and Formatting the Axes
+
+1. “Biomass g” is not a very descriptive title for the x-axis. Let’s change it to give more information to a viewer. Double-click on the axis and an editing window will pop up.
+
 ![](images/M3S2_edit-axis.png)
 
-Under Title delete “Biomass g” and type “Total biomass (g)”
-Do the same for the y-axis. Replace the title with “Avg. Size (cm)” 
-Now, we want to increase the font size to make the axes titles easier to read. 
-Right-click on the y-axis and choose Format.
+2. Under Title delete “Biomass g” and type “Total biomass (g)”
+3. Do the same for the y-axis. Replace the title with “Avg. Size (cm)” 
+4. Now, we want to increase the font size to make the axes titles easier to read. 
+    - Right-click on the y-axis and choose Format.
+  ![](images/M3S2_format-axis.png)
 
-![](images/M3S2_format-axis.png)
+    - Open the dropdown menu that says Font: and change the font size to 14
+  ![](images/M3S2_axis-font-size.png)
+    
+5. Do the same for the x-axis. 
+6. When you are done, click on the X in the right corner of the Format window to exit. 
 
-Open the dropdown menu that says Font: and change the font size to 14 
+### Saving my Files
 
-![](images/M3S2_axis-font-size.png)
+1. There are two primary ways to save your work in Tableau. The first is similar to saving any other type of file on your computer. 
+    - Click on **File > Save As** on the menu bar at the top of your screen. Name this file “Tableau_class_skills_1”. Save the file under your Tableau Data Training folder.
+    ![](images/M3S2_save-as.png)
+    - Let’s take a look at the files. If you look at the Tableau Data Training folder, you’ll see that the Excel file CRM_Fish is 2.1 megabytes while the Tableau Workbook (.twb) that you just saved is 226 kilobytes. That’s significantly smaller than the original Excel file because your Tableau Workbook file doesn’t contain the data, it just has the instructions for what to do with the data. Therefore if you save .twb files (Tableau Workbook file) and you want to share them with a colleague, you also have to share the original data file.
 
-Do the same for the x-axis. 
-When you are done, click on the X in the right corner of the Format window to exit. 
-Saving my Files
-There are two primary ways to save your work in Tableau. The first is similar to saving any other type of file on your computer. 
-Click on File > Save As on the menu bar at the top of your screen. Name this file “Tableau_class_skills_1”. Save the file under your Tableau Data Training folder. 
+2. Packaged Workbooks
+    - The second way to save a file saves a compressed version of both the data file and the Tableau Workbook. This is called a Packaged Workbook.
+    - First, you have to create a data extract, which puts your data in Tableau format. On the menu bar at the top of your screen click on **Data > CRM_Fish > Extract Data**
+    ![](images/M3S2_extract-data.png)
+    ![](images/M3S2_extract_menu.png)
+    - Click extract, name this file CRM_Fish_Extract, and save it in your Tableau Data Training folder. 
+    - Now that you have created your extract, you will create a packaged file. In order to do that, go to **File > Export Packaged Workbook > Save**
+    - If you look at the folder in your finder, you will see that the new file type is **.twbx** which means it contains both the data and the instructions (Tableau Packaged Workbook file). 
+    - If you want to share your work with colleagues who also have Tableau installed, you will share Packaged Workbooks (.twbx) with them. 
 
-![](images/M3S2_save-as.png)
+### Homework Exercise
 
-Let’s take a look at the files. If you look at the Tableau Data Training folder, you’ll see that the Excel file CRM_Fish is 2.1 megabytes while the Tableau Workbook (.twb) that you just saved is 226 kilobytes. That’s significantly smaller than the original Excel file because your Tableau Workbook file doesn’t contain the data, it just has the instructions for what to do with the data. Therefore if you save .twb files (Tableau Workbook file) and you want to share them with a colleague, you also have to share the original data file.
-Packaged Workbooks
-The second way to save a file saves a compressed version of both the data file and the Tableau Workbook. This is called a Packaged Workbook.
-First, you have to create a data extract, which puts your data in Tableau format. On the menu bar at the top of your screen click on Data > CRM_Fish > Extract Data
+1. Open data file  Excel file CRM_Fish in Tableau, check field dimensions vs measure, data types, discrete vs. continuous. 
+1. Create a bar plot, a pie chart, line, map, scatter plot
+1. Make presentable for an audience. Ensure that: 
+    - Axes are legible size and descriptive titles
+    - Marks utilize nice and legible colors
+    - Tooltips provide useful information
+    - Name all worksheets
+1. Create a packaged workbook (.twbx)
+1. Check your work by comparing it with this file.
 
-![](images/M3S2_extract-data.png)
-
-
-![](images/M3S2_extract_menu_.png)
- 
-
-Click extract, name this file CRM_Fish_Extract, and save it in your Tableau Data Training folder. 
-Now that you have created your extract, you will create a packaged file. In order to do that, go to File > Export Packaged Workbook > Save
-If you look at the folder in your finder, you will see that the new file type is .twbx which means it contains both the data and the instructions (Tableau Packaged Workbook file). 
-If you want to share your work with colleagues who also have Tableau installed, you will share Packaged Workbooks (.twbx) with them. 
-Homework Exercise
-Open data file  Excel file CRM_Fish in Tableau, check field dimensions vs measure, data types, discrete vs. continuous. 
-Create a bar plot, a pie chart, line, map, scatter plot
-Make presentable for an audience. Ensure that: 
-Axes are legible size and descriptive titles
-Marks utilize nice and legible colors
-Tooltips provide useful information
-Name all worksheets
-Create a packaged workbook (.twbx)
-Check your work by comparing it with this file.
-
-Summary 
-Congratulations! You are now equipped to create basic plots in Tableau and take full control of their design.
-You also know that when sharing your work with colleagues, you should always include the data, either as a separate file, or included in your workbook as a data extract. 
+### Summary 
+1. Congratulations! You are now equipped to create basic plots in Tableau and take full control of their design.
+2. You also know that when sharing your work with colleagues, you should always include the data, either as a separate file, or included in your workbook as a data extract. 
 
 
 ## Tableau Skills Part 2: Multiple factors and dynamic tables
@@ -391,3 +389,72 @@ You also know that when sharing your work with colleagues, you should always inc
 ## Tableau Dashboards Part 2: Graphic design elements
 
 ## Publishing to the web from Tableau
+
+***In this session ***
+
+1. Learning objectives
+1. Value statement
+1. Saving your work and your datasets
+1. Sharing your work
+1. Embedding into a website
+1. Summary
+
+### Learning objectives
+
+1. Learn how to share your content with colleagues
+1. Publish your work online
+1. Embed your dashboards in your website
+
+### Value statement
+
+1. Tableau is a powerful tool to visualize and analyze data, however, its real value comes from being able to share this information with colleagues and the general public through the many options available
+
+### Saving your work and your datasets
+
+1. As we learned in Session 2, there are two primary ways to save your work in Tableau. The first is similar to saving any other type of file on your computer. 
+    - Click on **File > Save As** on the menu bar at the top of your screen. Name this file “Tableau_class_skills_1”. Save the file under your Tableau Data Training folder.
+    
+    ![](images/M3S2_save-as.png)
+    
+    - Let’s take a look at the files. If you look at the Tableau Data Training folder, you’ll see that the Excel file CRM_Fish is 2.1 megabytes while the Tableau Workbook (.twb) that you just saved is 226 kilobytes. That’s significantly smaller than the original Excel file because your Tableau Workbook file doesn’t contain the data, it just has the instructions for what to do with the data. Therefore if you save **.twb** files (Tableau Workbook file) and you want to share them with a colleague, you also have to share the original data file.
+
+2. Packaged Workbooks
+    - The second way to save a file saves a compressed version of both the data file and the Tableau Workbook. This is called a Packaged Workbook.
+    - First, you have to create a data extract, which puts your data in Tableau format. On the menu bar at the top of your screen click on **Data > CRM_Fish > Extract Data**
+
+![](images/M3S2_extract-data.png)
+
+![](images/M3S2_extract_menu.png)
+    - Click extract, name this file CRM_Fish_Extract, and save it in your Tableau Data Training folder. 
+    - Now that you have created your extract, you will create a packaged file. In order to do that, go to **File > Export Packaged Workbook > Save**
+    - If you look at the folder in your finder, you will see that the new file type is **.twbx** which means it contains both the data and the instructions (Tableau Packaged Workbook file). 
+    - If you want to share your work with colleagues who also have Tableau installed, you will share Packaged Workbooks (.twbx) with them. 
+    - Remember that packaged workbooks will not be automatically updated when your datasets get more information. In order to do this, you will need to reconnect your file to have a “live connection” to your data source. To do this, go to **Data > CRM_Fish > Data Source** and select **Live** in the upper right corner. If the software cannot automatically locate the file, it will ask you to manually select it. Once you have selected the file and verified that your new data records are reflected in the visualization, go ahead and create a new data extract and packaged workbook with the updated information.
+
+### Sharing your work
+
+1. Exporting images
+    - One way to share your results is through presentations and printed reports. In these cases, you cannot use the interactive dashboard, but instead use fixed images. Once you are happy with your dashboard or worksheet’s design, you can export it as an image. To export an image, click on **Worksheet or Dashboard -> Export image**. A menu will pop-up that will allow you to select the output format and directory.
+
+2. Publishing workbooks online
+    - Another way to share results is by saving your workbook and sharing it directly with another Tableau user. The limitation is that you can only share workbooks with people who have Tableau installed on their computers. Another solution is to publish it to a server and send the link to anyone you would like to look at the results. There are two kinds of services that Tableau provides to share information online: through a Public server (Tableau Public) or through a Private server (Tableau Server).
+    - To publish to Tableau Public, click on **Server -> Tableau Public -> Save to Tableau Public**. This will pop-up a menu that allows you to login to your Tableau Public profile (create a free user in case you don’t have one yet), write the name of the workbook and add a description.
+    - To publish to a Private server (Tableau Server), click on **Server -> Publish Workbook**. This will pop-up a menu that allows you to log in to your Tableau Server profile (your institution should provide you with a username and password), select the project inside your server, write the name for the workbook and add a description.
+    - To find the hyperlink that can be shared with colleagues, go to your public tableau profile, navigate to the visualization of interest and click on **Share** in the lower right corner of the visualization. Copy and paste the provided link and share it with colleagues!
+    
+![](images/M3S7_tableau_public_link.png)
+
+### Embedding into a website 
+
+1. Using the embed code
+    - From the same **Share** menu where you would get the link to share with colleagues, there is another option to get an **Embed Code**. This code is useful when you are trying to incorporate your visualization directly into your website. For example, if you are using an html-based website, the only thing you need to do is to copy and paste this embed code into your html code, and the interactive visualization will display in your website. (Note: WordPress is an html platform, thus you could add a new section with the Tableau Embed Code).
+    - Remember that when creating the dashboard, you selected a size for your canvas. This size will determine the size of the embedded visualization, so make sure to be in constant communication with your website manager to know the ideal width and height of your visualizations. 
+
+### Summary
+
+1. After completing this session you are equipped to save your datasets in Tableau format, your workbooks, and share them with colleagues who have Tableau either with .twb or .twbx files.
+1. You are also ready to publish your visualizations to different services online, either through a public website or a private server. Remember to create your Tableau Public account to get access to these services. While not covered in this session, we encourage you to explore the different settings available, including how to set some of your visualizations as private even though published in the public service.
+1. Finally, you are ready to make these visualizations part of your own website! Remember to be in constant communication with your website manager to make sure that you follow the right format.
+
+
+
