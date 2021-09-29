@@ -239,9 +239,157 @@ The five sections of the Message Box are provided below. For a detailed explanat
 1. Share Your Data Stories
 
 
-
-### Learning Objectives
-
 ## Working with Graphic Designers
 
+
+***In This Session ***
+
+1. Learning Objectives
+1. Value Statement
+1. New Terms
+1. Before You Start
+1. Know Your Audience
+1. Define Your Vision
+1. Leave Execution to The Designer
+1. Continue to Iterate
+1. Finalize and Distribute Your Design
+1. Summary
+
+
 ### Learning Objectives
+
+1. Learn how to work effectively and collaboratively with a designer in the context of a targeted design project.
+1. Learn how to facilitate a successful design project from start to finish with a designer
+
+### Value Statement
+
+1. Working effectively with graphic designers (designers for short in this session) will save you and your organization time and resources, particularly  with consistent communication and clear expectations.
+1. Learning how to work with designers will allow you to produce effective, meaningful and compelling visual content for your internal organization, or for external audiences.
+1. Utilizing designers elevates the effectiveness of your communication through visual storytelling expertise. 
+
+### New Terms
+
+1. ***Deliverable:*** A tangible or intangible good or service produced as a result of a project that is intended to be delivered to a project manager/customer (internal or external).
+1. ***Design assets:*** In terms of web design and development, “assets” typically refer to the text content, graphics, photographs, videos, audio files, and databases (for example, accessing an organization’s photo bank and icon libraries can be very beneficial for designers in producing work that has support permissions and image rights). Past design projects can also be useful resources.
+1. ***Writing norms:*** A document any staff can refer to for an organization's guidelines for written materials.
+1. ***HEX code (digital):*** a six-digit, three-byte hexadecimal number used in web and digital design to represent colors (for example, the HEX code for a shade of dark blue is: #177B93).
+1. ***RGB (digital):*** Stands for "Red Green Blue." RGB refers to three hues of light that can be mixed together to create different colors. Combining red, green, and blue light is the standard method of producing color images on screens, such as TVs, computer monitors, and smartphone screens (for example, the RGB for a shade of purple is: R: 132, G: 17, B: 170).
+1. ***CMYK (printing):*** Stands for "Cyan Magenta Yellow Black." These are the four basic colors used for printing color images. Unlike RGB (red, green, blue), which is used for creating images on your computer screen, CMYK colors are for pigments (for example, the CMYK for a dark green is: C: 100, M: 30, Y: 73, K: 52).
+1. ***Iterative design:*** A circular design process that models, evaluates and improves designs based on the results of testing.
+
+### Before You Start
+
+![](images/Working-With-Graphic-Designers-Quote-1.png)
+
+1. Establish common expectations with the designer at the beginning of the project. For example, some common expectations you would need to establish with the designer include:
+    - What do you need them to do for this project? Be as specific as possible while creating space for creative energy.
+    - What deliverables and timelines are you expecting?
+      - ***Deliverable**: A tangible or intangible good or service produced as a result of a project that is intended to be delivered to a project manager/customer (internal or external).
+      - For example, a deliverable from your graphic designer could be a logo design, or educational graphics for a slide presentation.*
+    - When and how often will you meet to complete the project?
+    - Are there visuals or details that may be sensitive to the audience that the designer should be aware of?
+2. Introduce your designer to your organization's current design assets:
+    - ***Design assets:** In terms of web design and development, “assets” typically refer to the text content, graphics, photographs, videos, audio files, and databases (for example, accessing an organization’s photo bank and icon libraries can be very beneficial for designers in producing work that has support permissions and image rights).*
+    - Let the designer know about designs or design assets that your organization already has to utilize.
+      - *For example, show the designer where to find your organization’s current logo and flyer designs.*
+      - *Another example of a design asset you can share with a designer is your organization's writing norms.*
+      - ***Writing norms:** A document any staff can refer to for an organization's guidelines for written materials - to aid in copy editing processes.*
+    - Helping a designer know what your organization already has in terms of design material allows them to better design future material, as well as not duplicate efforts that have already previously been completed. 
+3. Keep open communication with the designer throughout the project:
+    - Communicate with the designer regularly at scheduled times, or as needed, not just at the beginning and end of a project.
+    - These meetings can even be as short (~10 minutes) or long (60+ minutes) in duration according to your and the designer's needs.
+    
+![](images/Working-With-Graphic-Designers-Graphic-1.png)
+    
+4. Give the designer sufficient time and space to do their best work:
+    - After giving sufficient direction to the designer, let them take the design execution from there and do what they know best: design!
+    - Give the designer time and space to work unsupervised and trust in their specific skill set and ability to execute the design.
+    - Let the designer adapt your direction to their unique style and vision.
+
+
+
+### Communicate Audience Needs
+
+1. Communicate your target audience and their needs to the designer:
+    - Ensure you and the designer are on the same page for which audience you are trying to design for.
+    - Share with the designer essential information about your target audience. This can include:
+      - Audience: age, gender, organization, occupation, geographic location, nationality, economic needs, work mission, personal goals and more. 
+    - These pieces of audience information can be very helpful in determining what is appropriate for this design project.
+
+### Define Your Vision 
+
+![](images/Working-With-Graphic-Designers-Quote-2.png)
+
+1. Given your audience and their needs, envision what you want designed for this project.
+    - For example, would your audience prefer materials as slides, posters or videos? 
+    - What colors, or other sources of inspiration, would they take a liking  to?
+      - *Tip: When communicating color choices with a designer, sharing a color’s specific code (such as a HEX code for digital designs) is extremely helpful. It allows the designer to see exactly what type color you are envisioning. *
+      - Below are 3 types of color codes (two are digital, and one is for physical printing):
+        - **HEX code (digital):** a six-digit, three-byte hexadecimal number used in web and digital design to represent colors (for example, the HEX code for a shade of dark blue is: #177B93).
+        - **RGB (digital):** Stands for "Red Green Blue." RGB refers to three hues of light that can be mixed together to create different colors. Combining red, green, and blue light is the standard method of producing color images on screens, such as TVs, computer monitors, and smartphone screens (for example, the RGB for a shade of purple is: R: 132, G: 17, B: 170).
+        - **CMYK (printing):** Stands for "Cyan Magenta Yellow Black." These are the four basic colors used for printing color images. Unlike RGB (red, green, blue), which is used for creating images on your computer screen, CMYK colors are for pigments (for example, the CMYK for a dark green is: C: 100, M: 30, Y: 73, K: 52).
+      - If your audience may contain people affected by color vision deficiency, consider reviewing your images using a color-analyzing tool, such as [COBLIS](https://www.color-blindness.com/coblis-color-blindness-simulator/).
+
+2. Bring your ideas together in slide deck, vision board, collage etc. so you can communicate your specific vision to your designer.
+
+![](images/Working-With-Graphic-Designers-Quote-3.png)
+
+3. After compiling your vision materials, communicate your specific vision to your designer to get them on the same page.
+    - This vision does not need to be final or entirely complete, yet the vision must be specific enough to communicate the general direction and idea to the designer so that they can start to execute, or iterate on, the vision effectively.
+    - ***Iterative design:** A circular design process that models, evaluates and improves designs based on the results of testing.*
+4. Also, your designer will likely also have some helpful ideas for the vision of the project. Remain open to innovative ideas as they come up!
+    - Whether new ideas come from you, the designer, your client etc., follow the ideas that most effectively meet the needs of your target audience. 
+      - *For example, perhaps when meeting with a client, the client themselves comes up with a great idea for their organization's upcoming slide presentation. It is fine for you to take that idea, cite the client in an appropriate way, and execute it if it seems like the idea will meet the organization’s training needs.*
+    - If someone has a better idea than you, embrace it! Support that person and their energy in pursuing that idea. Humility is a beneficial trait to have in brainstorming and multidisciplinary teamwork environments.
+
+### Leave Execution To The Designer
+
+![](images/Working-With-Graphic-Designers-Quote-4.png)
+
+1. After communicating your project vision to the designer, let the designer take ownership of the execution of the design work.
+    - Trust the designer’s process and artistic judgement.
+    - Let the designer execute the design, from draft to final product.
+      - *For example, let the designer handle all formatting specifics, hex codes for colors, margins etc. Those are things you can leave to your designer, unless you have specific requirements requested by your target audience.*
+2. Continue to have regular check-ins with your designer to assess project progress and evaluate current designs.
+3. If you do have concerns about the designs, continue to communicate those openly with your designer.
+    - Resolve design issues and problems together when they arise.
+      - *For example, one issue that could arise is that the designer may always be delivering designs late. Communicate openly with your designer to see why this might be, and set new achievable goals and deadlines together.*
+
+### Continue To Iterate
+
+1. As your designer continues to give you scheduled updates, ensure you give honest, actionable feedback.
+    - Honest, actionable feedback can be a great support in improving designs, and focusing designs on target audience needs.
+      - *For example, one example of actionable feedback can be:*
+      *“I think we should use colors that are familiar to this school audience for this outreach flyer. Perhaps we can use their school’s colors.”*
+
+![](images/Working-With-Graphic-Designers-Feedback-1.png)
+ 
+![](images/Working-With-Graphic-Designers-Feedback-2.png)
+ 
+2. Continue to iterate off each other’s ideas.
+    - ***Iterative design:** A circular design process that models, evaluates and improves designs based on the results of testing.*
+    - There can be many drafts of designs over the course of a project. 
+    - Continue to be open to new and better ideas as you make progress in your design project.
+    - Embrace evolution! Pivoting or refining a design for a project is a normal, frequent occurrence.
+
+
+### Finalize and Distribute Your Design
+
+![](images/Working-With-Graphic-Designers-Graphic-2.png)
+ 
+1. Once you and your designer both feel comfortable with the final design products, move forward with distributing the design to your audience.
+2. Distribute your design to your target audience in the appropriate method. Distributing your design could look like:
+    - *Emailing your slide presentation to your target environmental organization’s leadership team.*
+    - *Printing out your posters and delivering the posters to local elementary school classrooms.*
+3. As a last step, take note of how your target audience reacts to or uses your materials.
+    - This feedback can help you and the designer in future projects, and also be used to improve long-term relationships with these organizations or people that you are working with.
+
+
+### Summary
+
+1. *Before You Start - Set Expectations*
+1. *Know Your Audience*
+1. *Define Your Vision*
+1. *Leave Execution to The Designer*
+1. *Continue to Iterate*
+1. *Finalize and Distribute Your Design*

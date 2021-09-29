@@ -68,3 +68,11 @@ connect-stories-to-key-insights
 utilize-engaging-visuals
 share-your-data-stories
 summary---distilled-details-in-this-session-brief
+value-statement-3
+new-terms-1
+before-you-start
+communicate-audience-needs
+define-your-vision
+leave-execution-to-the-designer
+continue-to-iterate
+finalize-and-distribute-your-design
