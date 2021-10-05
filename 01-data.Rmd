@@ -2,7 +2,7 @@
 
 ## Data Management
 
-***In this session ***
+***In this session***
 
 1. File naming
 2. Storage

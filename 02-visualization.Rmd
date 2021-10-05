@@ -2,7 +2,7 @@
 
 ## Tableau Basics
 
-**In this Session**
+***In this Session***
 
 1. [Learning Objectives](#tableau-basics-learning-objectives)
 1. [Why Tableau?](#why-tableau)
@@ -142,7 +142,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ## Tableau Skills Part 1: Basic plots with single variables
 
-**In this Session**
+***In this Session***
 
 1. [Learning Objectives](#basic-plots-learning-objectives)
 1. [Value Statement](#value-statement)
@@ -401,11 +401,13 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 1. Homework
 
 ### Learning objectives
+
 1. Learn how to create plots with multiple factors (e.g., colors, mark size, shapes)
 1. Explore Tableau’s mapping functionalities and learn to customize them
 1. Understand Tableau’s powerful filtering capabilities
 
 ### Value statement
+
 1. In this session you will take your skills to the next level and gain full control of how your plots and maps look and how to use filters to display only the information that you are interested in. By adding multiple factors, you can communicate more information through color, size, and shapes. These are the building blocks that make a full interactive visualization!
 
 ### Multiple factor plots using the Marks menu

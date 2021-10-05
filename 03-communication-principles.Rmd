@@ -1,7 +1,7 @@
 # Storytelling
 ## Communication Principles
 
-**In this Session**
+***In this Session***
 
 1. [Learning Objectives](#communication-learning-objectives)
 2. [Prioritizing Engagement](#prioritizing-engagement)
@@ -142,7 +142,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ## Data Storytelling
 
-**In this Session**
+***In this Session***
 
 1. Learning Objectives
 2. Value Statement
