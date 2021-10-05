@@ -301,10 +301,10 @@ https://www.tableau.com/ and select “Try Tableau for Free”
       - Click on **Tooltip** so we can edit the text. We want the name of the site to be at the top, so cut and paste “Site: <ATTR(Site)>” to move it above Latitude and Longitude. 
       - Delete the static text “Site:” leaving just “<ATTR(Site)>” at the top. 
       - Select all the text and change the alignment to center. 
-      - Next, add “˚N” to the right of <Latitude> and “˚W” to the right of <Longitude>
+      - Next, add “N” to the right of <Latitude> and “W” to the right of <Longitude>
         - Mac shortcut: “Option + Shift + 8”
         - Windows shortcut: “”Alt + 0176” (with Num Lock on)
-        - If you have trouble with the degree symbol, copy and paste from this text: ˚N  ˚W
+        - If you have trouble with the degree symbol, copy and paste from this text: N  W
         ![](images/M3S2_edit-tooltip-for-map.png)
       - Click **OK** to close the editing window and hover your cursor over your map to check that the tooltip is working. 
       ![](images/M3S2_check-tooltip-for-map.png)
