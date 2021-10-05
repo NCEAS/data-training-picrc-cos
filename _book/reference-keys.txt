@@ -97,3 +97,12 @@ common-cleaning-procedures
 learning-objectives-4
 value-statement-5
 summary-4
+multiple-factor-plots-using-the-marks-menu
+maps
+filters
+dynamic-tables
+save-your-work
+conclusions
+homework
+learning-objectives-5
+value-statement-6
