@@ -234,7 +234,7 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 
 1. Time to practice with an untidy data set! Use what you’ve learned about data cleaning to normalize and standardize the data set here. See the tidied version here.
 
-## Summary
+### Summary
 
 1. Well done! Now that you’ve learned about best practices for managing and storing data, it’s time to move onto Tableau.
 
