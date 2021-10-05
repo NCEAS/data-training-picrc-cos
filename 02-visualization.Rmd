@@ -583,7 +583,8 @@ https://www.tableau.com/ and select “Try Tableau for Free”
   - [Tableau free training videos](https://www.tableau.com/learn/training/20212)
   - Or if you are looking for tips not provided by Tableau, make sure that you are searching for operations in SQL language. 
 5. One common calculation in ecology is finding the average biomass at a site that has been sampled multiple times, such as by several divers each swimming transects. You can use a calculated field, yet the details of your sampling and data arrangement affect how you set it up. See an example of setting up a calculated field in the sample data set below.
-![](pdfs/M3S4_calculated_field_biomass_example.pdf) 
+
+<iframe width="560" height="425" src="files/M3S4_calculated_field_biomass_example.pdf" frameborder="0" allowfullscreen></iframe>
 
 ### Table calculations: percentage of total and running total
 
