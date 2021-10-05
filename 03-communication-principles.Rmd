@@ -132,7 +132,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
     - Practice providing your talking points for your latest project with a colleagues
 
 
-![](images/Message-Box-Blank.png)
+![](images/message-box-blank.png)
 
 ### Resources
 
