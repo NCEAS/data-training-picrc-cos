@@ -14,6 +14,7 @@
 ### Working with Data: Learning objectives
 
 1. Learn good practices to store, name and, keep track of different versions of your data files
+
 1. Understand the importance of metadata and use a template to create your own format
 
 ### Working with Data: Value statement
@@ -25,7 +26,7 @@
 ### File naming
 
 1. While there is not a unique way to properly name your files, it is important to be consistent within your organization. Some of the best practices to do this include:
-    1 Use descriptive names that would make sense to any reader. For example, don’t use acronyms or abbreviations.
+    1. Use descriptive names that would make sense to any reader. For example, don’t use acronyms or abbreviations.
     1. Avoid the use of special characters, such as !@#$%^&*() and others, these are sometimes not supported by some software.
     1. Make consistent use of capitalization. Are you going to use capital letters in every word? Maybe only at the beginning of the column name? For example: My_File1.xlsx vs. my_file1.xslx. While none of them is wrong, it is good to choose one format and stick to it
     1. Use underscores instead of blank spaces, just as in the example above.
@@ -90,6 +91,7 @@
 2. Creating clean data sets involves steps in setting up your data organization and in reviewing data before analysis.
 
 ### Benefits of clean data 
+
 1. Let’s start by defining what we mean by “clean data”. Clean data are as consistent, complete, and accurate as possible. Cleaning data is the process of reviewing data sets to standardize formatting, remove duplication, and fix or remove inaccuracies before using or analyzing the data set.
 
 2. Having clean data has many benefits: 
@@ -107,13 +109,11 @@
 1. Before we get into cleaning data, let’s go over the different ways computers can classify data. The primary data types are
 
     - Numeric: integers, decimals
-    
         - Any kind of numeric field, except Boolean (binary or true/false statements). Examples include integer, double, floating, etc.
         
     - Text: strings, including special characters
     
     - Yes/no, true/false
-    
         - Also known as logical or boolean
         
     - Spatial Location: Coordinates, Country Name, City Name, ZIP code
@@ -226,6 +226,7 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
     - Add rows, not columns, for new observations.
     - Put values for only one variable in each column.
     - Record each piece of data only once in the database. 
+    
     
 1. We covered the first two points in the previous session when discussing best practices for designing data tables. The third point addresses how you store your data in different tables and how they interact. To record each piece of data only once in your database, you need to have data at different scales stored in different tables that then link to one another.
     - For example, say you visit several sites and do multiple dives at each site. On each dive, you record the fish you see and information about each fish, such as species and length. In this case, you would store information about the sites in one table, information about each dive in another table, and information about the fish recorded on each dive in a third table. The schematic below shows these tables and how they relate.
