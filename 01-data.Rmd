@@ -4,19 +4,22 @@
 
 ***In this session***
 
-1. File naming
-2. Storage
-3. Metadata
-4. Version control
+1. [Learning Objectives](#working-with-data-learning-objectives)
+1. [Value Statement](#working-with-data-value-statement)
+1. [File naming](#file-naming)
+1. [Storage](#storage)
+1. [Metadata](#metadata)
+1. [Version control](#version-control)
 
-### Learning objectives
+### Working with Data: Learning objectives
 
 1. Learn good practices to store, name and, keep track of different versions of your data files
 1. Understand the importance of metadata and use a template to create your own format
 
-### Value statement
+### Working with Data: Value statement
 
 1. Learning how to properly store, name, and version control your files is the basis to developing systematic procedures to analyze and visualize data. 
+
 1. Creating metadata files is essential to capturing key information about the context and content of a data file. Every data file should be accompanied by its metadata. By doing this, you can enable others to better understand your data and work more efficiently.
 
 ### File naming
@@ -32,6 +35,7 @@
 ### Creating a working folder structure
 
 1. It is important to create a folder structure that will allow you and your colleagues to easily organize and retrieve any files that you are working with.
+
 1. There are some key principles to creating an efficient folder structure:
     1. Store your raw data in its own folder. Every time that you get new data, the first thing you should do is to create a backup by adding it to your raw data folder. This will allow you to always be able to come back to the original file and look for processing errors.
     1. Create a separate folder for “working” files. These are the files where you will change column names, clean data errors and merge multiple files when necessary. For example, if your team performs annual assessments of reef fish biomass, you may want to store separate files for each year, but combine them in a “master” file, which should be located in your “working” files folder.
@@ -40,7 +44,9 @@
 ### Metadata
 
 1. Metadata are documentation describing the content, context, and structure of data to enable future interpretation and reuse of the data. Generally, metadata describe who collected the data, what data were collected, when and where it was collected, and why it was collected.
+
 1. Along with this class, we provided you with a metadata template. Please notice that this template can be adjusted to reflect your organization’s needs, therefore some of the requested information might change accordingly. Below, you will find an example of a filled out metadata template for the data that we will be using in Module 3.
+
 1. Make sure to always share the metadata along with your data files. Some recommendations to do this include:
     1. If working in Excel, create a new tab named “metadata” and put the information there
     1. If working in other data formats, create a new file with the metadata, store it in the same folder, and name it exactly the same as the data file, adding “_metadata” at the end.
@@ -54,6 +60,7 @@
 
 ### Summary 
 1. Well done, having a good folder structure, file naming practices, and version control capabilities are valuable tools to enable easy collaboration and to streamline workflows.
+
 2. Remember that using metadata is extremely important, this is the only way to make sure that you and your team know exactly what is included in a data file. Never share a database without its corresponding metadata.
 
 
@@ -62,15 +69,15 @@
 
 ***In this session ***
 
-1. Learning objective
-1. Value statement
-1. Benefits of clean data
-1. Data types
-1. Best practices
-1. Common cleaning procedures
-1. Summary
+1. [Learning objectives](#data-cleaning-learning-objectives)
+1. [Value statement](#data-cleaning-value-statement)
+1. [Benefits of clean data](#benefits-of-clean-data)
+1. [Data types](#data-types)
+1. [Best practices](#best-practices)
+1. [Common cleaning procedures](#common-cleaning-procedures)
+1. [Summary](#summary)
 
-### Learning objectives
+### Data Cleaning: Learning objectives
 
 1. Learn the benefits of having clean data sets and best practices for organizing and naming in data sheets. 
 
@@ -90,11 +97,13 @@
         - Enforces data integrity
         - Helps you and future researchers handle large, complex datasets
         - Enables powerful search filtering
+        
 3. Much has been written on effective data management to enable reuse of data. The following two papers offer words of wisdom:
         - Some simple guidelines for effective data management. Borer et al. 2009. Bulletin of the Ecological Society of America.
         - Nine simple ways to make it easier to (re)use your data. White et al. 2013. Ideas in Ecology and Evolution 6.
 
 ### Data types
+
 1. Before we get into cleaning data, let’s go over the different ways computers can classify data. The primary data types are
 
     - Numeric: integers, decimals
@@ -165,13 +174,13 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
         - Plot a histogram with binned values in the x-axis and frequency in the y-axis. If there are very few observations for very low/high values, those are likely outliers or mistakes in the data, like the single high value in the example below. Find them in your raw data and decide whether it is something that you can fix
         
            ![](images/M2S2_image3_data_cleaning_histogram.png)
-        - If the column is text:
+    - If the column is text:
         
-            - Verify that there are no numeric values
+        - Verify that there are no numeric values
             
-            - Create a list with all the unique elements by using dynamic tables and sort them out in alphabetical order. From this list, verify that there are no leading or trailing spaces, misspellings, or typos. Get back to your raw data and correct accordingly.
+        - Create a list with all the unique elements by using dynamic tables and sort them out in alphabetical order. From this list, verify that there are no leading or trailing spaces, misspellings, or typos. Get back to your raw data and correct accordingly.
             
-        - Make sure that you distinguish between values that are zero and data that was not collected. Zeros should be used for values that were measured and found to be zero, for example the number of fish on a transect you swam but saw no fish. Data that was not collected, for example the number of fish you saw at a site you skipped sampling, should be recorded as NA or another symbol you use consistently throughout your data set. 
+    - Make sure that you distinguish between values that are zero and data that was not collected. Zeros should be used for values that were measured and found to be zero, for example the number of fish on a transect you swam but saw no fish. Data that was not collected, for example the number of fish you saw at a site you skipped sampling, should be recorded as NA or another symbol you use consistently throughout your data set. 
 
 ### Summary 
 
@@ -181,45 +190,51 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 ## Normalization and Standardization
 
 ***In This Session***
-1. Learning objectives
-1.1. Value statement
-1.Introduction to tidy data
-1.Normalization
-1.Data organization
-1.Standardization
-1.Exercise
-1.Summary
 
-### Learning objectives
+1. [Learning objectives](#normalization-learning-objectives)
+1. [Value statement](#value-statement)
+1. [Introduction to tidy data](#introduction-to-tidy-data)
+1. [Normalization](#normalization)
+1. [Data organization](#data-organization)
+1. [Standardization](#standardization)
+1. [Exercise](#exercise)
+1. [Summary](#normalization-and-standardization-summary)
 
-1.Understand the basics of tidy data, particularly normalization and standardization.
-1.Learn how to design and create effective data tables.
+### Normalization Learning Objectives
+
+1. Understand the basics of tidy data, particularly normalization and standardization.
+
+1. Learn how to design and create effective data tables.
 
 ### Value statement
 
-1.Normalizing and standardizing data eases analysis and reduces errors. It is also the basis for having datasets that can be easily updated as more data becomes available.
+1. Normalizing and standardizing data eases analysis and reduces errors. It is also the basis for having datasets that can be easily updated as more data becomes available.
 
 ### Introduction to tidy data
 
-1.Tidy data describes a method of organizing databases and data tables that makes data analysis, searching, and reuse easier.
-1.The tidy data approach is also known as the relational data model, which is used by relational databases like mySQL, Microsoft Access, and Oracle to store and organize data. If you’d like a more detailed look at the relational data model, see [this lesson] by NCEAS.
-1.You don’t have to have a large and complex data set or be using a relational database, however, to see the benefits of having tidy data!
+1. Tidy data describes a method of organizing databases and data tables that makes data analysis, searching, and reuse easier.
+
+1. The tidy data approach is also known as the relational data model, which is used by relational databases like mySQL, Microsoft Access, and Oracle to store and organize data. If you’d like a more detailed look at the relational data model, see [this lesson] by NCEAS.
+
+1. You don’t have to have a large and complex data set or be using a relational database, however, to see the benefits of having tidy data!
 
 ### Normalization
 
-1.One characteristic of tidy data is normalization - a process of streamlining data structures and reducing redundancy. Normalized data are essentially data in the long format we discussed in the previous session: each column contains only one type of measurement, each row contains one observation, and data are stored in different tables such that each data point only appears once in the database. 
+1. One characteristic of tidy data is normalization - a process of streamlining data structures and reducing redundancy. Normalized data are essentially data in the long format we discussed in the previous session: each column contains only one type of measurement, each row contains one observation, and data are stored in different tables such that each data point only appears once in the database. 
+
 1. Three practices to keep in mind when designing your tables are:
     - Add rows, not columns, for new observations.
     - Put values for only one variable in each column.
     - Record each piece of data only once in the database. 
-1.We covered the first two points in the previous session when discussing best practices for designing data tables. The third point addresses how you store your data in different tables and how they interact. To record each piece of data only once in your database, you need to have data at different scales stored in different tables that then link to one another.
+    
+1. We covered the first two points in the previous session when discussing best practices for designing data tables. The third point addresses how you store your data in different tables and how they interact. To record each piece of data only once in your database, you need to have data at different scales stored in different tables that then link to one another.
     - For example, say you visit several sites and do multiple dives at each site. On each dive, you record the fish you see and information about each fish, such as species and length. In this case, you would store information about the sites in one table, information about each dive in another table, and information about the fish recorded on each dive in a third table. The schematic below shows these tables and how they relate.
         - After you have normalized your data and identified the relevant tables (e.g., sites, species and dives), there needs to be an identifier that serves as the link between each set of tables. In the example below, the Dive number links the Fish info table and the Dive info table - to get information about the dive when analyzing fish, you can pull the data from the Dive info table for the dive of the correct number. Similarly, Site name links the Site info table and the Dive info table
     [](images/M2S3_normalization_data_tables.png)
 
 ### Data organization
 
-1.Once you have your data tables normalized, make sure that they are arranged in a way that a computer can easily interpret.
+1. Once you have your data tables normalized, make sure that they are arranged in a way that a computer can easily interpret.
     - Make sure that each table has its own tab in a spreadsheet - multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.
     - Do calculations, like statistics or marginal sums, outside of your data spreadsheet. They are not observations, like the other rows, but rather data analysis.
 
@@ -234,7 +249,7 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 
 1. Time to practice with an untidy data set! Use what you’ve learned about data cleaning to normalize and standardize the data set here. See the tidied version here.
 
-### Summary
+### Normalization and Standardization Summary
 
 1. Well done! Now that you’ve learned about best practices for managing and storing data, it’s time to move onto Tableau.
 
