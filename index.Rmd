@@ -13,10 +13,10 @@ github-repo: rstudio/bookdown-demo
 
 # Introduction to Course
 
-**In this Session**
+***In this Session***
 
-1. Training Overview
-2. Structural Approach for Using the Material
+1. [Training Overview](#training-overview)
+2. [Structural Approach for Using the Material](#how-to-use-these-materials)
 
 ## Training Overview
 
@@ -43,9 +43,9 @@ github-repo: rstudio/bookdown-demo
 
 <iframe width="560" height="425" src="files/Intro_data_training_authors.pdf" frameborder="0" allowfullscreen></iframe>
 
-### How to Use These Materials
+## How to Use These Materials
 
-1. ***Overview:*** The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their  skill set. Each module contains links to additional sessions or resources for those that are interested in deeper topical dives. 
+1. ***Overview:*** The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their  skill set. Each module contains links to additional sessions or resources for those that are interested in deeper topical dives.
 
 2. ***Materials:*** Some sessions include distilled handouts or briefs as well as short exercises to help you practice the skills while you are developing them.
 
