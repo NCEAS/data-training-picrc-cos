@@ -544,6 +544,72 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ## Tableau Skills Part 3: Operations and calculated fields
 
+***In this session*** 
+1. Learning objectives
+1. Value statement
+1. Convert units using Calculated Fields
+1. Manually calculate average
+1. More functions
+1. Table calculations: percentage of total and running total
+1. Conclusions
+
+### Learning objectives
+
+1. Learning the different ways to calculate custom fields in tableau
+1. Using new calculations to extract new insights from data
+
+### Value statement
+
+1. In this session you will learn how to create new calculated fields in tableau, ranging from simple sums and averages, to more complex operations such as running totals and percentages.
+
+### Convert units using Calculated Fields
+
+1. So far we have mostly used measures to create plots by using SUM and AVERAGE. In certain situations, however, we might need to perform some operations by using one or more variables or calculate a new field. In the example below you will see how these calculated fields can be used to change a value from grams to tonnes.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V_CysItY2CU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Manually calculate average
+
+1. While Tableau provides an easy way to calculate the AVERAGE through using the right click functionalities on a field that is being used in an active chart, there are other ways to estimate it manually, and with more control over what the software is doing. The video below shows how to do this and how it compares to Tableau’s automatic method.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tnAnwczQ3mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### More functions
+
+1. While we have covered the basics of how to create calculated fields, there is a lot more to explore.
+1. Open a new **Calculated Field** and click on the small arrow on the right to expand the menu.
+![](images/m3s4_open-functions.png)
+![](images/m3s4_view-functions.png)
+3. If you scroll through the list, you will see all the functions that Tableau is capable of performing. These functions are very similar to operations and columns in Excel. 
+4. We recommend that you check out Tableau’s free online resources to learn more about calculated fields. 
+  - [Tableau free training videos](https://www.tableau.com/learn/training/20212)
+  - Or if you are looking for tips not provided by Tableau, make sure that you are searching for operations in SQL language. 
+5. One common calculation in ecology is finding the average biomass at a site that has been sampled multiple times, such as by several divers each swimming transects. You can use a calculated field, yet the details of your sampling and data arrangement affect how you set it up. See an example of setting up a calculated field in the sample data set below.
+![](pdfs/M3S4_calculated_field_biomass_example.pdf) 
+
+### Table calculations: percentage of total and running total
+
+1. One additional way to perform custom calculations is by using Table calculations, which are affected explicitly by whatever is being displayed in the active chart.
+1. In order to understand these better, let's do an example. Create a new pie chart
+  - Create a new sheet and name it “Pie4”
+  - Drag **Habitat** into **Columns** and **Biomass tonnes** into **Rows**
+    - *A bar chart will appear *
+  - Open the **Show Me** menu and choose **pie charts** 
+  - Change the view to Entire View
+  - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt
+  ![](images/m3s4_pie-show-labels.png)
+3. Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjssVupYXrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+4. Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:
+  - [https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) 
+
+### Conclusions
+
+1. Great work! You have completed the section on how to create your own calculations and use them to enhance your understanding of the data through visualizations. You are now ready to put all of these elements together and dive right into the creation of dashboards.
+
+
+
+
+
 ## Tableau Dashboards Part 1: Basic dashboards
 
 ## Tableau Dashboards Part 2: Graphic design elements

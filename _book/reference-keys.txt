@@ -106,3 +106,10 @@ conclusions
 homework
 learning-objectives-5
 value-statement-6
+convert-units-using-calculated-fields
+manually-calculate-average
+more-functions
+table-calculations-percentage-of-total-and-running-total
+conclusions-1
+learning-objectives-6
+value-statement-7
