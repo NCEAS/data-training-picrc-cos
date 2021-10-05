@@ -22,6 +22,7 @@ normalization-and-standardization
 learning-objectives-2
 value-statement-2
 introduction-to-tidy-data
+normalization
 data-organization
 standardization
 exercise
