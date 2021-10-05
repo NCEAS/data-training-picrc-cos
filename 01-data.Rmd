@@ -190,22 +190,22 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 1.Exercise
 1.Summary
 
-## Learning objectives
+### Learning objectives
 
 1.Understand the basics of tidy data, particularly normalization and standardization.
 1.Learn how to design and create effective data tables.
 
-## Value statement
+### Value statement
 
 1.Normalizing and standardizing data eases analysis and reduces errors. It is also the basis for having datasets that can be easily updated as more data becomes available.
 
-## Introduction to tidy data
+### Introduction to tidy data
 
 1.Tidy data describes a method of organizing databases and data tables that makes data analysis, searching, and reuse easier.
 1.The tidy data approach is also known as the relational data model, which is used by relational databases like mySQL, Microsoft Access, and Oracle to store and organize data. If you’d like a more detailed look at the relational data model, see [this lesson] by NCEAS.
 1.You don’t have to have a large and complex data set or be using a relational database, however, to see the benefits of having tidy data!
 
-##Normalization
+### Normalization
 
 1.One characteristic of tidy data is normalization - a process of streamlining data structures and reducing redundancy. Normalized data are essentially data in the long format we discussed in the previous session: each column contains only one type of measurement, each row contains one observation, and data are stored in different tables such that each data point only appears once in the database. 
 1. Three practices to keep in mind when designing your tables are:
@@ -217,20 +217,20 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
         - After you have normalized your data and identified the relevant tables (e.g., sites, species and dives), there needs to be an identifier that serves as the link between each set of tables. In the example below, the Dive number links the Fish info table and the Dive info table - to get information about the dive when analyzing fish, you can pull the data from the Dive info table for the dive of the correct number. Similarly, Site name links the Site info table and the Dive info table
     [](images/M2S3_normalization_data_tables.png)
 
-## Data organization
+### Data organization
 
 1.Once you have your data tables normalized, make sure that they are arranged in a way that a computer can easily interpret.
     - Make sure that each table has its own tab in a spreadsheet - multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.
     - Do calculations, like statistics or marginal sums, outside of your data spreadsheet. They are not observations, like the other rows, but rather data analysis.
 
-## Standardization
+### Standardization
 
 1. Once you have your data organized in a tidy fashion, it’s time to make sure the actual data values are standardized. Standardizing data involves many of the data cleaning steps from the previous session:
     - Checking that you use consistent entries for the same data values (“Yes” vs. “Y” vs. “yes” → choose just one).
     - Checking for data points that are outside the realm of possibility and are likely to be errors, like a dog recorded as weighing 500kg.
     - Verifying that all values within a column are the same data type.
 
-## Exercise=
+### Exercise
 
 1. Time to practice with an untidy data set! Use what you’ve learned about data cleaning to normalize and standardize the data set here. See the tidied version here.
 
