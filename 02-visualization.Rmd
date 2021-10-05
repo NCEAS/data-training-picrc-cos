@@ -624,37 +624,37 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 1. Conclusions
 1. Homework
 
-## Learning objectives
+### Learning objectives
 
 1. Learn the basic windows and menus to create dashboards
 1. Explore how to make differents charts interact with each other through dashboard actions
 
-## Value statement
+### Value statement
 
 1. In this session, you will jump from creating individual charts, to creating dashboards where you can combine multiple charts and make them interact with each other.
 1. You will also learn the basics for how to make your visualizations more visually appealing through the customization of colors, positions, legends, and other visual elements.
 
-## Introduction to dashboards
+### Introduction to dashboards
 
 1. The very first thing to learn about dashboards is how to add different elements to it. Not everything is about the interactive charts, but also the text, symbols and other elements that help you convey a story for the reader. In the video below, you will learn how to set up your canvas and add elements to it.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pP78GuC_7_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Floating dashboards
+### Floating dashboards
 
 1. Another important skill to master is the correct positioning of the elements in a dashboard. While Tableau tries to help with a tiled arrangement (as in the video above), it is important that you know how to gain full control of the exact size and position of each item that you add. The video below will help you get familiar with these important skills.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C96zusYc3vE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 2. Remember that when working with graphic designers, managing sizes and positions is extremely important. Make sure to practice these skills.
 
-## Actions: filter and highlight
+### Actions: filter and highlight
 
 1. Once you have added various elements, and charts, to your dashboards, it is time to make them interact with each other. The video below will show you two methods (filtering and highlighting) to use one chart to control the items in another chart. We will also cover some common troubleshooting situations.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tYmT9A1wZUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Conclusions
+### Conclusions
 
 1. Congratulations! You have completed the most important step in moving from single charts, to fully interactive data visualizations. The next step is to enhance these visuals a little more by learning how to incorporate graphic design elements.
 
-## Homework 
+### Homework 
 
 1. Create a map. 
   - Remember that you know how to change the background and edit colors of the dots. 
