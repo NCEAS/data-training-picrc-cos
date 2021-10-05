@@ -545,6 +545,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ## Tableau Skills Part 3: Operations and calculated fields
 
 ***In this session*** 
+
 1. Learning objectives
 1. Value statement
 1. Convert units using Calculated Fields
