@@ -1,6 +1,6 @@
 bookdown::pdf_book:
   includes:
-  latex_engine: pdflatex
+  latex_engine: xelatex
   keep_tex: yes
 bookdown::epub_book: default
 bookdown::gitbook:
