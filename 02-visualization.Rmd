@@ -17,9 +17,11 @@
 ### Tableau Basics: Learning Objectives
 
 1. Get familiar with the user interface of Tableau
+
 1. Learn how to connect data sets to Tableau interface
 
 ### Why Tableau?
+
 1. We are focusing on Tableau for two primary reasons. 
     - First, Tableau can read a variety of data types, as you will learn in this session. This means that many different software applications and assets can be combined in a single visualization to present to your audience. 
     - Second, Tableau is extremely intuitive. Once you get a grasp of the basic skills, you can create compelling visualizations of data in half of the time it would take in other coding software applications. 
@@ -29,8 +31,11 @@
 
 1. Let’s get started with installing the software, to do so, go to 
 https://www.tableau.com/ and select “Try Tableau for Free”
+
 1. Register your email address and username and download the software
+
 1. Once installed, input your key (you get one when you buy the software) and you are ready to go
+
 1. **Important note:** Tableau offers free 1-year licenses for educational purposes. If you belong to an academic institution, get a free license by going to https://www.tableau.com/community/academic. Once there, click on “Free student license”. You will need to provide information about your academic institution to validate your educational license. 
 
 ### User Interface
@@ -55,11 +60,15 @@ https://www.tableau.com/ and select “Try Tableau for Free”
     - *Connecting to a server:* You can connect to services that are online like Google Sheets, or Microsoft Office 365. 
         - One of the benefits of using this approach is that when you modify the original file, the modifications will be directly updated in Tableau. 
             - Let’s say you created a report with nice graphs in 2020 because that’s the data that you had when you created the report and then in 2021 you edited your Google sheet. The next time you open your Tableau workbook, all the data will be updated and contain the new data from 2021.  
+            
 1. It’s very important to make sure that you organize and manage your files such that you know exactly where your files are. Keep in mind that if you connect to a server, any changes that you make in the original file will have an impact on how your visualization looks in Tableau. 
 
 ### Opening a file
+
 1. Create a new folder on your desktop. Name the folder “Tableau Data Training”
+
 1. Download this file: CRM_Fish_edit and save it in the “Tableau Data Training” folder
+
 1. Follow along with this video to connect the new data file to Tableau
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EIItd2fpKDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -72,6 +81,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ![](images/M3S1_image1_draganddrop.png)
 
 ### Checking Data Types
+
 1. When you load a data file, you have to check that Tableau properly labels the data types. Here, we will discuss what those data types are and how they are assigned in Tableau.
     - ***Dimensions and Measurements***
         - **Dimension** (also referred to as factor) is any information that is defined a priori of your actual sampling and helps to describe or categorize your results.  Whenever you can call something a category it is a factor. Example: Site name, species, habitat,
@@ -125,7 +135,6 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ### Sheets
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eFn2cfh6mtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Sheets Cheat Sheet
@@ -137,6 +146,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
         - Below the grey line is a MEASURE 
     
 ### Tableau Basics Summary
+
 1. Great job! You have completed your first in depth Tableau session. Now, you know how to explore Tableau’s user interface, to connect a data file, check data types, and open sheets. 
 
 
@@ -161,11 +171,15 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ### Basic Plots: Learning Objectives
 
 1. Explore the user interface
+
 1. Learn how to make basic plots and customize them
+
 1. Learn how to save and share workbooks
 
 ### Value statement
+
 1. Learning how to make basic plots in Tableau (e.g., bars, lines, pies, etc.) and how to take full control of the appearance will prepare you to take full advantage of Tableau’s more advanced skills.
+
 1. *For this session we recommend that, if possible, have two screens open—one with Tableau and one with the course material—so you can follow along with the exercises.*
 
 ### Creating your first graph
@@ -194,6 +208,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ni2hh248ffM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***Show Me Menu***
+
 1. The Show Me menu may pop up when you create a new graph. It looks like the image below. 
 
 ![](images/M3S2_show-me-menu-full.png)
@@ -208,6 +223,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6FSgaXM__TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***Troubleshooting: Switching Rows and Columns***
+
 1. Lilli has a question that came up when she was exploring the Show Me menu. When she tried to go back to a bar chart, the chart was flipped! Watch Alfredo’s answer: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DDjAZVewtUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
