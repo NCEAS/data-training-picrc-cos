@@ -189,9 +189,9 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ![](images/M3S2_find-habitat.png)
 
 2. Drag and drop **Habitat** into **Columns**
+    - This will place **Habitat** in the x-axis of the graph
 
 ![](images/M3S2_drag-habitat.png)
-    - This will place **Habitat** in the x-axis of the graph 
 
 3. Find **Biomass** under CRM_Fish
 
@@ -199,7 +199,8 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 4. Drag and drop **Biomass** into **Rows**
     - This will place **Biomass** in the y-axis. 
-    ![](images/M3S2_drag-biomass.png)
+
+![](images/M3S2_drag-biomass.png)
 
 5. Congratulations! You just made your first bar plot in Tableau! 
 
@@ -229,14 +230,19 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DDjAZVewtUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Basic plots using the Marks menu
+
 1. The Show Me menu is a great tool where Tableau can suggest automated graphs, but we want to teach you how to take full control of Tableau. In order to do that, we will utilize the Marks menu. 
     - The Marks menu is located to the left of your bar graph: 
-    ![](images/M3S2_Marks-Menu.png)
+    
+![](images/M3S2_Marks-Menu.png)
 
 2. Color
+
     - Here you can customize the color, opacity, and border of your graph.
     ![](images/M3S2_color-marks-menu.png)
+   
     - Click on **More colors...** and you will see even more options to customize your color palette. 
+    
     - Practice: Insert a Hex Color 
         - Find the Hex Color field under **More colors...** 
             - For example, here is the “RGB Sliders” window on a Mac.
@@ -246,6 +252,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
             ![](images/M3S2_Hex-Code-Medium-Turquoise.png)
 
 3. Size
+
     - If you click on Size, a slider will appear. In bar graphs, the slider changes the width of each bar. Let’s see how Size affects a pie chart.
         - First, name this sheet “Bars.”  <span style="color: turquoise;">REMEMBER TO ALWAYS NAME YOUR SHEETS</span>   
     - To edit, double-click on the bottom where it says “Sheet 1”
@@ -265,6 +272,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YXfZ2kcLdWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 5. Details
+
     - We will cover the Details marks in a later session. 
 
 6. Tooltip
@@ -278,9 +286,12 @@ https://www.tableau.com/ and select “Try Tableau for Free”
     - Drag **Year** into **Columns** and drag **Biomass** into **Rows**.
     - For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let's do that. 
     - Right click on the field where it says **SUM (Size cm)** and a drop down menu will appear. Choose **Measure**, then click on **Average**.
-    ![](images/M3S2_change-measure.png)
+
+![](images/M3S2_change-measure.png)
+
     - Does your plot now look like the image below? If so, you can move on to the next steps.
-    ![](images/M3S2_Line-Plot.png)
+    
+![](images/M3S2_Line-Plot.png)
 
 ### Area plot
 
@@ -532,10 +543,10 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 1. The last thing we are going to learn in this session is how to create and use tables. 
 1. There are three conditions to keep in mind when you create a table in Tableau:
-  (1) Data should be dragged into Rows because we are following a long format. 
-    - Refer to Module 2 to learn more about long versus block format
-  (2) Everything has to be discrete because the software will always attempt to plot continuous data as a chart, not as text. 
-  (3) You can use filters, sort, and all the other functionalities that you learned for other types of plots. Tables in Tableau are similar to dynamic tables in Excel.      
+    - Data should be dragged into Rows because we are following a long format. 
+      - Refer to Module 2 to learn more about long versus block format
+    - Everything has to be discrete because the software will always attempt to plot continuous data as a chart, not as text. 
+    - You can use filters, sort, and all the other functionalities that you learned for other types of plots. Tables in Tableau are similar to dynamic tables in Excel.      
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/scRzDONC9GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -599,28 +610,28 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ![](images/m3s4_view-functions.png)
 3. If you scroll through the list, you will see all the functions that Tableau is capable of performing. These functions are very similar to operations and columns in Excel. 
 4. We recommend that you check out Tableau’s free online resources to learn more about calculated fields. 
-  - [Tableau free training videos](https://www.tableau.com/learn/training/20212)
-  - Or if you are looking for tips not provided by Tableau, make sure that you are searching for operations in SQL language. 
+    - [Tableau free training videos](https://www.tableau.com/learn/training/20212)
+    - Or if you are looking for tips not provided by Tableau, make sure that you are searching for operations in SQL language. 
 5. One common calculation in ecology is finding the average biomass at a site that has been sampled multiple times, such as by several divers each swimming transects. You can use a calculated field, yet the details of your sampling and data arrangement affect how you set it up. See an example of setting up a calculated field in the sample data set below.
 
-<iframe width="560" height="425" src="files/M3S4_calculated_field_biomass_example.pdf" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="532" src="files/M3S4_calculated_field_biomass_example.pdf" frameborder="0" allowfullscreen></iframe>
 
 ### Table calculations: percentage of total and running total
 
 1. One additional way to perform custom calculations is by using Table calculations, which are affected explicitly by whatever is being displayed in the active chart.
 1. In order to understand these better, let's do an example. Create a new pie chart
-  - Create a new sheet and name it “Pie4”
-  - Drag **Habitat** into **Columns** and **Biomass tonnes** into **Rows**
-    - *A bar chart will appear *
-  - Open the **Show Me** menu and choose **pie charts** 
-  - Change the view to Entire View
-  - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt
-  ![](images/m3s4_pie-show-labels.png)
+    - Create a new sheet and name it “Pie4”
+    - Drag **Habitat** into **Columns** and **Biomass tonnes** into **Rows**
+      - *A bar chart will appear *
+    - Open the **Show Me** menu and choose **pie charts** 
+    - Change the view to Entire View
+    - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt
+    ![](images/m3s4_pie-show-labels.png)
 3. Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yjssVupYXrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 4. Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:
-  - [https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) 
+    - [https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) 
 
 ### Conclusions
 
@@ -672,10 +683,10 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ### Homework 
 
 1. Create a map. 
-  - Remember that you know how to change the background and edit colors of the dots. 
+    - Remember that you know how to change the background and edit colors of the dots. 
 1. Create a scatter plot where the x-axis is average size, y-axis is total biomass and each mark within the scatterplot is a different species. 
 1. Now, create a dashboard with the map and the scatterplot. Create a filter so that when you click on the map it filters the scatterplot.
-  - Remember to include title and text that describes the purpose of the dashboard. 
+    - Remember to include title and text that describes the purpose of the dashboard. 
 1. Try a few adjustments to practice getting the aesthetic feel just the way you want.
 
 
@@ -716,15 +727,20 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ### Custom shapes
 
 1. Wouldn’t it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.
+
 1. Before you begin this section, download this folder of images and save it to your desktop folder “Tableau Data Training” 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joS9x6kKbiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 3. Alfredo’s tips for custom shapes
-  - *Save the files as .png with transparent background*
-  - *Save all the .png images in one folder*
+    - *Save the files as .png with transparent background*
+    - *Save all the .png images in one folder*
 
 ### Filters in dashboards
 
-1. So far, we have focused on using sheets to filter each other when together in a dashboard. However, sometimes we might want to use a field (not a sheet) to filter the information in the whole dashboard. 1. Below, you will find an example of how to do this.
+1. So far, we have focused on using sheets to filter each other when together in a dashboard. However, sometimes we might want to use a field (not a sheet) to filter the information in the whole dashboard. 
+
+1. Below, you will find an example of how to do this.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QnUH-GObfgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Dynamic text elements
@@ -739,7 +755,9 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 ### Conclusions
 
 1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web, or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 2. Check out https://public.tableau.com/app/profile/datamares to explore a wide range of dashboards that you can create using Tableau.
 
 

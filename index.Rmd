@@ -41,7 +41,7 @@ github-repo: rstudio/bookdown-demo
 
 5. ***Authors:*** This Data Management and Visualization Training package is a collaborative effort amongst researchers and staff from PICRC, NCEAS, and COS. The core contributors to the existing content are recognized below.
 
-<iframe width="560" height="425" src="files/Intro_data_training_authors.pdf" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="532" src="files/Intro_data_training_authors.pdf" frameborder="0" allowfullscreen></iframe>
 
 ## How to Use These Materials
 

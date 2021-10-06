@@ -29,51 +29,48 @@ Source: Twitter @TheComNetwork
 
 ### Salience, Credibility and Legitimacy: Cornerstones of Effective Communication
 
-  1. A focal point in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience’s perspective ([Cash et. al. 2002](https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4)). Another way to think of these terms could be the “when,” “who,” and “how” of the information provided.
-  
-  - Salience: “... the relevance of information for an actor’s decision choices.” 
-      - Ensure that the content you are providing is relevant to the decisions that your audience members encounter in a time frame that meets their needs. For example, there is limited value in informing a tourist that traveled to a beach that the water quality was unhealthy a week after they visited. Rather, aim to anticipate the needs of your audience members such that you can provide digestible information right when they need it.
-  - Credibility: “...whether an actor perceives information as meeting standards of scientific plausibility and technical adequacy.” 
-     - The reputation of an organization or individual is of paramount importance when providing actionable information. Ensuring that “honest brokers of unbiased information” are the leading communicators enhances the perceived credibility of the information. This “credibility” consideration extends to every member of an organization or collaborative working group involved. Furthermore, after a period of time, audience members may desire to reflect on the accuracy of previous statements to gain an understanding of “how often have they been right?” 
-   - Legitimacy: “...whether an actor perceives the process in a system as unbiased and meeting standards of political and procedural fairness.” 
-     - In many cases, audience members strongly consider how the information was collected, analyzed and conveyed - as well as the process for engaging communities that are most closely tied to the content. This requires transparency in the process and ensuring that perspectives of impacted stakeholders are integrated into the overall message.
+1. A focal point in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience’s perspective ([Cash et. al. 2002](https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4)). Another way to think of these terms could be the “when,” “who,” and “how” of the information provided.
+    - Salience: “... the relevance of information for an actor’s decision choices.” 
+        - Ensure that the content you are providing is relevant to the decisions that your audience members encounter in a time frame that meets their needs. For example, there is limited value in informing a tourist that traveled to a beach that the water quality was unhealthy a week after they visited. Rather, aim to anticipate the needs of your audience members such that you can provide digestible information right when they need it.
+    - Credibility: “...whether an actor perceives information as meeting standards of scientific plausibility and technical adequacy.” 
+       - The reputation of an organization or individual is of paramount importance when providing actionable information. Ensuring that “honest brokers of unbiased information” are the leading communicators enhances the perceived credibility of the information. This “credibility” consideration extends to every member of an organization or collaborative working group involved. Furthermore, after a period of time, audience members may desire to reflect on the accuracy of previous statements to gain an understanding of “how often have they been right?” 
+     - Legitimacy: “...whether an actor perceives the process in a system as unbiased and meeting standards of political and procedural fairness.” 
+       - In many cases, audience members strongly consider how the information was collected, analyzed and conveyed - as well as the process for engaging communities that are most closely tied to the content. This requires transparency in the process and ensuring that perspectives of impacted stakeholders are integrated into the overall message.
 
 ### Crafting your message
 
- 1. In order to create messages that stick, brainstorm your call to action and draft your core message.
+1. In order to create messages that stick, brainstorm your call to action and draft your core message.
+    - Messages are intended to **lead your audience to action.**
+      - _Key term: _**Call to Action (CTA)**
+      - What is the action you want to motivate people to?
 
-Messages are intended to **lead your audience to action.**
-
-  - _Key term: _**Call to Action (CTA)**
-  - What is the action you want to motivate people to?
-
-Write before you write.
+    - Write before you write.
 
 > "Consider and articulate what your story is really about. Not the noun, the verb. It's not enough to say your story is about, say, salmon. Is it a story about bears that eat salmon? Salmon that eat bears?" - Michelle Nijhuis in The Science Writers' Handbook: Everything You Need to Know to Pitch, Publish, and Prosper in the Digital Age (2013)
 
-  2. ***Good messages ...***
+2. ***Good messages ...***
   
-  - Invite your audience into conversation
+    - Invite your audience into conversation
   
-    - Avoid jargon
-     - Instead, use descriptive language that your audience would be familiar with
-     - When you can’t find a perfect synonym for a jargon term, define the term or provide an analogy to something they are familiar with. 
-     - Consider these examples of “jargony” terms and their “audience-friendly” counterparts:
-        - Anthropogenic → human-caused
-        - Ecosystem services → benefits from nature
-        - Harmful algal blooms → outbreak of toxic algae
-        - Submerged aquatic vegetation → underwater grasses
-     - We want to make our messages accessible by leveraging our audience’s existing knowledge and framing the language to be socially and culturally relevant. Note that this approach is distinct from simply “dumbing down” the content.
+      - Avoid jargon
+       - Instead, use descriptive language that your audience would be familiar with
+       - When you can’t find a perfect synonym for a jargon term, define the term or provide an analogy to something they are familiar with. 
+       - Consider these examples of “jargony” terms and their “audience-friendly” counterparts:
+          - Anthropogenic → human-caused
+          - Ecosystem services → benefits from nature
+          - Harmful algal blooms → outbreak of toxic algae
+          - Submerged aquatic vegetation → underwater grasses
+       - We want to make our messages accessible by leveraging our audience’s existing knowledge and framing the language to be socially and culturally relevant. Note that this approach is distinct from simply “dumbing down” the content.
   
     
-  - Share about yourself to connect to their values, interests, and concerns.
-    - By sharing details about yourself and your background you can build trust with your audience and relate to them on a deeper level. Personal stories and connections can aid in establishing credibility and an attachment to the issue.
+    - Share about yourself to connect to their values, interests, and concerns.
+      - By sharing details about yourself and your background you can build trust with your audience and relate to them on a deeper level. Personal stories and connections can aid in establishing credibility and an attachment to the issue.
  
     
-  - Help people see themselves in your story. 
-    - Find compelling hooks. A hook is the first part of a story that pulls people in. It conveys the significance and entices readers to keep reading. 
-      - For example: Why is it important now? What makes this story timely?
-      - Can I tell this message through a story? People gravitate to stories and narrative structures. A good story captivates an audience's attention and makes the message memorable.
+    - Help people see themselves in your story. 
+      - Find compelling hooks. A hook is the first part of a story that pulls people in. It conveys the significance and entices readers to keep reading. 
+        - For example: Why is it important now? What makes this story timely?
+        - Can I tell this message through a story? People gravitate to stories and narrative structures. A good story captivates an audience's attention and makes the message memorable.
 
   
 ### The Message Box
@@ -94,7 +91,7 @@ In a scientific paper, we establish credibility in the introduction and methods,
  
 The five sections of the Message Box are provided below. For a detailed explanation of the sections and guidance on how to use the Message Box, work through the [Message Box Workbook](https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf).
 
- 3. Message Box Sections
+3. Message Box Sections
  
 **The Issue**
 
