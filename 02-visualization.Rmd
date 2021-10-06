@@ -67,7 +67,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 1. Create a new folder on your desktop. Name the folder “Tableau Data Training”
 
-1. Download this file: CRM_Fish_edit and save it in the “Tableau Data Training” folder
+1. Download this file: [CRM_Fish_edit](files/CRM_Fish_edit.xlsx) and save it in the “Tableau Data Training” folder
 
 1. Follow along with this video to connect the new data file to Tableau
  

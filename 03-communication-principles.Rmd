@@ -382,6 +382,8 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ### Summary
 
+Distilled details contained in this [brief](files/M4-S3.Working-With-Graphic-Designers.Brief.pdf)
+
 1. *Before You Start - Set Expectations*
 1. *Know Your Audience*
 1. *Define Your Vision*
