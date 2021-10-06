@@ -22,8 +22,10 @@ jobs:
           TINYTEX_INSTALLER: TinyTeX
       - name: Install packages
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown"))'
-      - name: Render Book
-        run: Rscript -e 'bookdown::render_book("index.Rmd")'
+      - name: Render gitbook
+        run: Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
+      - name: Render pdfbook
+        run: Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::pdf_book")'
       - uses: actions/upload-artifact@v2
         with:
           name: _book
