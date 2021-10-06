@@ -139,27 +139,26 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ## Data Storytelling
 
-***In this Session***
+***In This Session***
 
-1. Learning Objectives
-2. Value Statement
-3. New Terms
-4. Receive Your Data
-5. Identifying Your Audience
-6. Understand Key Insights
-7. Connect Stories to Key Insights
-8. Utilize Engaging Visuals
-9. Share Your Data Stories
-10. Summary
+1. [Learning Objectives](#storytelling-learning-objectives)
+2. [Value Statement](#storytelling-value-statement)
+3. [New Terms](#new-terms)
+4. [Receive Your Data](#receive-your-data)
+5. [Identifying Your Audience](#identifying-your-audience)
+6. [Understand Key Insights](#understand-key-insights)
+7. [Connect Stories to Key Insights](#connect-stories-to-key-insights)
+8. [Utilize Engaging Visuals](#utilize-engaging-visuals)
+9. [Share Your Data Stories](#share-your-data-stories)
+10. [Summary](#summary)
 
-### Learning Objectives
-
+### Storytelling: Learning Objectives
 1. To learn the importance and potential of data storytelling.
    - ***Data storytelling:** The process of translating data sets into stories, or messages that your target audience can understand.*
 2. To learn a sample of approaches to data storytelling, including connecting stories and visuals to data for maximal effectiveness.
 
 
-### Value Statement
+### Storytelling: Value Statement
 
 ![](images/Data-Storytelling-Quote-2.png)
 
@@ -241,24 +240,24 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ***In This Session ***
 
-1. Learning Objectives
-1. Value Statement
-1. New Terms
-1. Before You Start
-1. Know Your Audience
-1. Define Your Vision
-1. Leave Execution to The Designer
-1. Continue to Iterate
-1. Finalize and Distribute Your Design
-1. Summary
+1. [Learning Objectives](#graphic-design-learning-objectives)
+1. [Value Statement](#graphic-design-value-statement)
+1. [New Terms](#new-terms)
+1. [Before You Start](#before-you-start)
+1. [Know Your Audience](#know-your-audience)
+1. [Define Your Vision](#define-your-vision)
+1. [Leave Execution to The Designer](#leave-execution-to-the-designer)
+1. [Continue to Iterate](#continue-to-iterate)
+1. [Finalize and Distribute Your Design](#finalize-and-distribute-your-design)
+1. [Summary](#summary)
 
 
-### Learning Objectives
+### Graphic Design: Learning Objectives
 
 1. Learn how to work effectively and collaboratively with a designer in the context of a targeted design project.
 1. Learn how to facilitate a successful design project from start to finish with a designer
 
-### Value Statement
+### Graphic Design: Value Statement
 
 1. Working effectively with graphic designers (designers for short in this session) will save you and your organization time and resources, particularly  with consistent communication and clear expectations.
 1. Learning how to work with designers will allow you to produce effective, meaningful and compelling visual content for your internal organization, or for external audiences.

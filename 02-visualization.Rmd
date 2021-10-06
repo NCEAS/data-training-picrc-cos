@@ -286,8 +286,8 @@ https://www.tableau.com/ and select “Try Tableau for Free”
     - Drag **Year** into **Columns** and drag **Biomass** into **Rows**.
     - For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let's do that. 
     - Right click on the field where it says **SUM (Size cm)** and a drop down menu will appear. Choose **Measure**, then click on **Average**.
-
-![](images/M3S2_change-measure.png)
+    
+    ![](images/M3S2_change-measure.png)
 
     - Does your plot now look like the image below? If so, you can move on to the next steps.
     
@@ -411,29 +411,29 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ***In this session ***
 
-1. Learning objectives
-1. Value statement
-1. Multiple factor plots using the Marks menu
+1. [Learning objectives](#multiple-factors-and-dynamic-tables-learning-objectives)
+1. [Value statement](#multiple-factors-and-dynamic-tables-value-statement)
+1. [Multiple factor plots using the Marks menu](#Multiple-factor-plots-using-the-Marks-menu)
    - Create a map with multiple factors
    - Create a bar plot with multiple factors
    - Create a timeseries with multiple factors
     - Create a scatter plot with multiple factors
     - Create a bar plot using continuous data
-1. Maps
+1. [Maps](#maps)
     - Practice exercise: Search and reset on a Map.
-1. Filters
-1. Dynamic tables
-1. Save your work
-1. Conclusions
-1. Homework
+1. [Filters](#filters)
+1. [Dynamic tables](#dynamic-tables)
+1. [Save your work](#save-your-work)
+1. [Conclusions](#conclusions)
+1. [Homework](#homework)
 
-### Learning objectives
+### Multiple Factors and Dynamic Tables: Learning objectives
 
 1. Learn how to create plots with multiple factors (e.g., colors, mark size, shapes)
 1. Explore Tableau’s mapping functionalities and learn to customize them
 1. Understand Tableau’s powerful filtering capabilities
 
-### Value statement
+### Multiple Factors and Dynamic Tables: Value statement
 
 1. In this session you will take your skills to the next level and gain full control of how your plots and maps look and how to use filters to display only the information that you are interested in. By adding multiple factors, you can communicate more information through color, size, and shapes. These are the building blocks that make a full interactive visualization!
 
@@ -575,20 +575,20 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ***In this session*** 
 
-1. Learning objectives
-1. Value statement
-1. Convert units using Calculated Fields
-1. Manually calculate average
-1. More functions
-1. Table calculations: percentage of total and running total
-1. Conclusions
+1. [Learning objectives](#operations-and-calculated-fields-learning-objectives)
+1. [Value statement](#operations-and-calculated-fields-value-statement)
+1. [Convert units using Calculated Fields](#convert-unites-using-calculated-fields)
+1. [Manually calculate average](#manually-calculate-average)
+1. [More functions](#more-funtions)
+1. [Table calculations: percentage of total and running total](#table-calculations--percentage-of-total-and-running-total)
+1. [Conclusions](#conclusions)
 
-### Learning objectives
+### Operations and calculated fields: Learning objectives
 
 1. Learning the different ways to calculate custom fields in tableau
 1. Using new calculations to extract new insights from data
 
-### Value statement
+### Operations and calculated fields: Value statement
 
 1. In this session you will learn how to create new calculated fields in tableau, ranging from simple sums and averages, to more complex operations such as running totals and percentages.
 
@@ -642,20 +642,20 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ***In this session*** 
 
-1. Learning objectives
-1. Value statement
-1. Introduction to dashboards
-1. Floating dashboards
-1. Actions: filter and highlight
-1. Conclusions
-1. Homework
+1. [Learning objectives](#basic-dashboards-learning-objetives)
+1. [Value statement](#basic-dashboards-value-statement)
+1. [Introduction to dashboards](#introduction-to-dashboards)
+1. [Floating dashboards](#floating-dashboards)
+1. [Actions: filter and highlight](#actions-filter-and-highlight)
+1. [Conclusions](#conclusions)
+1. [Homework](#homework)
 
-### Learning objectives
+### Basic dashboards: Learning objectives
 
 1. Learn the basic windows and menus to create dashboards
 1. Explore how to make differents charts interact with each other through dashboard actions
 
-### Value statement
+### Basic dashboards: Value statement
 
 1. In this session, you will jump from creating individual charts, to creating dashboards where you can combine multiple charts and make them interact with each other.
 1. You will also learn the basics for how to make your visualizations more visually appealing through the customization of colors, positions, legends, and other visual elements.
@@ -694,23 +694,24 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ***In this session ***
 
-1. Learning objectives
-1. Recap: Tooltip customization and exact colors
-1. Background images
-1. Custom shapes
-1. Filters in dashboards
-1. Dynamic text elements
-1. Creating a template
-1. Conclusions
+1. [Learning objectives](#graphic-design-learning-objectives)
+1. [Value statement](#graphic-design-value-statement)
+1. [Recap: Tooltip customization and exact colors](#recap-tooltip-customization-and-exact-colors)
+1. [Background images](#background-images)
+1. [Custom shapes](#custom-shapes)
+1. [Filters in dashboards](#filters-in-dashboards)
+1. [Dynamic text elements](#dynamic-text-elements)
+1. [Creating a template](creating-a-template)
+1. [Conclusions](#conclusions)
 
-### Learning objectives
+### Graphic design: Learning objectives
 
 1. Learn how to add custom graphic design elements to your visualizations
 1. Learn how to add custom shapes to your plots
 1. Learn how to use text interactively
 1. Create your own template for amazing-looking visualizations
 
-### Value statement
+### Graphic design: Value statement
 
 1. You already have the tools to create visualizations and communicate your data. Let’s take it to the next level by adding custom shapes, images, and other graphic design elements!
 
@@ -771,20 +772,20 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ***In this session ***
 
-1. Learning objectives
-1. Value statement
-1. Saving your work and your datasets
-1. Sharing your work
-1. Embedding into a website
-1. Summary
+1. [Learning objectives](#Publishing-to-the-Web-learning-objectives)
+1. [Value statement](#Publishing-to-the-Web-value-statement)
+1. [Saving your work and your datasets](#saving-your-work-and-your-datasets)
+1. [Sharing your work](#sharing-your-work)
+1. [Embedding into a website](#embedding-into-a-website)
+1. [Summary](#summary)
 
-### Learning objectives
+### Publishing to the Web: Learning objectives
 
 1. Learn how to share your content with colleagues
 1. Publish your work online
 1. Embed your dashboards in your website
 
-### Value statement
+### Publishing to the Web: Value statement
 
 1. Tableau is a powerful tool to visualize and analyze data, however, its real value comes from being able to share this information with colleagues and the general public through the many options available
 
