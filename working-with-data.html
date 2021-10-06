@@ -491,13 +491,13 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.</p>
 <li><p>One characteristic of tidy data is normalization - a process of streamlining data structures and reducing redundancy. Normalized data are essentially data in the long format we discussed in the previous session: each column contains only one type of measurement, each row contains one observation, and data are stored in different tables such that each data point only appears once in the database.</p></li>
 <li><p>Three practices to keep in mind when designing your tables are:</p>
 <ul>
-<li>Add rows, not columns, for new observations.</li>
-<li>Put values for only one variable in each column.</li>
-<li>Record each piece of data only once in the database.</li>
+<li><p>Add rows, not columns, for new observations.</p></li>
+<li><p>Put values for only one variable in each column.</p></li>
+<li><p>Record each piece of data only once in the database.</p></li>
 </ul></li>
 <li><p>We covered the first two points in the previous session when discussing best practices for designing data tables. The third point addresses how you store your data in different tables and how they interact. To record each piece of data only once in your database, you need to have data at different scales stored in different tables that then link to one another.</p>
 <ul>
-<li>For example, say you visit several sites and do multiple dives at each site. On each dive, you record the fish you see and information about each fish, such as species and length. In this case, you would store information about the sites in one table, information about each dive in another table, and information about the fish recorded on each dive in a third table. The schematic below shows these tables and how they relate.
+<li><p>For example, say you visit several sites and do multiple dives at each site. On each dive, you record the fish you see and information about each fish, such as species and length. In this case, you would store information about the sites in one table, information about each dive in another table, and information about the fish recorded on each dive in a third table. The schematic below shows these tables and how they relate.</p>
 <ul>
 <li>After you have normalized your data and identified the relevant tables (e.g., sites, species and dives), there needs to be an identifier that serves as the link between each set of tables. In the example below, the Dive number links the Fish info table and the Dive info table - to get information about the dive when analyzing fish, you can pull the data from the Dive info table for the dive of the correct number. Similarly, Site name links the Site info table and the Dive info table
 <a href="images/M2S3_normalization_data_tables.png"></a></li>
@@ -508,21 +508,21 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.</p>
 <div id="data-organization" class="section level3">
 <h3><span class="header-section-number">2.3.5</span> Data organization</h3>
 <ol style="list-style-type: decimal">
-<li>Once you have your data tables normalized, make sure that they are arranged in a way that a computer can easily interpret.
+<li><p>Once you have your data tables normalized, make sure that they are arranged in a way that a computer can easily interpret.</p>
 <ul>
-<li>Make sure that each table has its own tab in a spreadsheet - multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.</li>
-<li>Do calculations, like statistics or marginal sums, outside of your data spreadsheet. They are not observations, like the other rows, but rather data analysis.</li>
+<li><p>Make sure that each table has its own tab in a spreadsheet - multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.</p></li>
+<li><p>Do calculations, like statistics or marginal sums, outside of your data spreadsheet. They are not observations, like the other rows, but rather data analysis.</p></li>
 </ul></li>
 </ol>
 </div>
 <div id="standardization" class="section level3">
 <h3><span class="header-section-number">2.3.6</span> Standardization</h3>
 <ol style="list-style-type: decimal">
-<li>Once you have your data organized in a tidy fashion, it’s time to make sure the actual data values are standardized. Standardizing data involves many of the data cleaning steps from the previous session:
+<li><p>Once you have your data organized in a tidy fashion, it’s time to make sure the actual data values are standardized. Standardizing data involves many of the data cleaning steps from the previous session:</p>
 <ul>
-<li>Checking that you use consistent entries for the same data values (“Yes” vs. “Y” vs. “yes” → choose just one).</li>
-<li>Checking for data points that are outside the realm of possibility and are likely to be errors, like a dog recorded as weighing 500kg.</li>
-<li>Verifying that all values within a column are the same data type.</li>
+<li><p>Checking that you use consistent entries for the same data values (“Yes” vs. “Y” vs. “yes” → choose just one).</p></li>
+<li><p>Checking for data points that are outside the realm of possibility and are likely to be errors, like a dog recorded as weighing 500kg.</p></li>
+<li><p>Verifying that all values within a column are the same data type.</p></li>
 </ul></li>
 </ol>
 </div>

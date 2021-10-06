@@ -501,10 +501,12 @@
 </ol>
 <p><img src="images/M3S2_find-habitat.png" /></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Drag and drop <strong>Habitat</strong> into <strong>Columns</strong></li>
+<li>Drag and drop <strong>Habitat</strong> into <strong>Columns</strong>
+<ul>
+<li>This will place <strong>Habitat</strong> in the x-axis of the graph</li>
+</ul></li>
 </ol>
-<p><img src="images/M3S2_drag-habitat.png" />
-- This will place <strong>Habitat</strong> in the x-axis of the graph</p>
+<p><img src="images/M3S2_drag-habitat.png" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Find <strong>Biomass</strong> under CRM_Fish</li>
 </ol>
@@ -512,9 +514,11 @@
 <ol start="4" style="list-style-type: decimal">
 <li>Drag and drop <strong>Biomass</strong> into <strong>Rows</strong>
 <ul>
-<li>This will place <strong>Biomass</strong> in the y-axis.
-<img src="images/M3S2_drag-biomass.png" /></li>
+<li>This will place <strong>Biomass</strong> in the y-axis.</li>
 </ul></li>
+</ol>
+<p><img src="images/M3S2_drag-biomass.png" /></p>
+<ol start="5" style="list-style-type: decimal">
 <li>Congratulations! You just made your first bar plot in Tableau!</li>
 </ol>
 <p><strong><em>Entire View and Sorting </em></strong></p>
@@ -546,15 +550,17 @@
 <ol style="list-style-type: decimal">
 <li>The Show Me menu is a great tool where Tableau can suggest automated graphs, but we want to teach you how to take full control of Tableau. In order to do that, we will utilize the Marks menu.
 <ul>
-<li>The Marks menu is located to the left of your bar graph:
-<img src="images/M3S2_Marks-Menu.png" /></li>
+<li>The Marks menu is located to the left of your bar graph:</li>
 </ul></li>
-<li>Color
+</ol>
+<p><img src="images/M3S2_Marks-Menu.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Color</p>
 <ul>
-<li>Here you can customize the color, opacity, and border of your graph.
-<img src="images/M3S2_color-marks-menu.png" /></li>
-<li>Click on <strong>More colors…</strong> and you will see even more options to customize your color palette.</li>
-<li>Practice: Insert a Hex Color
+<li><p>Here you can customize the color, opacity, and border of your graph.
+<img src="images/M3S2_color-marks-menu.png" /></p></li>
+<li><p>Click on <strong>More colors…</strong> and you will see even more options to customize your color palette.</p></li>
+<li><p>Practice: Insert a Hex Color</p>
 <ul>
 <li>Find the Hex Color field under <strong>More colors…</strong>
 <ul>
@@ -566,7 +572,7 @@
 </ul></li>
 </ul></li>
 </ul></li>
-<li>Size
+<li><p>Size</p>
 <ul>
 <li>If you click on Size, a slider will appear. In bar graphs, the slider changes the width of each bar. Let’s see how Size affects a pie chart.
 <ul>
@@ -596,11 +602,11 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YXfZ2kcLdWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <ol start="5" style="list-style-type: decimal">
-<li>Details
+<li><p>Details</p>
 <ul>
 <li>We will cover the Details marks in a later session.</li>
 </ul></li>
-<li>Tooltip</li>
+<li><p>Tooltip</p></li>
 </ol>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tv4Ccex2m68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
@@ -613,12 +619,12 @@
 <li>Create a new sheet and name it “Line”.</li>
 <li>Drag <strong>Year</strong> into <strong>Columns</strong> and drag <strong>Biomass</strong> into <strong>Rows</strong>.</li>
 <li>For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let’s do that.</li>
-<li>Right click on the field where it says <strong>SUM (Size cm)</strong> and a drop down menu will appear. Choose <strong>Measure</strong>, then click on <strong>Average</strong>.
-<img src="images/M3S2_change-measure.png" /></li>
-<li>Does your plot now look like the image below? If so, you can move on to the next steps.
-<img src="images/M3S2_Line-Plot.png" /></li>
+<li>Right click on the field where it says <strong>SUM (Size cm)</strong> and a drop down menu will appear. Choose <strong>Measure</strong>, then click on <strong>Average</strong>.</li>
 </ul></li>
 </ol>
+<p><img src="images/M3S2_change-measure.png" /></p>
+<pre><code>- Does your plot now look like the image below? If so, you can move on to the next steps.</code></pre>
+<p><img src="images/M3S2_Line-Plot.png" /></p>
 </div>
 <div id="area-plot" class="section level3">
 <h3><span class="header-section-number">3.2.6</span> Area plot</h3>
@@ -967,13 +973,15 @@
 <h3><span class="header-section-number">3.3.6</span> Dynamic Tables</h3>
 <ol style="list-style-type: decimal">
 <li>The last thing we are going to learn in this session is how to create and use tables.</li>
-<li>There are three conditions to keep in mind when you create a table in Tableau:</li>
-</ol>
-<ol style="list-style-type: decimal">
+<li>There are three conditions to keep in mind when you create a table in Tableau:
+<ul>
 <li>Data should be dragged into Rows because we are following a long format.
-- Refer to Module 2 to learn more about long versus block format</li>
+<ul>
+<li>Refer to Module 2 to learn more about long versus block format</li>
+</ul></li>
 <li>Everything has to be discrete because the software will always attempt to plot continuous data as a chart, not as text.</li>
 <li>You can use filters, sort, and all the other functionalities that you learned for other types of plots. Tables in Tableau are similar to dynamic tables in Excel.</li>
+</ul></li>
 </ol>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/scRzDONC9GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
@@ -1051,24 +1059,21 @@
 <img src="images/m3s4_open-functions.png" />
 <img src="images/m3s4_view-functions.png" /></li>
 <li>If you scroll through the list, you will see all the functions that Tableau is capable of performing. These functions are very similar to operations and columns in Excel.</li>
-<li>We recommend that you check out Tableau’s free online resources to learn more about calculated fields.</li>
-</ol>
+<li>We recommend that you check out Tableau’s free online resources to learn more about calculated fields.
 <ul>
 <li><a href="https://www.tableau.com/learn/training/20212">Tableau free training videos</a></li>
 <li>Or if you are looking for tips not provided by Tableau, make sure that you are searching for operations in SQL language.</li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
+</ul></li>
 <li>One common calculation in ecology is finding the average biomass at a site that has been sampled multiple times, such as by several divers each swimming transects. You can use a calculated field, yet the details of your sampling and data arrangement affect how you set it up. See an example of setting up a calculated field in the sample data set below.</li>
 </ol>
-<iframe width="560" height="425" src="files/M3S4_calculated_field_biomass_example.pdf" frameborder="0" allowfullscreen>
+<iframe width="700" height="532" src="files/M3S4_calculated_field_biomass_example.pdf" frameborder="0" allowfullscreen>
 </iframe>
 </div>
 <div id="table-calculations-percentage-of-total-and-running-total" class="section level3">
 <h3><span class="header-section-number">3.4.6</span> Table calculations: percentage of total and running total</h3>
 <ol style="list-style-type: decimal">
-<li>One additional way to perform custom calculations is by using Table calculations, which are affected explicitly by whatever is being displayed in the active chart.</li>
-<li>In order to understand these better, let’s do an example. Create a new pie chart</li>
-</ol>
+<li><p>One additional way to perform custom calculations is by using Table calculations, which are affected explicitly by whatever is being displayed in the active chart.</p></li>
+<li><p>In order to understand these better, let’s do an example. Create a new pie chart</p>
 <ul>
 <li>Create a new sheet and name it “Pie4”</li>
 <li>Drag <strong>Habitat</strong> into <strong>Columns</strong> and <strong>Biomass tonnes</strong> into <strong>Rows</strong>
@@ -1079,15 +1084,14 @@
 <li>Change the view to Entire View</li>
 <li>Activate labels by clicking on <strong>Label</strong> in the Marks menu and check <strong>Show mark labels</strong> and change the font size to 14pt
 <img src="images/m3s4_pie-show-labels.png" /></li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
+</ul></li>
 <li><p>Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yjssVupYXrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></li>
-<li><p>Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:</p></li>
-</ol>
+<li><p>Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:</p>
 <ul>
 <li><a href="https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm">https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm</a></li>
-</ul>
+</ul></li>
+</ol>
 </div>
 <div id="conclusions-1" class="section level3">
 <h3><span class="header-section-number">3.4.7</span> Conclusions</h3>
@@ -1153,19 +1157,15 @@
 <div id="homework-1" class="section level3">
 <h3><span class="header-section-number">3.5.7</span> Homework</h3>
 <ol style="list-style-type: decimal">
-<li>Create a map.</li>
-</ol>
+<li>Create a map.
 <ul>
 <li>Remember that you know how to change the background and edit colors of the dots.</li>
-</ul>
-<ol style="list-style-type: decimal">
+</ul></li>
 <li>Create a scatter plot where the x-axis is average size, y-axis is total biomass and each mark within the scatterplot is a different species.</li>
-<li>Now, create a dashboard with the map and the scatterplot. Create a filter so that when you click on the map it filters the scatterplot.</li>
-</ol>
+<li>Now, create a dashboard with the map and the scatterplot. Create a filter so that when you click on the map it filters the scatterplot.
 <ul>
 <li>Remember to include title and text that describes the purpose of the dashboard.</li>
-</ul>
-<ol style="list-style-type: decimal">
+</ul></li>
 <li>Try a few adjustments to practice getting the aesthetic feel just the way you want.</li>
 </ol>
 </div>
@@ -1215,21 +1215,25 @@
 <div id="custom-shapes" class="section level3">
 <h3><span class="header-section-number">3.6.5</span> Custom shapes</h3>
 <ol style="list-style-type: decimal">
-<li>Wouldn’t it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.</li>
-<li>Before you begin this section, download this folder of images and save it to your desktop folder “Tableau Data Training”
-<iframe width="560" height="315" src="https://www.youtube.com/embed/joS9x6kKbiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-<li>Alfredo’s tips for custom shapes</li>
+<li><p>Wouldn’t it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.</p></li>
+<li><p>Before you begin this section, download this folder of images and save it to your desktop folder “Tableau Data Training”</p></li>
 </ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/joS9x6kKbiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<ol start="3" style="list-style-type: decimal">
+<li>Alfredo’s tips for custom shapes
 <ul>
 <li><em>Save the files as .png with transparent background</em></li>
 <li><em>Save all the .png images in one folder</em></li>
-</ul>
+</ul></li>
+</ol>
 </div>
 <div id="filters-in-dashboards" class="section level3">
 <h3><span class="header-section-number">3.6.6</span> Filters in dashboards</h3>
 <ol style="list-style-type: decimal">
-<li>So far, we have focused on using sheets to filter each other when together in a dashboard. However, sometimes we might want to use a field (not a sheet) to filter the information in the whole dashboard. 1. Below, you will find an example of how to do this.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QnUH-GObfgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+<li><p>So far, we have focused on using sheets to filter each other when together in a dashboard. However, sometimes we might want to use a field (not a sheet) to filter the information in the whole dashboard.</p></li>
+<li><p>Below, you will find an example of how to do this.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QnUH-GObfgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></li>
 </ol>
 </div>
 <div id="dynamic-text-elements" class="section level3">
@@ -1248,8 +1252,11 @@
 <div id="conclusions-3" class="section level3">
 <h3><span class="header-section-number">3.6.9</span> Conclusions</h3>
 <ol style="list-style-type: decimal">
-<li>Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web, or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+<li>Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web, or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<ol start="2" style="list-style-type: decimal">
 <li>Check out <a href="https://public.tableau.com/app/profile/datamares" class="uri">https://public.tableau.com/app/profile/datamares</a> to explore a wide range of dashboards that you can create using Tableau.</li>
 </ol>
 </div>
