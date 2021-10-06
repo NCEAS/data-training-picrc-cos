@@ -128,7 +128,6 @@ The five sections of the Message Box are provided below. For a detailed explanat
     - Fill out the Message Boxes 5 sections: "Issue", "Problems", "So What?", "Solutions", and "Benefits".
     - Practice providing your talking points for your latest project with a colleagues
 
-
 ![](images/message-box-blank.png)
 
 ### Resources
