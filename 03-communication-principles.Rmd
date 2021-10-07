@@ -8,7 +8,7 @@
 3. [Salience, Credibility and Legitimacy](#salience-credibility-and-legitimacy-cornerstones-of-effective-communication)
 4. [Crafting your Message](#crafting-your-message)
 5. [Practice Exercise: Fill Out The Message Box](#the-message-box) 
-6. [Resources](#resources)
+6. [Resources](#communication-resources)
 
 ### Communication Learning Objectives
 
@@ -130,7 +130,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ![](images/message-box-blank.png)
 
-### Resources
+### Commmunication Resources
 
 1. If you'd like to learn more watch [DataONE Webinar: Communication Strategies to Increase Your Impact](https://vimeo.com/323261612) from [DataONE](https://vimeo.com/dataoneorg) on [Vimeo](https://vimeo.com/).
 

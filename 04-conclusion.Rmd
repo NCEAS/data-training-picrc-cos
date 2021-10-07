@@ -43,8 +43,8 @@
 +----------------+-------------------------------------+----------------------------------------------+
 |                |                                     | - [Message Box Blank](https://nceas.github.io/data-training-picrc-cos/files/Message-Box-Blank.pdf)                          |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |2. Data Storytelling                 | - [Identify Your Audience Handout and Exercise](https://nceas.github.io/data-training-picrc-cos/PDF-Files/M4-S2.Data-Storytelling.Audience-Handout+Exercise.pdf)|
-|                |                                     | - [Data Storytelling Brief](https://nceas.github.io/data-training-picrc-cos/PDF-Files/M4-S2.Data-Storytelling.Brief.pdf)                    |
+|                |2. Data Storytelling                 | - [Identify Your Audience Handout and Exercise](https://nceas.github.io/data-training-picrc-cos/files/M4-S2.Data-Storytelling.Audience-Handout+Exercise.pdf)|
+|                |                                     | - [Data Storytelling Brief](https://nceas.github.io/data-training-picrc-cos/files/M4-S2.Data-Storytelling.Brief.pdf)                    |
 +----------------+-------------------------------------+----------------------------------------------+
 |                |3. Working with Graphic Designers    | - [Working with Graphic Designers Brief](files/M4-S3.Working-With-Graphic-Designers.Brief.pdf)       |
 +----------------+-------------------------------------+----------------------------------------------+
