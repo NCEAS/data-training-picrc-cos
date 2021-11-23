@@ -70,7 +70,7 @@
 
 \title{Data Management and Visualization Training}
 \author{Stanford Center for Open Solutions, National Center for Ecological Analysis and Synthesis}
-\date{2021-10-07}
+\date{2021-11-23}
 
 \begin{document}
 \maketitle
@@ -110,16 +110,16 @@
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{2}
 \item
-  \textbf{\emph{Content:}} In this training package, you will learn about three core elements of data management and visualization.
+  \textbf{\emph{Content:}} In this training package, you will learn about three core elements of data management and visualization. There are five modules, including this introductory module, each broken into several sessions. The core focus of this training is in Modules 2 and 3 with additional brief resources for storytelling or communication needs in Module 4.
 
   \begin{itemize}
   \tightlist
   \item
     \emph{Module 2: Working with Data} - including management of data resources, cleaning datasets, and normalizing \& standardizing data sets and databases.
   \item
-    \emph{Module 3: Visualizing Data} - including a focus on using Tableau software to build or enhance visualization skills and resources.
+    \emph{Module 3: Visualizing Data} - including a focus on using \href{https://www.tableau.com/}{Tableau software} to build or enhance visualization skills and resources.
   \item
-    \emph{Module 4: Communicating Data Stories} - including core principles in overall data communication, lessons in building and telling stories using your data sets, and working with external partners on visuals (such as graphic designers).
+    \emph{Module 4: Storytelling} - including core principles in overall data communication, lessons in building and telling stories using your data sets, and working with external partners on visuals (such as graphic designers).
   \item
     The concluding module (\emph{Module 5}) includes a collection of final messages and resources to aid you in your path forward.
   \end{itemize}
@@ -130,9 +130,20 @@
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{3}
-\tightlist
 \item
-  \textbf{\emph{Intended audience:}} In recognizing the wide range of roles and responsibilities individuals may have with respect to data use within an organization, this training is designed to be completed either in a sequence of all sessions from beginning to end or compartmentalized in modules and sessions to focus on specific skills. Whether you are a data novice interested in learning about all aspects of management and visualization, a data nerd who wants to learn more about visualization and communication, or a communications wizard who wants to be more familiar with data details or skills - this training package includes material to advance your understanding. This content is intended to equip you to better utilize and communicate data stories. In preparation for this course, it may help to briefly consider which data role(s) from the non-exhaustive list below best describes your interests and which lessons best suit your position and needs.
+  \textbf{\emph{Intended audience:}} In recognizing the wide range of roles and responsibilities individuals may have with respect to data use within an organization, this training is designed to be completed either in a sequence of all material from beginning to end or compartmentalized into modules and sessions to focus on specific skills. Whether you are a data novice interested in learning about all aspects of management and visualization, a data nerd who wants to learn more about visualization and communication, or a communications wizard who wants to be more familiar with data details or skills - this training package includes material to advance your understanding. This content is intended to equip you to better utilize and communicate data stories. In preparation for this course, it may help to briefly consider which data role(s) from the non-exhaustive list below best describes your interests and which lessons best suit your position and needs.
+\item
+  \textbf{\emph{Required tools:}} To take this training you will need:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    An internet connection, either to download the training booklet and supplementary documents or to view the training through a web browser. Watching the videos in Module 3 on Tableau requires an internet connection.
+  \item
+    Access to the software Tableau for Module 3. Details on how to install Tableau are in \href{https://nceas.github.io/data-training-picrc-cos/visualizing-data.html\#tableau-basics}{Module 3, Session 1: Tableau Basics} and \href{https://www.tableau.com/products/techspecs\#desktop}{this website} provides details on the necessary operating system requirements to install Tableau.
+  \item
+    The example data sets for exercises in Modules 2 and 3 are provided as Microsoft Excel files.
+  \end{itemize}
 \end{enumerate}
 
 \includegraphics{images/Data_Roles.png}
@@ -151,15 +162,19 @@
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  \textbf{\emph{Overview:}} The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their skill set. Each module contains links to additional sessions or resources for those that are interested in deeper topical dives.
+  \textbf{\emph{Overview:}} The content in the three core modules of this training package targets an audience of researchers or communicators seeking to build their skill set. Each module contains links to additional resources for those that are interested in deeper topical dives.
 \item
   \textbf{\emph{Materials:}} Some sessions include distilled handouts or briefs as well as short exercises to help you practice the skills while you are developing them.
-\item
-  \textbf{\emph{Briefs:}} Documents that can be utilized as a standalone resource - compiling core messages from a session.
-\item
-  \textbf{\emph{Exercises:}} Self-guided practical work to facilitate learning and enable exploration from a more conceptual framework.
-\item
-  \textbf{\emph{Video Tutorials:}} Recorded lessons (primarily in Module 4: Tableau) providing stepwise guidance to the interface and content.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Briefs: Documents that can be utilized as a standalone resource - compiling core messages from a session.
+  \item
+    Exercises: Self-guided practical work to facilitate learning and enable exploration from a more conceptual framework.
+  \item
+    Video Tutorials: Recorded lessons (primarily in Module 4: Tableau) providing stepwise guidance to the interface and content.
+  \end{itemize}
 \item
   \textbf{\emph{Iteration:}} As previously mentioned, the content in this training package is intended to be revisited on an iterative basis as needed. You can proceed through the content in sequence or focus on the modules or sessions of most interest to you. Regardless of your specific data-related role in an organization, there are opportunities to gain greater mastery through iterative practice and collaborative learning.
 \item
@@ -184,33 +199,35 @@
 \item
   \protect\hyperlink{file-naming}{File naming}
 \item
-  \protect\hyperlink{storage}{Storage}
+  \protect\hyperlink{Creating-a-working-folder-structure}{Creating a Working Folder Structure}
 \item
   \protect\hyperlink{metadata}{Metadata}
 \item
   \protect\hyperlink{version-control}{Version control}
+\item
+  \protect\hyperlink{data-management-summary}{Summary}
 \end{enumerate}
 
-\hypertarget{working-with-data-learning-objectives}{%
-\subsection{Working with Data: Learning objectives}\label{working-with-data-learning-objectives}}
+\hypertarget{data-management-learning-objectives}{%
+\subsection{Data Management: Learning objectives}\label{data-management-learning-objectives}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Learn good practices to store, name and, keep track of different versions of your data files
+  Learn good practices to store, name and keep track of different versions of your data files.
 \item
-  Understand the importance of metadata and use a template to create your own format
+  Understand the importance of metadata and use a template to create your own format.
 \end{enumerate}
 
-\hypertarget{working-with-data-value-statement}{%
-\subsection{Working with Data: Value statement}\label{working-with-data-value-statement}}
+\hypertarget{data-management-value-statement}{%
+\subsection{Data Management: Value statement}\label{data-management-value-statement}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
   Learning how to properly store, name, and version control your files is the basis to developing systematic procedures to analyze and visualize data.
 \item
-  Creating metadata files is essential to capturing key information about the context and content of a data file. Every data file should be accompanied by its metadata. By doing this, you can enable others to better understand your data and work more efficiently.
+  Creating metadata files is essential to capturing key information about the context and content of a data file. Every data file should be accompanied by its metadata, which provides data about data. By doing this, you can enable others to better understand your data and work more efficiently.
 \end{enumerate}
 
 \hypertarget{file-naming}{%
@@ -220,7 +237,7 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  While there is not a unique way to properly name your files, it is important to be consistent within your organization. Some of the best practices to do this include:
+  While there is not a unique way to properly name your files, it is important to be consistent within your organization to help your colleagues recognize which data each file contains. Some of the best practices to do this include:
 
   \begin{enumerate}
   \def\labelenumii{\arabic{enumii}.}
@@ -260,7 +277,11 @@
   \item
     Having a consistent file structure across projects, such as folders for script outputs or figures, can make it easier for colleagues and collaborators to understand where to find the files they need.
   \end{enumerate}
+\item
+  In the example file structure below, each project has its own folder and within each project folder, there are folders for code, data, and output files. The Code folder could store scripts for data cleaning or analysis, the Data folder has subfolders for the raw dataset and a version that has been tidied, and the Output folder could store plots or other results.
 \end{enumerate}
+
+\includegraphics{images/M2S1_example_file_structure.png}
 
 \hypertarget{metadata}{%
 \subsection{Metadata}\label{metadata}}
@@ -268,9 +289,9 @@
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Metadata are documentation describing the content, context, and structure of data to enable future interpretation and reuse of the data. Generally, metadata describe who collected the data, what data were collected, when and where it was collected, and why it was collected.
+  Metadata are documentation describing the content, context, and structure of data to enable future interpretation and reuse of the data. Generally, metadata describe who collected the data, what data were collected, when and where they were collected, and why they were collected so that anyone who looks at the data can understand what they mean.
 \item
-  Along with this class, we provided you with a metadata template. Please notice that this template can be adjusted to reflect your organization's needs, therefore some of the requested information might change accordingly. Below, you will find an example of a filled out metadata template for the data that we will be using in Module 3.
+  Along with this class, we provided you with a metadata template, downloadable \href{files/meatadata_template_blank.xlsx}{here}. Please notice that this template can be adjusted to reflect your organization's needs, therefore some of the requested information might change accordingly. Below, you will find an example of a filled out metadata template for the data that we will be using in Module 3.
 \item
   Make sure to always share the metadata along with your data files. Some recommendations to do this include:
 
@@ -293,16 +314,16 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Version control is the process of tracking and organizing the changes you make to files over time. Throughout the lifetime of a project, using a system to keep track of different versions of your files and how and why you changed them can make it easier to revert to earlier versions of files or work collaboratively on the same files. Software like Git and the associated interface GitHub provide a version control framework, particularly useful for code scripts. If you are interested in learning more about Git and GitHub, \href{https://nceas.github.io/oss-lessons/version-control/1-git-basics.html}{this lesson} and \href{http://ohi-science.org/data-science-training/github.html}{this portion} of a course from NCEAS, focusing on using Git with R, are some starting points. For a broader overview of reproducible science, including the utility of version control, see \href{https://www.nature.com/articles/s41559-017-0160}{this paper} by Lowndes and colleagues.
+  Version control is the process of tracking and organizing the changes you make to files over time. Throughout the lifetime of a project, using a system to keep track of different versions of your files and how and why you changed them can make it easier to revert to earlier versions of files or work collaboratively on the same files. Software like \href{https://git-scm.com}{Git} and the associated interface \href{https://github.com}{GitHub} provide a version control framework, particularly useful for code scripts. If you are interested in learning more about Git and GitHub, \href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/version-control-with-git-and-github.html}{this lesson} and these modules (\href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-collaboration-and-conflict-management.html}{Git collaboration}, \href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-pull-requests-and-branches.html}{Git branches} from a course by NCEAS, focusing on using Git with R, are some starting points. For a broader overview of reproducible science, including the utility of version control, see \href{https://www.nature.com/articles/s41559-017-0160}{this paper} by Lowndes and colleagues.
 \end{enumerate}
 
-\hypertarget{summary}{%
-\subsection{Summary}\label{summary}}
+\hypertarget{data-management-summary}{%
+\subsection{Data Management: Summary}\label{data-management-summary}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Well done, having a good folder structure, file naming practices, and version control capabilities are valuable tools to enable easy collaboration and to streamline workflows.
+  Well done! Having a good folder structure, file naming practices, and version control capabilities are valuable tools to enable easy collaboration and to streamline workflows.
 \item
   Remember that using metadata is extremely important, this is the only way to make sure that you and your team know exactly what is included in a data file. Never share a database without its corresponding metadata.
 \end{enumerate}
@@ -515,8 +536,8 @@
   \end{itemize}
 \end{enumerate}
 
-\hypertarget{summary-1}{%
-\subsection{Summary}\label{summary-1}}
+\hypertarget{summary}{%
+\subsection{Summary}\label{summary}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1651,8 +1672,8 @@
   Check your work by comparing it with this file.
 \end{enumerate}
 
-\hypertarget{summary-2}{%
-\subsection{Summary}\label{summary-2}}
+\hypertarget{summary-1}{%
+\subsection{Summary}\label{summary-1}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2637,8 +2658,8 @@
   \end{itemize}
 \end{enumerate}
 
-\hypertarget{summary-3}{%
-\subsection{Summary}\label{summary-3}}
+\hypertarget{summary-2}{%
+\subsection{Summary}\label{summary-2}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3560,8 +3581,8 @@ The five sections of the Message Box are provided below. For a detailed explanat
   \end{itemize}
 \end{enumerate}
 
-\hypertarget{summary-4}{%
-\subsection{Summary}\label{summary-4}}
+\hypertarget{summary-3}{%
+\subsection{Summary}\label{summary-3}}
 
 Distilled details contained in this \href{files/M4-S3.Working-With-Graphic-Designers.Brief.pdf}{brief}
 
