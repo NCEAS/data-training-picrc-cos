@@ -196,8 +196,8 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 
 ***In This Session***
 
-1. [Learning objectives](#normalization-learning-objectives)
-1. [Value statement](#value-statement)
+1. [Learning objectives](#normalization-and-standardization-learning-objectives)
+1. [Value statement](#normalization-and-standardization-value-statement)
 1. [Introduction to tidy data](#introduction-to-tidy-data)
 1. [Normalization](#normalization)
 1. [Data organization](#data-organization)
@@ -205,13 +205,13 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 1. [Exercise](#exercise)
 1. [Summary](#normalization-and-standardization-summary)
 
-### Normalization Learning Objectives
+### Normalization and Standardization: Learning objectives
 
-1. Understand the basics of tidy data, particularly normalization and standardization.
+1. Understand the basics of tidy data, particularly normalization and standardization (the processes of normalization and standardization we refer to here are specific to data management and distinct from the other meanings involving rescaling and recentering data as used in statistics.
 
 1. Learn how to design and create effective data tables.
 
-### Value statement
+### Normalization and Standardization: Value statement
 
 1. Normalizing and standardizing data eases analysis and reduces errors. It is also the basis for having datasets that can be easily updated as more data becomes available.
 
@@ -219,7 +219,7 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 
 1. Tidy data describes a method of organizing databases and data tables that makes data analysis, searching, and reuse easier.
 
-1. The tidy data approach is also known as the relational data model, which is used by relational databases like mySQL, Microsoft Access, and Oracle to store and organize data. If you’d like a more detailed look at the relational data model, see [this lesson] by NCEAS.
+1. The tidy data approach is also known as the relational data model, which is used by relational databases like mySQL, Microsoft Access, and Oracle to store and organize data. If you’d like a more detailed look at the relational data model, see [this lesson](https://learning.nceas.ucsb.edu/2020-11-RRCourse/session-7-data-modeling-essentials.html#data-modeling-tidy-data) by NCEAS.
 
 1. You don’t have to have a large and complex data set or be using a relational database, however, to see the benefits of having tidy data!
 
@@ -236,18 +236,19 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
     - Record each piece of data only once in the database. 
 
     
-1. We covered the first two points in the previous session when discussing best practices for designing data tables. The third point addresses how you store your data in different tables and how they interact. To record each piece of data only once in your database, you need to have data at different scales stored in different tables that then link to one another.
+1. We covered the first two points in the previous session when discussing best practices for designing data tables. The third point addresses how you store your data in different tables and how they interact. To record each piece of data only once in your database, you need to have distinct collections of data stored in different tables that then link to one another.
 
-    - For example, say you visit several sites and do multiple dives at each site. On each dive, you record the fish you see and information about each fish, such as species and length. In this case, you would store information about the sites in one table, information about each dive in another table, and information about the fish recorded on each dive in a third table. The schematic below shows these tables and how they relate.
+    - As an example of separately storing distinct collections of data, say you visit several sites and do multiple dives at each site. On each dive, you record the fish you see and information about each fish, such as species and length. In this case, you would store information about the sites in one table, information about each dive in another table, and information about the fish recorded on each dive in a third table. 
+        - Storing data only once in a database makes it less likely that there will be errors, especially if you have to alter data later on. For example, if you want to change the format of site coordinates or if the taxonomy of one of the species you sample is updated, you will only have to change entries in one place rather than across multiple tables.
+        - After you have normalized your data and identified the relevant tables (e.g., sites, species and dives), there needs to be an identifier that serves as the link between each set of tables. In the example below, the _Dive number_ links the Fish info table and the Dive info table - to get information about the dive when analyzing fish, you can pull the data from the Dive info table for the dive of the correct number. Similarly, _Site name_ links the Site info table and the Dive info table. The schematic below shows these tables and how they relate.
     
-        - After you have normalized your data and identified the relevant tables (e.g., sites, species and dives), there needs to be an identifier that serves as the link between each set of tables. In the example below, the Dive number links the Fish info table and the Dive info table - to get information about the dive when analyzing fish, you can pull the data from the Dive info table for the dive of the correct number. Similarly, Site name links the Site info table and the Dive info table
-    [](images/M2S3_normalization_data_tables.png)
+![](images/M2S3_normalization_data_tables.png)
 
 ### Data organization
 
 1. Once you have your data tables normalized, make sure that they are arranged in a way that a computer can easily interpret.
 
-    - Make sure that each table has its own tab in a spreadsheet - multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.
+    - Make sure that each table is stored separately. For example, if you are using a spreadsheet software, each table should hve its own sheet or tab. Multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.
     
     - Do calculations, like statistics or marginal sums, outside of your data spreadsheet. They are not observations, like the other rows, but rather data analysis.
 
@@ -263,10 +264,10 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 
 ### Exercise
 
-1. Time to practice with an untidy data set! Use what you’ve learned about data cleaning to normalize and standardize the data set here. See the tidied version here.
+1. Time to practice with an untidy data set! Use what you’ve learned about data cleaning to normalize and standardize the data set [here](files/M2S2_exercise.xlsx). See the tidied version [here](files/M2S3_exercise_key.xlsx).
 
-### Normalization and Standardization Summary
+### Normalization and Standardization: Summary
 
-1. Well done! Now that you’ve learned about best practices for managing and storing data, it’s time to move onto Tableau.
+1. Well done! [Here](files/data_processing_checklist.docx) is a checklist summarizing what we've learned about data organizing and tidying in this module. Now that you’ve learned about best practices for managing and storing data, it’s time to move onto Tableau.
 
 
