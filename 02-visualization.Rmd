@@ -16,25 +16,25 @@
 
 ### Tableau Basics: Learning Objectives
 
-1. Get familiar with the user interface of Tableau
+1. Get familiar with the user interface of Tableau.
 
-1. Learn how to connect data sets to Tableau interface
+1. Learn how to connect data sets to Tableau interface.
 
 ### Why Tableau?
 
 1. We are focusing on Tableau for two primary reasons. 
     - First, Tableau can read a variety of data types, as you will learn in this session. This means that many different software applications and assets can be combined in a single visualization to present to your audience. 
     - Second, Tableau is extremely intuitive. Once you get a grasp of the basic skills, you can create compelling visualizations of data in half of the time it would take in other coding software applications. 
-    - Note: For this training, all the exercises and examples were done with Tableau version 2021.1.
+    - Note: For this training, all the exercises and examples were done with Tableau version 2021.1. The menus may look slightly different in other versions of Tableau.
 
 ### Installing Tableau
 
 1. Let’s get started with installing the software, to do so, go to 
-https://www.tableau.com/ and select “Try Tableau for Free”
+https://www.tableau.com/ and select “Try Tableau for Free.”
 
-1. Register your email address and username and download the software
+1. Register your email address and username and download the software.
 
-1. Once installed, input your key (you get one when you buy the software) and you are ready to go
+1. Once installed, input your key (you get one when you buy the software) and you are ready to go.
 
 1. **Important note:** Tableau offers free 1-year licenses for educational purposes. If you belong to an academic institution, get a free license by going to https://www.tableau.com/community/academic. Once there, click on “Free student license”. You will need to provide information about your academic institution to validate your educational license. 
 
@@ -65,18 +65,18 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 ### Opening a file
 
-1. Create a new folder on your desktop. Name the folder “Tableau Data Training”
+1. Create a new folder on your desktop. Name the folder “Tableau Data Training.”
 
-1. Download this file: [CRM_Fish_edit](files/CRM_Fish_edit.xlsx) and save it in the “Tableau Data Training” folder
+1. Download this file: [CRM_Fish_edit](files/CRM_Fish_edit.xlsx) and save it in the “Tableau Data Training” folder.
 
-1. Follow along with this video to connect the new data file to Tableau
+1. Follow along with this video to connect the new data file to Tableau.
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EIItd2fpKDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 4. Progress check-in. So far, you have: 
     - Downloaded an excel file and connected it to Tableau
     - In Tableau, you learned about drag and drop. As Alfredo always says, “Tableau is all about drag and drop.”
-    - You connected the two tabs CRM_Fish and CMR_Site within the CRM_fish_edit Excel file—now in the Tableau interface. There is an orange line showing the connection. 
+    - You connected the two tabs CRM_Fish and CRM_Site within the CRM_fish_edit Excel file—now in the Tableau interface. There is an orange line showing the connection. 
 
 ![](images/M3S1_image1_draganddrop.png)
 
@@ -84,7 +84,8 @@ https://www.tableau.com/ and select “Try Tableau for Free”
 
 1. When you load a data file, you have to check that Tableau properly labels the data types. Here, we will discuss what those data types are and how they are assigned in Tableau.
     - ***Dimensions and Measurements***
-        - **Dimension** (also referred to as factor) is any information that is defined a priori of your actual sampling and helps to describe or categorize your results.  Whenever you can call something a category it is a factor. Example: Site name, species, habitat,
+        - **Dimension** (also referred to as factor) is any information that is defined a priori of your actual sampling and helps to describe or categorize your results.  Whenever you can call something a category it is a factor. Depending on your data, factors are sometimes written as numbers, like year or site ID.
+            - Example: Site name, species, habitat
         - **Measurements** are the actual results of your sampling. They are usually numbers that you went into the field to measure. 
             - Example: Fish size, population count, temperature
         - Tricky Case: Coordinates
@@ -115,7 +116,7 @@ https://www.tableau.com/ and select “Try Tableau for Free”
             - Example: number of fish recorded, total biomass, height, depth
 2. You should go through the preview of the data and ensure that each column is labeled correctly. 
     - *Note: Never skip this step even if you have worked with the data set in Tableau before!* 
-3. The type of data is shown as symbols above the column title
+3. The type of data is shown as symbols above the column title.
 
 ![](images/m3s1_image2_Data-Type-Symbols.png)
 
