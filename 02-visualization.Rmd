@@ -156,9 +156,9 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ***In this Session***
 
 1. [Learning Objectives](#basic-plots-learning-objectives)
-1. [Value Statement](#value-statement)
-1. [Creating Your First Graph](#Creating-Your-First-Graph)
-1. [Basic Plots using the Marks Menu](#Basic-Plots-using-the-Marks-Menu)
+1. [Value Statement](#basic-plots-value-statement)
+1. [Creating Your First Graph](#creating-your-first-graph)
+1. [Basic Plots using the Marks Menu](#basic-plots-using-the-marks-menu)
 1. [Line Plot](#line-plot)
 1. [Area Plot](#area-plot)
 1. [Map](#map)
@@ -167,21 +167,21 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. [Editing and Formatting the Axes](#editing-and-formatting-the-axes)
 1. [Saving my Files](#saving-my-files)
 1. [Homework Exercise](#homework-exercise)
-1. [Summary](#summary)
+1. [Summary](#tableau-skills-part-1-summary)
 
 ### Basic Plots: Learning Objectives
 
-1. Explore the user interface
+1. Explore the user interface.
 
-1. Learn how to make basic plots and customize them
+1. Learn how to make basic plots and customize them.
 
-1. Learn how to save and share workbooks
+1. Learn how to save and share workbooks.
 
-### Value statement
+### Basic Plots: Value Statement
 
 1. Learning how to make basic plots in Tableau (e.g., bars, lines, pies, etc.) and how to take full control of the appearance will prepare you to take full advantage of Tableau’s more advanced skills.
 
-1. *For this session we recommend that, if possible, have two screens open—one with Tableau and one with the course material—so you can follow along with the exercises.*
+1. *For this session we recommend that, if possible, you have two screens open—one with Tableau and one with the course material—so you can follow along with the exercises.*
 
 ### Creating your first graph
 
@@ -274,7 +274,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 5. Details
 
-    - We will cover the Details marks in a later session. 
+    - We will cover the Details marks in a [later session](#tableau-dashboards-part-1-basic-dashboards). 
 
 6. Tooltip
  
@@ -284,7 +284,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. Practice Exercise: Create and modify a **Line Plot**
     - Create a new sheet and name it “Line”.
-    - Drag **Year** into **Columns** and drag **Biomass** into **Rows**.
+    - Drag **Year** into **Columns** and drag **Size** into **Rows**.
     - For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let's do that. 
     - Right click on the field where it says **SUM (Size cm)** and a drop down menu will appear. Choose **Measure**, then click on **Average**.
     
@@ -329,7 +329,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
       - Click on **Tooltip** so we can edit the text. We want the name of the site to be at the top, so cut and paste “Site: <ATTR(Site)>” to move it above Latitude and Longitude. 
       - Delete the static text “Site:” leaving just “<ATTR(Site)>” at the top. 
       - Select all the text and change the alignment to center. 
-      - Next, add “˚N” to the right of <Latitude> and “˚W” to the right of <Longitude>
+      - Next, add “˚N” to the right of \<Latitude\> and “˚W” to the right of \<Longitude\>
         - Mac shortcut: “Option + Shift + 8”
         - Windows shortcut: “”Alt + 0176” (with Num Lock on)
         - If you have trouble with the degree symbol, copy and paste from this text: ˚N  ˚W
@@ -344,11 +344,11 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. To create a Bubble plot, you always start with a Bar plot. 
     - In a new sheet, drag and drop **Species** into **Columns** and **Biomass** into **Rows**.
-    - Then, click on **Show Me** and choose **Bubble**
+    - Then, click on **Show Me** and choose **Bubble**.
     ![](images/M3S2_show-me-bubble-plot.png)
     - E Voilá! A Bubble plot!
     ![](images/M3S2_bubble-plot.png)
-    - Name this sheet “Bubble”
+    - Name this sheet “Bubble.”
 
 ### Scatter plot
 
@@ -362,13 +362,13 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ![](images/M3S2_edit-axis.png)
 
-2. Under Title delete “Biomass g” and type “Total biomass (g)”
-3. Do the same for the y-axis. Replace the title with “Avg. Size (cm)” 
+2. Under Title delete “Biomass g” and type “Total biomass (g).”
+3. Do the same for the y-axis. Replace the title with “Avg. Size (cm).” 
 4. Now, we want to increase the font size to make the axes titles easier to read. 
     - Right-click on the y-axis and choose Format.
   ![](images/M3S2_format-axis.png)
 
-    - Open the dropdown menu that says Font: and change the font size to 14
+    - Open the dropdown menu that says Font: and change the font size to 14.
   ![](images/M3S2_axis-font-size.png)
     
 5. Do the same for the x-axis. 
@@ -394,16 +394,16 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ### Homework Exercise
 
 1. Open data file  Excel file CRM_Fish in Tableau, check field dimensions vs measure, data types, discrete vs. continuous. 
-1. Create a bar plot, a pie chart, line, map, scatter plot
+1. Create a bar plot, a pie chart, line, map, scatter plot.
 1. Make presentable for an audience. Ensure that: 
     - Axes are legible size and descriptive titles
     - Marks utilize nice and legible colors
     - Tooltips provide useful information
     - Name all worksheets
-1. Create a packaged workbook (.twbx)
-1. Check your work by comparing it with this file.
+1. Create a packaged workbook (.twbx).
+1. Check your work by comparing it with [this file](files/M3S2_exercise_key.twbx).
 
-### Summary 
+### Tableau Skill Part 1: Summary 
 1. Congratulations! You are now equipped to create basic plots in Tableau and take full control of their design.
 2. You also know that when sharing your work with colleagues, you should always include the data, either as a separate file, or included in your workbook as a data extract. 
 
