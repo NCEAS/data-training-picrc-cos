@@ -414,7 +414,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. [Learning objectives](#multiple-factors-and-dynamic-tables-learning-objectives)
 1. [Value statement](#multiple-factors-and-dynamic-tables-value-statement)
-1. [Multiple factor plots using the Marks menu](#Multiple-factor-plots-using-the-Marks-menu)
+1. [Multiple factor plots using the Marks menu](#multiple-factor-plots-using-the-marks-menu)
    - Create a map with multiple factors
    - Create a bar plot with multiple factors
    - Create a timeseries with multiple factors
@@ -430,9 +430,9 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Multiple Factors and Dynamic Tables: Learning objectives
 
-1. Learn how to create plots with multiple factors (e.g., colors, mark size, shapes)
-1. Explore Tableau’s mapping functionalities and learn to customize them
-1. Understand Tableau’s powerful filtering capabilities
+1. Learn how to create plots with multiple factors (e.g., colors, mark size, shapes).
+1. Explore Tableau’s mapping functionalities and learn to customize them.
+1. Understand Tableau’s powerful filtering capabilities.
 
 ### Multiple Factors and Dynamic Tables: Value statement
 
@@ -545,7 +545,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. The last thing we are going to learn in this session is how to create and use tables. 
 1. There are three conditions to keep in mind when you create a table in Tableau:
     - Data should be dragged into Rows because we are following a long format. 
-      - Refer to Module 2 to learn more about long versus block format
+      - Refer to [Module 2](#data-cleaning-best-practices) to learn more about long versus block format
     - Everything has to be discrete because the software will always attempt to plot continuous data as a chart, not as text. 
     - You can use filters, sort, and all the other functionalities that you learned for other types of plots. Tables in Tableau are similar to dynamic tables in Excel.      
 
@@ -561,13 +561,13 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Homework
 
-1. Create a bar plot where x-axis is year, y-axis is total biomass, and color is habitat
+1. Create a bar plot where x-axis is year, y-axis is total biomass, and color is habitat.
 1. Create a map where size of bubbles represents avg size of fish and color of bubble represents total biomass.
 1. Create a scatter plot where x-axis is total biomass, y-axis is avg size. Dots represent sites. Color and shape are the year. 
-1. Challenge: Pie chart where color represents habitat, size of slice represents total biomass, 1 pie chart in the same plot for each year 2012, 2013, 2014
-1. Create filters for species that allow you to select 1 species at a time in a single dropdown menu for any of these graphs
+1. Challenge: Pie chart where color represents habitat, size of slice represents total biomass, 1 pie chart in the same plot for each year 2012, 2013, 2014.
+1. Create filters for species that allow you to select 1 species at a time in a single dropdown menu for any of these graphs.
    - Note: Make sure all axes, labels, tooltips are legible and look presentable for an audience. 
-1. Create a packaged workbook (.twbx)
+1. Create a packaged workbook (.twbx).
 1. Check your work by comparing it with this file.
 
 
