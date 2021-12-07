@@ -4,10 +4,10 @@
 
 ***In this session***
 
-1. [Learning Objectives](#working-with-data-learning-objectives)
-1. [Value Statement](#working-with-data-value-statement)
+1. [Learning Objectives](#data-management-learning-objectives)
+1. [Value Statement](#data-management-value-statement)
 1. [File naming](#file-naming)
-1. [Creating a Working Folder Structure](#Creating-a-working-folder-structure)
+1. [Creating a Working Folder Structure](#creating-a-working-folder-structure)
 1. [Metadata](#metadata)
 1. [Version control](#version-control)
 1. [Summary](#data-management-summary)
