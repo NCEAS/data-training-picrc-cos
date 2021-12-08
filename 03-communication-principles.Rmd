@@ -7,21 +7,23 @@
 2. [Prioritizing Engagement](#prioritizing-engagement)
 3. [Salience, Credibility and Legitimacy](#salience-credibility-and-legitimacy-cornerstones-of-effective-communication)
 4. [Crafting your Message](#crafting-your-message)
-5. [Practice Exercise: Fill Out The Message Box](#the-message-box) 
-6. [Resources](#communication-resources)
+5. [The Message Box](#the-message-box)
+6. [Practice Exercise: Fill Out The Message Box](#practice-exercise-fill-out-the-message-box) 
+7. [Resources](#communication-resources)
 
-### Communication Learning Objectives
+### Communication: Learning Objectives
 
-1. Approach science communication from an engagement framework
-2. Utilize tools like the "Message Box" for developing and crafting your message (Practice Exercise)
+1. These three storytelling sessions are additional resources intended for communication professionals or those interested in expanding their skill sets beyond data management and visualization.
+2. Approach science communication from an engagement framework.
+3. Utilize tools like the "Message Box" for developing and crafting your message (practice exercise).
 
 ![](images/Mantra_for_Lilli.png)
 
 ### Prioritizing Engagement
 
-1. Science communication is more than dumping information on your audience. Rather, a successful communication approach will include learning what your audience desires and needs as well as building a relationship with the community you are trying to reach in order to anticipate future interests.
+1. Science communication is more than simply providing information to your audience. Rather, a successful communication approach will include learning what your audience desires and needs as well as building a relationship with the community you are trying to reach in order to anticipate future interests.
 
-2. In this module we present an engagement model of communication. In a deficit model of communication information flows one way. The scientist presents new information to an audience. On the other hand, an engagement model relies on including members of your audience as active collaborators in knowledge-building. Successful engagement means building trust and long-term relationships with the audience you hope to reach.
+2. In this module we present an engagement model of communication. In a deficit model of communication, information flows one way. The scientist presents new information to an audience. On the other hand, an engagement model relies on including members of your audience as active collaborators in knowledge-building. Successful engagement means building trust and long-term relationships with the audience you hope to reach.
 
 ![](images/m4s1_image1_speedoftrust.jpeg)
 
@@ -29,12 +31,12 @@ Source: Twitter @TheComNetwork
 
 ### Salience, Credibility and Legitimacy: Cornerstones of Effective Communication
 
-1. A focal point in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience’s perspective ([Cash et. al. 2002](https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4)). Another way to think of these terms could be the “when,” “who,” and “how” of the information provided.
-    - Salience: “... the relevance of information for an actor’s decision choices.” 
-        - Ensure that the content you are providing is relevant to the decisions that your audience members encounter in a time frame that meets their needs. For example, there is limited value in informing a tourist that traveled to a beach that the water quality was unhealthy a week after they visited. Rather, aim to anticipate the needs of your audience members such that you can provide digestible information right when they need it.
-    - Credibility: “...whether an actor perceives information as meeting standards of scientific plausibility and technical adequacy.” 
-       - The reputation of an organization or individual is of paramount importance when providing actionable information. Ensuring that “honest brokers of unbiased information” are the leading communicators enhances the perceived credibility of the information. This “credibility” consideration extends to every member of an organization or collaborative working group involved. Furthermore, after a period of time, audience members may desire to reflect on the accuracy of previous statements to gain an understanding of “how often have they been right?” 
-     - Legitimacy: “...whether an actor perceives the process in a system as unbiased and meeting standards of political and procedural fairness.” 
+1. A guiding principle in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience’s perspective ([Cash et. al. 2002](https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4)). Another way to think of these terms could be the “when,” “who,” and “how” of the information provided.
+    - Salience: “... the relevance of information for an actor’s decisions.” 
+        - Ensure that the content you are providing is relevant to the decisions that your audience members encounter in a time frame that meets their needs. For example, there is limited value in informing a tourist who traveled to a beach that the water quality was unhealthy a week after they visited. Rather, aim to anticipate the needs of your audience members such that you can provide digestible information right when they need it.
+    - Credibility: “...whether an actor perceives information as scientifically plausible and technically adequate.” 
+       - The reputation of an organization or individual is of paramount importance when providing actionable information. Ensuring that “honest brokers of unbiased information” are the leading communicators enhances the perceived credibility of the information. This “credibility” consideration extends to every member of an organization or collaborative working group involved. Furthermore, after a period of time, audience members may desire to reflect on the accuracy of previous statements to gain an understanding of “how often have those providing the information been right?” 
+     - Legitimacy: “...whether an actor perceives the process in a system as unbiased as well as politically and procedurally fair.” 
        - In many cases, audience members strongly consider how the information was collected, analyzed and conveyed - as well as the process for engaging communities that are most closely tied to the content. This requires transparency in the process and ensuring that perspectives of impacted stakeholders are integrated into the overall message.
 
 ### Crafting your message
@@ -42,9 +44,9 @@ Source: Twitter @TheComNetwork
 1. In order to create messages that stick, brainstorm your call to action and draft your core message.
     - Messages are intended to **lead your audience to action.**
       - _Key term: _**Call to Action (CTA)**
-      - What is the action you want to motivate people to?
+      - What is the action you want to motivate people to do?
 
-    - Write before you write.
+    - Draft before you write.
 
 > "Consider and articulate what your story is really about. Not the noun, the verb. It's not enough to say your story is about, say, salmon. Is it a story about bears that eat salmon? Salmon that eat bears?" - Michelle Nijhuis in The Science Writers' Handbook: Everything You Need to Know to Pitch, Publish, and Prosper in the Digital Age (2013)
 
@@ -63,7 +65,7 @@ Source: Twitter @TheComNetwork
        - We want to make our messages accessible by leveraging our audience’s existing knowledge and framing the language to be socially and culturally relevant. Note that this approach is distinct from simply “dumbing down” the content.
   
     
-    - Share about yourself to connect to their values, interests, and concerns.
+    - Share more details about yourself to connect to the audience's values, interests, and concerns.
       - By sharing details about yourself and your background you can build trust with your audience and relate to them on a deeper level. Personal stories and connections can aid in establishing credibility and an attachment to the issue.
  
     
@@ -77,14 +79,14 @@ Source: Twitter @TheComNetwork
 
 1. In preparing to communicate your scientific information, consider the use of targeted tools or practices to best focus your messages. One of the most popular tools in the science communication field is the Message Box - developed and shared by [COMPASS](https://www.compassscicomm.org/about-us/).
 
-2. The [Message Box](https://www.compassscicomm.org/leadership-development/the-message-box/) is a tool that helps researchers take the information they hold about their research and communicate it in a way that resonates with the chosen audience. It can be used to help prepare for interviews with journalists or employers, plan for a presentation, outline a paper or lecture, prepare a grant proposal, or clearly, and with relevancy, communicate your work to others. While the message box _can_ be used in all these ways, you must first identify the audience for your communication as that will drive your messaging. You would have a very different delivery for a group of scientists compared to a group of school children even with the same core message.
+2. The [Message Box](https://www.compassscicomm.org/leadership-development/the-message-box/) is a tool that helps researchers take the information they hold about their research and communicate it in a way that resonates with the chosen audience. It can be used to help prepare for interviews with journalists or employers, plan for a presentation, outline a paper or lecture, prepare a grant proposal, or clearly, and with relevance, communicate your work to others. While the message box _can_ be used in all these ways, you must first identify the audience for your communication as that will drive your messaging. You would have a very different delivery for a group of scientists compared to a group of school children even with the same core message.
 
-The Message Box comprises five sections to help you sort and distill your knowledge in a way that will resonate with your (chosen) audience. How we communicate with other scientists (through scholarly publications) is not how the rest of the rest of the world typically communicates.
+The Message Box comprises five sections to help you sort and distill your knowledge in a way that will resonate with your (chosen) audience. How we communicate with other scientists (through scholarly publications) is not how the rest of the world typically communicates.
 
 
 ![](images/message-box-blank.png)
  
-In a scientific paper, we establish credibility in the introduction and methods, provide detailed data and results, and then share the significance of our work in the discussion and conclusions. But the rest of the world leads with the impact, the take home message. A quick glance of newspaper headlines demonstrates this. 
+In a scientific paper, we establish credibility in the introduction and methods, provide detailed data and results, and then share the significance of our work in the discussion and conclusions. But the rest of the world leads with the impact, the take-home message. A quick glance of newspaper headlines demonstrates this. 
 
 
 ![](images/Communication.png)
@@ -95,11 +97,11 @@ The five sections of the Message Box are provided below. For a detailed explanat
  
 **The Issue**
 
-  - The "Issue" section in the center of the box identifies and describes the overarching issue or topic that you're addressing in broad terms. It's the big-picture context of your work. This should be very concise and clear; no more than a short phrase. You might find you revisit the Issue after you've filled out your Message Box, to see if your thinking on the overarching topic has changed since you started.
+  - The "Issue" section in the center of the box identifies and describes the overarching issue or topic that you're addressing in broad terms. It's the big-picture context of your work. This should be very concise and clear; no more than a short phrase. You might find you revisit the issue after you've filled out your Message Box to see if your thinking on the overarching topic has changed since you started.
   
 **The Problem**
 
-  - The "Problem" is the chunk of the broader issue that you're addressing in your area of expertise. It's your piece of the pie, reflecting your work and expert knowledge. Think about your research questions and what aspect of the specific problem you're addressing would matter to your audience. The Problem is also where you set up the "So What" and describe the situation you see and want to address.
+  - The "Problem" is the chunk of the broader issue that you're addressing in your area of expertise. It's your piece of the pie, reflecting your work and expert knowledge. Think about your research questions and which aspect of the specific problem you're addressing would matter to your audience. The Problem is also where you set up the "So What" and describe the situation you see and want to address.
   
 **The So What**
 
@@ -117,7 +119,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
   - In the Benefit section, you list the benefits of addressing the Problem — all the good things that could happen if your Solution section is implemented. This ties into the So What of why your audience cares, but focuses on the positive results of taking action (the "So What?" may be a negative thing — for example, inaction could lead to consequences that your audience cares about). If possible, it can be helpful to be specific here — concrete examples are more compelling than abstract. Who is likely to benefit, and where, and when?
   
- - In addition to the [Message Box Workbook](https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf), COMPASS have resources on how to [increase the impact](https://www.compassscicomm.org/practice/) of your message (include important statistics, draw comparisons, reduce jargon, use examples), exercises for practicing and [refining](https://www.compassscicomm.org/compare/) your message and published [examples](https://www.compassscicomm.org/examples/).
+ - In addition to the [Message Box Workbook](https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf), COMPASS provides resources on how to [increase the impact](https://www.compassscicomm.org/practice/) of your message (include important statistics, draw comparisons, reduce jargon, use examples), exercises for practicing and [refining](https://www.compassscicomm.org/compare/) your message and published [examples](https://www.compassscicomm.org/examples/).
 
 
 ### Practice Exercise: Fill Out The Message Box
@@ -125,14 +127,14 @@ The five sections of the Message Box are provided below. For a detailed explanat
 1. For your own practice, fill out a sample Message Box with an example audience from your own work (e.g. a local school, government agency, or even internal leadership). You can [download a blank message box](files/Message-Box-Blank.pdf) or draft your own.
 
     - Fill in your audience at the top of the Message Box.
-    - Fill out the Message Boxes 5 sections: "Issue", "Problems", "So What?", "Solutions", and "Benefits".
-    - Practice providing your talking points for your latest project with a colleagues
+    - Fill out the Message Box's 5 sections: "Issue", "Problems", "So What?", "Solutions", and "Benefits".
+    - Practice providing your talking points for your latest project with a colleague.
 
 ![](images/message-box-blank.png)
 
-### Commmunication Resources
+### Communication Resources
 
-1. If you'd like to learn more watch [DataONE Webinar: Communication Strategies to Increase Your Impact](https://vimeo.com/323261612) from [DataONE](https://vimeo.com/dataoneorg) on [Vimeo](https://vimeo.com/).
+1. If you'd like to learn more, watch [DataONE Webinar: Communication Strategies to Increase Your Impact](https://vimeo.com/323261612) from [DataONE](https://vimeo.com/dataoneorg) on [Vimeo](https://vimeo.com/).
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/323261612?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=2dc6b6a91a" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DataONE Webinar: Communication Strategies to Increase Your Impact"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
