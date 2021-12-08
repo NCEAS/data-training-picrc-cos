@@ -707,15 +707,15 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. [Custom shapes](#custom-shapes)
 1. [Filters in dashboards](#filters-in-dashboards)
 1. [Dynamic text elements](#dynamic-text-elements)
-1. [Creating a template](creating-a-template)
-1. [Conclusions](#conclusions)
+1. [Creating a template](#creating-a-template)
+1. [Conclusions](#graphic-design-conclusions)
 
 ### Graphic design: Learning objectives
 
-1. Learn how to add custom graphic design elements to your visualizations
-1. Learn how to add custom shapes to your plots
-1. Learn how to use text interactively
-1. Create your own template for amazing-looking visualizations
+1. Learn how to add custom graphic design elements to your visualizations.
+1. Learn how to add custom shapes to your plots.
+1. Learn how to use text interactively.
+1. Create your own template for amazing-looking visualizations.
 
 ### Graphic design: Value statement
 
@@ -735,13 +735,13 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. Wouldn’t it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.
 
-1. Before you begin this section, download [this folder of images](https://github.com/NCEAS/data-training-picrc-cos/raw/main/images/TNC%20-%20Fish%20Images.zip) and save it to your desktop folder “Tableau Data Training” 
+1. Before you begin this section, download [this folder of images](https://github.com/NCEAS/data-training-picrc-cos/raw/main/images/TNC%20-%20Fish%20Images.zip) and save it to your desktop folder “Tableau Data Training.” 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joS9x6kKbiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-3. Alfredo’s tips for custom shapes
-    - *Save the files as .png with transparent background*
-    - *Save all the .png images in one folder*
+3. Alfredo’s tips for custom shapes:
+    - *Save the files as .png with transparent background*.
+    - *Save all the .png images in one folder*.
 
 ### Filters in dashboards
 
@@ -759,9 +759,9 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. We strongly recommend that you develop a template with a graphic designer when possible before you create dashboards. This is the best way to enhance the quality of your dashboards. See [Module 4 Session 3](#working-with-graphic-designers) for tips on working with a graphic designer. 
 
-### Conclusions
+### Graphic design: Conclusions
 
-1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web, or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
+1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -778,22 +778,22 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ***In this session ***
 
-1. [Learning objectives](#Publishing-to-the-Web-learning-objectives)
-1. [Value statement](#Publishing-to-the-Web-value-statement)
+1. [Learning objectives](#Publishing-to-the-web-learning-objectives)
+1. [Value statement](#Publishing-to-the-web-value-statement)
 1. [Saving your work and your datasets](#saving-your-work-and-your-datasets)
 1. [Sharing your work](#sharing-your-work)
 1. [Embedding into a website](#embedding-into-a-website)
-1. [Summary](#summary)
+1. [Summary](#publishing-to-the-web-summary)
 
 ### Publishing to the Web: Learning objectives
 
-1. Learn how to share your content with colleagues
-1. Publish your work online
-1. Embed your dashboards in your website
+1. Learn how to share your content with colleagues.
+1. Publish your work online.
+1. Embed your dashboards in your website.
 
 ### Publishing to the Web: Value statement
 
-1. Tableau is a powerful tool to visualize and analyze data, however, its real value comes from being able to share this information with colleagues and the general public through the many options available
+1. Tableau is a powerful tool to visualize and analyze data, however, its real value comes from being able to share this information with colleagues and the general public through the many options available.
 
 ### Saving your work and your datasets
 
@@ -834,7 +834,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - From the same **Share** menu where you would get the link to share with colleagues, there is another option to get an **Embed Code**. This code is useful when you are trying to incorporate your visualization directly into your website. For example, if you are using an html-based website, the only thing you need to do is to copy and paste this embed code into your html code, and the interactive visualization will display in your website. (Note: WordPress is an html platform, thus you could add a new section with the Tableau Embed Code).
     - Remember that when creating the dashboard, you selected a size for your canvas. This size will determine the size of the embedded visualization, so make sure to be in constant communication with your website manager to know the ideal width and height of your visualizations. 
 
-### Summary
+### Publishing to the Web: Summary
 
 1. After completing this session you are equipped to save your datasets in Tableau format, your workbooks, and share them with colleagues who have Tableau either with .twb or .twbx files.
 1. You are also ready to publish your visualizations to different services online, either through a public website or a private server. Remember to create your Tableau Public account to get access to these services. While not covered in this session, we encourage you to explore the different settings available, including how to set some of your visualizations as private even though published in the public service.
