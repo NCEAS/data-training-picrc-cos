@@ -244,30 +244,30 @@ Distilled details with the key messages from this module are in this downloadabl
 
 ***In This Session ***
 
-1. [Learning Objectives](#graphic-design-learning-objectives)
-1. [Value Statement](#graphic-design-value-statement)
-1. [New Terms](#new-terms)
+1. [Learning Objectives](#working-with-graphic-designers-learning-objectives)
+1. [Value Statement](#working-with-graphic-designers-value-statement)
+1. [New Terms](#working-with-graphic-designers-new-terms)
 1. [Before You Start](#before-you-start)
 1. [Know Your Audience](#know-your-audience)
 1. [Define Your Vision](#define-your-vision)
 1. [Leave Execution to The Designer](#leave-execution-to-the-designer)
 1. [Continue to Iterate](#continue-to-iterate)
 1. [Finalize and Distribute Your Design](#finalize-and-distribute-your-design)
-1. [Summary](#summary)
+1. [Summary](#working-with-graphic-designers-summary)
 
 
-### Graphic Design: Learning Objectives
+### Working with Graphic Designers: Learning Objectives
 
 1. Learn how to work effectively and collaboratively with a designer in the context of a targeted design project.
-1. Learn how to facilitate a successful design project from start to finish with a designer
+1. Learn how to facilitate a successful design project from start to finish with a designer.
 
-### Graphic Design: Value Statement
+### Working with Graphic Designers: Value Statement
 
 1. Working effectively with graphic designers (designers for short in this session) will save you and your organization time and resources, particularly  with consistent communication and clear expectations.
 1. Learning how to work with designers will allow you to produce effective, meaningful and compelling visual content for your internal organization, or for external audiences.
 1. Utilizing designers elevates the effectiveness of your communication through visual storytelling expertise. 
 
-### New Terms
+### Working with Graphic Designers: New Terms
 
 1. ***Deliverable:*** A tangible or intangible good or service produced as a result of a project that is intended to be delivered to a project manager/customer (internal or external).
 1. ***Design assets:*** In terms of web design and development, “assets” typically refer to the text content, graphics, photographs, videos, audio files, and databases (for example, accessing an organization’s photo bank and icon libraries can be very beneficial for designers in producing work that has support permissions and image rights). Past design projects can also be useful resources.
@@ -294,7 +294,7 @@ Distilled details with the key messages from this module are in this downloadabl
       - *For example, show the designer where to find your organization’s current logo and flyer designs.*
       - *Another example of a design asset you can share with a designer is your organization's writing norms.*
       - ***Writing norms:** A document any staff can refer to for an organization's guidelines for written materials - to aid in copy editing processes.*
-    - Helping a designer know what your organization already has in terms of design material allows them to better design future material, as well as not duplicate efforts that have already previously been completed. 
+    - Helping a designer know what your organization already has in terms of design material allows them to better design future material, as well as not duplicate efforts that have already been completed. 
 3. Keep open communication with the designer throughout the project:
     - Communicate with the designer regularly at scheduled times, or as needed, not just at the beginning and end of a project.
     - These meetings can even be as short (~10 minutes) or long (60+ minutes) in duration according to your and the designer's needs.
@@ -311,7 +311,7 @@ Distilled details with the key messages from this module are in this downloadabl
 ### Communicate Audience Needs
 
 1. Communicate your target audience and their needs to the designer:
-    - Ensure you and the designer are on the same page for which audience you are trying to design for.
+    - Ensure you and the designer are on the same page for whichever audience you are trying to design for.
     - Share with the designer essential information about your target audience. This can include:
       - Audience: age, gender, organization, occupation, geographic location, nationality, economic needs, work mission, personal goals and more. 
     - These pieces of audience information can be very helpful in determining what is appropriate for this design project.
@@ -330,14 +330,14 @@ Distilled details with the key messages from this module are in this downloadabl
         - **CMYK (printing):** Stands for "Cyan Magenta Yellow Black." These are the four basic colors used for printing color images. Unlike RGB (red, green, blue), which is used for creating images on your computer screen, CMYK colors are for pigments (for example, the CMYK for a dark green is: C: 100, M: 30, Y: 73, K: 52).
       - If your audience may contain people affected by color vision deficiency, consider reviewing your images using a color-analyzing tool, such as [COBLIS](https://www.color-blindness.com/coblis-color-blindness-simulator/).
 
-2. Bring your ideas together in slide deck, vision board, collage etc. so you can communicate your specific vision to your designer.
+2. Bring your ideas together in a slide deck, vision board, collage etc. so you can communicate your specific vision to your designer.
 
 ![](images/Working-With-Graphic-Designers-Quote-3.png)
 
 3. After compiling your vision materials, communicate your specific vision to your designer to get them on the same page.
     - This vision does not need to be final or entirely complete, yet the vision must be specific enough to communicate the general direction and idea to the designer so that they can start to execute, or iterate on, the vision effectively.
     - ***Iterative design:** A circular design process that models, evaluates and improves designs based on the results of testing.*
-4. Also, your designer will likely also have some helpful ideas for the vision of the project. Remain open to innovative ideas as they come up!
+4. In addition, your designer will likely also have some helpful ideas for the vision of the project. Remain open to innovative ideas as they come up!
     - Whether new ideas come from you, the designer, your client etc., follow the ideas that most effectively meet the needs of your target audience. 
       - *For example, perhaps when meeting with a client, the client themselves comes up with a great idea for their organization's upcoming slide presentation. It is fine for you to take that idea, cite the client in an appropriate way, and execute it if it seems like the idea will meet the organization’s training needs.*
     - If someone has a better idea than you, embrace it! Support that person and their energy in pursuing that idea. Humility is a beneficial trait to have in brainstorming and multidisciplinary teamwork environments.
@@ -385,9 +385,9 @@ Distilled details with the key messages from this module are in this downloadabl
     - This feedback can help you and the designer in future projects, and also be used to improve long-term relationships with these organizations or people that you are working with.
 
 
-### Summary
+### Working with Graphic Designers: Summary
 
-Distilled details contained in this [brief](files/M4-S3.Working-With-Graphic-Designers.Brief.pdf)
+Distilled details contained in this [brief](files/M4S3_Working_With_Graphic_Designers_Brief.pdf)
 
 1. *Before You Start - Set Expectations*
 1. *Know Your Audience*
