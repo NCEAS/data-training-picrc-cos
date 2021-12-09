@@ -146,17 +146,17 @@ The five sections of the Message Box are provided below. For a detailed explanat
 2. [Value Statement](#storytelling-value-statement)
 3. [New Terms](#new-terms)
 4. [Receive Your Data](#receive-your-data)
-5. [Identifying Your Audience](#identifying-your-audience)
+5. [Identifying Your Audience](#identify-your-audience)
 6. [Understand Key Insights](#understand-key-insights)
 7. [Connect Stories to Key Insights](#connect-stories-to-key-insights)
 8. [Utilize Engaging Visuals](#utilize-engaging-visuals)
 9. [Share Your Data Stories](#share-your-data-stories)
-10. [Summary](#summary)
+10. [Summary](#data-storytelling-summary)
 
 ### Storytelling: Learning Objectives
 1. To learn the importance and potential of data storytelling.
    - ***Data storytelling:** The process of translating data sets into stories, or messages that your target audience can understand.*
-2. To learn a sample of approaches to data storytelling, including connecting stories and visuals to data for maximal effectiveness.
+2. To learn a sample of approaches to data storytelling, including connecting stories and visuals to data for maximum effectiveness.
 
 
 ### Storytelling: Value Statement
@@ -174,7 +174,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ### Receive Your Data
 1. The first step in effective data storytelling is to ensure you are working with clean, standardized data:
-   - This section assumes that the data you have to tell stories from is clean and standardized already. If your data is still raw and not cleaned, please refer to *Module 2* in this training curriculum, titled *“Data”* to learn more about how to clean and standardize your data set.
+   - This section assumes that the data you have to tell stories from are clean and standardized already. If your data are still raw and not cleaned, please refer to *Module 2* in this training curriculum, titled *“Data”* to learn more about how to clean and standardize your data set.
 
 ### Identify Your Audience 
 
@@ -187,7 +187,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
    - What are your audience's needs or goals? 
    - How can members of your audience help co-create these materials?
 4. To help facilitate your thought process on who your audience is, we have included a handout and self-guided practice exercise below for you to use as a tool:
-    - [***"Identify Your Audience" Handout + Exercise***](PDF-Files/M4-S2.Data-Storytelling.Audience-Handout+Exercise.pdf)
+    - [***"Identify Your Audience" Handout + Exercise***](files/M4S2_Data_Storytelling_Audience_Handout_Exercise.pdf)
 5. What considerations are most relevant as we create these data stories? Drafting a short list of these considerations can be a helpful starting point when initiating a data visualization process.
 
 
@@ -201,7 +201,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 1. Even if you have convincing graphs or numbers behind these key insights, it can still be hard for audience members to relate personally to these messages.
 2. Use relatable stories to bring key insights to life:
    - *For example, if you are sharing data insights on conservation efforts working with local fisheries, consider including a story of how local fishery members are reacting to recent conservation policy. Perhaps multiple stakeholders note the growing pains of the transition yet later begin to receive and recognize the value that results from the revised actions. The different perspectives noting the implications of the policy on their daily lives—in the short and long term—would make the material more approachable and engaging.*
-3. Include these relatable, or personable, stories and anecdotes to more fully engage your audience in the story of your data.
+3. Include these relatable, or personal, stories and anecdotes to more fully engage your audience in the story of your data.
 4. If you have difficulty selecting which stories to share, think about your target audience, and choose stories that they will likely relate to, or resonate with. Focus on what they need to hear; not just on what you want to say.
 
 ![](images/Data-Storytelling-Quote.png)
@@ -227,7 +227,10 @@ The five sections of the Message Box are provided below. For a detailed explanat
 3. The main point in data storytelling is to encourage you to develop and share your data stories with the people who need them! Do not let the effort you and your colleagues have put into your research remain as untold stories. 
 
 
-### Summary - Distilled details in this [session brief](PDF-Files/M4-S2.Data-Storytelling.Brief.pdf)
+### Data Storytelling: Summary
+
+Distilled details with the key messages from this module are in this downloadable [brief](files/M4S2_Data_Storytelling_Brief.pdf), to be used as a reference guide.
+
 1. Receive Your Data
 1. Identify Your Audience
 1. Understand Key Insights
