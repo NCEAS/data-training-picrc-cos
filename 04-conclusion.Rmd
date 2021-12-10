@@ -19,11 +19,11 @@
 +----------------+-------------------------------------+----------------------------------------------+
 | **Module**     | **Session**                         | **Relevant Resources**                       |
 +----------------+-------------------------------------+----------------------------------------------+
-|2. Data         |1. Data Management                   |                                              |
+|2. Data         |1. Data Management                   |  - [Metadata template](files/metadata_template_blank.xlsx)                                            |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |2. Data Cleaning                     |                                              |
+|                |2. Data Cleaning                     |  - [Data cleaning checklist](files/data_processing_checklist.docx)                                            |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |3. Normalization and Standardization | - Data Cleaning Exercise and Key             |
+|                |3. Normalization and Standardization | - Data Cleaning [Exercise](files/M2S3_exercise.xlsx) and [Key](files/M2S3_exercise_key.xlsx)             |
 +----------------+-------------------------------------+----------------------------------------------+
 |3. Tableau      |1. Tableau Basics                    | - [CRM_Fish_edit](files/CRM_Fish_edit.xlsx)                              |
 +----------------+-------------------------------------+----------------------------------------------+
