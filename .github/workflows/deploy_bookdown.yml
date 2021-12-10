@@ -22,10 +22,6 @@ jobs:
           TINYTEX_INSTALLER: TinyTeX
       - name: Install packages
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown","devtools"))'
-      - name: Install microtype from github until new version is released
-        run: Rscript -e 'devtools::install_github("schlcht/microtype")'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       - name: Render gitbook
         run: Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
       - name: Render pdfbook
