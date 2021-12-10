@@ -9,7 +9,6 @@ documentclass: book
 description: Materials for the Stanford and NCEAS PICRC Training
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-use-microtype: false
 ---
 
 # Introduction to Course
