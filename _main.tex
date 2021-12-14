@@ -70,7 +70,7 @@
 
 \title{Data Management and Visualization Training}
 \author{Stanford Center for Open Solutions, National Center for Ecological Analysis and Synthesis}
-\date{2021-12-06}
+\date{2021-12-14}
 
 \begin{document}
 \maketitle
@@ -193,13 +193,13 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \protect\hyperlink{working-with-data-learning-objectives}{Learning Objectives}
+  \protect\hyperlink{data-management-learning-objectives}{Learning Objectives}
 \item
-  \protect\hyperlink{working-with-data-value-statement}{Value Statement}
+  \protect\hyperlink{data-management-value-statement}{Value Statement}
 \item
   \protect\hyperlink{file-naming}{File naming}
 \item
-  \protect\hyperlink{Creating-a-working-folder-structure}{Creating a Working Folder Structure}
+  \protect\hyperlink{creating-a-working-folder-structure}{Creating a Working Folder Structure}
 \item
   \protect\hyperlink{metadata}{Metadata}
 \item
@@ -1722,7 +1722,7 @@
 \item
   \protect\hyperlink{multiple-factors-and-dynamic-tables-value-statement}{Value statement}
 \item
-  \protect\hyperlink{Multiple-factor-plots-using-the-Marks-menu}{Multiple factor plots using the Marks menu}
+  \protect\hyperlink{multiple-factor-plots-using-the-marks-menu}{Multiple factor plots using the Marks menu}
 
   \begin{itemize}
   \tightlist
@@ -1764,11 +1764,11 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Learn how to create plots with multiple factors (e.g., colors, mark size, shapes)
+  Learn how to create plots with multiple factors (e.g., colors, mark size, shapes).
 \item
-  Explore Tableau's mapping functionalities and learn to customize them
+  Explore Tableau's mapping functionalities and learn to customize them.
 \item
-  Understand Tableau's powerful filtering capabilities
+  Understand Tableau's powerful filtering capabilities.
 \end{enumerate}
 
 \hypertarget{multiple-factors-and-dynamic-tables-value-statement}{%
@@ -2076,7 +2076,7 @@
     \begin{itemize}
     \tightlist
     \item
-      Refer to Module 2 to learn more about long versus block format
+      Refer to \protect\hyperlink{data-cleaning-best-practices}{Module 2} to learn more about long versus block format
     \end{itemize}
   \item
     Everything has to be discrete because the software will always attempt to plot continuous data as a chart, not as text.
@@ -2107,15 +2107,15 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Create a bar plot where x-axis is year, y-axis is total biomass, and color is habitat
+  Create a bar plot where x-axis is year, y-axis is total biomass, and color is habitat.
 \item
   Create a map where size of bubbles represents avg size of fish and color of bubble represents total biomass.
 \item
   Create a scatter plot where x-axis is total biomass, y-axis is avg size. Dots represent sites. Color and shape are the year.
 \item
-  Challenge: Pie chart where color represents habitat, size of slice represents total biomass, 1 pie chart in the same plot for each year 2012, 2013, 2014
+  Challenge: Pie chart where color represents habitat, size of slice represents total biomass, 1 pie chart in the same plot for each year 2012, 2013, 2014.
 \item
-  Create filters for species that allow you to select 1 species at a time in a single dropdown menu for any of these graphs
+  Create filters for species that allow you to select 1 species at a time in a single dropdown menu for any of these graphs.
 
   \begin{itemize}
   \tightlist
@@ -2123,7 +2123,7 @@
     Note: Make sure all axes, labels, tooltips are legible and look presentable for an audience.
   \end{itemize}
 \item
-  Create a packaged workbook (.twbx)
+  Create a packaged workbook (.twbx).
 \item
   Check your work by comparing it with this file.
 \end{enumerate}
@@ -2141,15 +2141,15 @@
 \item
   \protect\hyperlink{operations-and-calculated-fields-value-statement}{Value statement}
 \item
-  \protect\hyperlink{convert-unites-using-calculated-fields}{Convert units using Calculated Fields}
+  \protect\hyperlink{convert-units-using-calculated-fields}{Convert units using Calculated Fields}
 \item
   \protect\hyperlink{manually-calculate-average}{Manually calculate average}
 \item
-  \protect\hyperlink{more-funtions}{More functions}
+  \protect\hyperlink{more-functions}{More functions}
 \item
-  \protect\hyperlink{table-calculations--percentage-of-total-and-running-total}{Table calculations: percentage of total and running total}
+  \protect\hyperlink{table-calculations-percentage-of-total-and-running-total}{Table calculations: percentage of total and running total}
 \item
-  \protect\hyperlink{conclusions}{Conclusions}
+  \protect\hyperlink{operations-and-calculated-fields-conclusions}{Conclusions}
 \end{enumerate}
 
 \hypertarget{operations-and-calculated-fields-learning-objectives}{%
@@ -2159,9 +2159,9 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Learning the different ways to calculate custom fields in tableau
+  Learning the different ways to calculate custom fields in Tableau.
 \item
-  Using new calculations to extract new insights from data
+  Using new calculations to extract new insights from data.
 \end{enumerate}
 
 \hypertarget{operations-and-calculated-fields-value-statement}{%
@@ -2230,30 +2230,30 @@
 \item
   One additional way to perform custom calculations is by using Table calculations, which are affected explicitly by whatever is being displayed in the active chart.
 \item
-  In order to understand these better, let's do an example. Create a new pie chart
+  In order to understand these better, let's do an example. Create a new pie chart.
 
   \begin{itemize}
   \tightlist
   \item
-    Create a new sheet and name it ``Pie4''
+    Create a new sheet and name it ``Pie4.''
   \item
-    Drag \textbf{Habitat} into \textbf{Columns} and \textbf{Biomass tonnes} into \textbf{Rows}
+    Drag \textbf{Habitat} into \textbf{Columns} and \textbf{Biomass tonnes} into \textbf{Rows}.
 
     \begin{itemize}
     \tightlist
     \item
-      \emph{A bar chart will appear }
+      \emph{A bar chart will appear }.
     \end{itemize}
   \item
-    Open the \textbf{Show Me} menu and choose \textbf{pie charts}
+    Open the \textbf{Show Me} menu and choose \textbf{pie charts}.
   \item
-    Change the view to Entire View
+    Change the view to Entire View.
   \item
-    Activate labels by clicking on \textbf{Label} in the Marks menu and check \textbf{Show mark labels} and change the font size to 14pt
+    Activate labels by clicking on \textbf{Label} in the Marks menu and check \textbf{Show mark labels} and change the font size to 14pt.
     \includegraphics{images/m3s4_pie-show-labels.png}
   \end{itemize}
 \item
-  Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels
+  Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels.
 \item
   Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau's repository. If you want to explore more resources, go to:
 
@@ -2264,8 +2264,8 @@
   \end{itemize}
 \end{enumerate}
 
-\hypertarget{conclusions-1}{%
-\subsection{Conclusions}\label{conclusions-1}}
+\hypertarget{operations-and-calculated-fields-conclusions}{%
+\subsection{Operations and calculated fields: Conclusions}\label{operations-and-calculated-fields-conclusions}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2283,7 +2283,7 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \protect\hyperlink{basic-dashboards-learning-objetives}{Learning objectives}
+  \protect\hyperlink{basic-dashboards-learning-objectives}{Learning objectives}
 \item
   \protect\hyperlink{basic-dashboards-value-statement}{Value statement}
 \item
@@ -2293,9 +2293,9 @@
 \item
   \protect\hyperlink{actions-filter-and-highlight}{Actions: filter and highlight}
 \item
-  \protect\hyperlink{conclusions}{Conclusions}
+  \protect\hyperlink{basic-dashboards-conclusions}{Conclusions}
 \item
-  \protect\hyperlink{homework}{Homework}
+  \protect\hyperlink{basic-dashboards-homework}{Homework}
 \end{enumerate}
 
 \hypertarget{basic-dashboards-learning-objectives}{%
@@ -2305,9 +2305,9 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Learn the basic windows and menus to create dashboards
+  Learn the basic windows and menus to create dashboards.
 \item
-  Explore how to make differents charts interact with each other through dashboard actions
+  Explore how to make different charts interact with each other through dashboard actions.
 \end{enumerate}
 
 \hypertarget{basic-dashboards-value-statement}{%
@@ -2354,8 +2354,8 @@
   Once you have added various elements, and charts, to your dashboards, it is time to make them interact with each other. The video below will show you two methods (filtering and highlighting) to use one chart to control the items in another chart. We will also cover some common troubleshooting situations.
 \end{enumerate}
 
-\hypertarget{conclusions-2}{%
-\subsection{Conclusions}\label{conclusions-2}}
+\hypertarget{basics-dashboards-conclusions}{%
+\subsection{Basics dashboards: Conclusions}\label{basics-dashboards-conclusions}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2364,8 +2364,8 @@
   Congratulations! You have completed the most important step in moving from single charts, to fully interactive data visualizations. The next step is to enhance these visuals a little more by learning how to incorporate graphic design elements.
 \end{enumerate}
 
-\hypertarget{homework-1}{%
-\subsection{Homework}\label{homework-1}}
+\hypertarget{basic-dashboards-homework}{%
+\subsection{Basic dashboards: Homework}\label{basic-dashboards-homework}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2387,6 +2387,16 @@
   \tightlist
   \item
     Remember to include title and text that describes the purpose of the dashboard.
+  \item
+    Feel free to create a canvas size that fits your taste. If you want a place to start, try 1000x800 (WxH).
+  \item
+    Pay special attention to the positioning of your elements by using the `layout' menu. Look at the answer key to see the exact positioning that the instructor used.
+  \item
+    Remember that you can also change the font size and color of any item in the dashboard (including the color legend) by clicking on the particular element and selecing `format'.
+  \item
+    If you have trouble making the filter work, use the answer key to open up the available action in the Dashboard/Actions menu. Make sure you understand everything that is going on within the action.
+  \item
+    Finally, remember that you can right click on the titles of each chart and hide them. This might be helpful to streamline the number of titles in the dashboard.
   \end{itemize}
 \item
   Try a few adjustments to practice getting the aesthetic feel just the way you want.
@@ -2415,9 +2425,9 @@
 \item
   \protect\hyperlink{dynamic-text-elements}{Dynamic text elements}
 \item
-  \href{creating-a-template}{Creating a template}
+  \protect\hyperlink{creating-a-template}{Creating a template}
 \item
-  \protect\hyperlink{conclusions}{Conclusions}
+  \protect\hyperlink{graphic-design-conclusions}{Conclusions}
 \end{enumerate}
 
 \hypertarget{graphic-design-learning-objectives}{%
@@ -2427,13 +2437,13 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Learn how to add custom graphic design elements to your visualizations
+  Learn how to add custom graphic design elements to your visualizations.
 \item
-  Learn how to add custom shapes to your plots
+  Learn how to add custom shapes to your plots.
 \item
-  Learn how to use text interactively
+  Learn how to use text interactively.
 \item
-  Create your own template for amazing-looking visualizations
+  Create your own template for amazing-looking visualizations.
 \end{enumerate}
 
 \hypertarget{graphic-design-value-statement}{%
@@ -2474,7 +2484,7 @@
 \item
   Wouldn't it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.
 \item
-  Before you begin this section, download \href{https://github.com/NCEAS/data-training-picrc-cos/raw/main/images/TNC\%20-\%20Fish\%20Images.zip}{this folder of images} and save it to your desktop folder ``Tableau Data Training''
+  Before you begin this section, download \href{https://github.com/NCEAS/data-training-picrc-cos/raw/main/images/TNC\%20-\%20Fish\%20Images.zip}{this folder of images} and save it to your desktop folder ``Tableau Data Training.''
 \end{enumerate}
 
 \begin{enumerate}
@@ -2482,14 +2492,14 @@
 \setcounter{enumi}{2}
 \tightlist
 \item
-  Alfredo's tips for custom shapes
+  Alfredo's tips for custom shapes:
 
   \begin{itemize}
   \tightlist
   \item
-    \emph{Save the files as .png with transparent background}
+    \emph{Save the files as .png with transparent background}.
   \item
-    \emph{Save all the .png images in one folder}
+    \emph{Save all the .png images in one folder}.
   \end{itemize}
 \end{enumerate}
 
@@ -2524,14 +2534,14 @@
   We strongly recommend that you develop a template with a graphic designer when possible before you create dashboards. This is the best way to enhance the quality of your dashboards. See \protect\hyperlink{working-with-graphic-designers}{Module 4 Session 3} for tips on working with a graphic designer.
 \end{enumerate}
 
-\hypertarget{conclusions-3}{%
-\subsection{Conclusions}\label{conclusions-3}}
+\hypertarget{graphic-design-conclusions}{%
+\subsection{Graphic design: Conclusions}\label{graphic-design-conclusions}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web, or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
+  Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
 \end{enumerate}
 
 \begin{enumerate}
@@ -2551,9 +2561,9 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \protect\hyperlink{Publishing-to-the-Web-learning-objectives}{Learning objectives}
+  \protect\hyperlink{Publishing-to-the-web-learning-objectives}{Learning objectives}
 \item
-  \protect\hyperlink{Publishing-to-the-Web-value-statement}{Value statement}
+  \protect\hyperlink{Publishing-to-the-web-value-statement}{Value statement}
 \item
   \protect\hyperlink{saving-your-work-and-your-datasets}{Saving your work and your datasets}
 \item
@@ -2561,7 +2571,7 @@
 \item
   \protect\hyperlink{embedding-into-a-website}{Embedding into a website}
 \item
-  \protect\hyperlink{summary}{Summary}
+  \protect\hyperlink{publishing-to-the-web-summary}{Summary}
 \end{enumerate}
 
 \hypertarget{publishing-to-the-web-learning-objectives}{%
@@ -2571,11 +2581,11 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Learn how to share your content with colleagues
+  Learn how to share your content with colleagues.
 \item
-  Publish your work online
+  Publish your work online.
 \item
-  Embed your dashboards in your website
+  Embed your dashboards in your website.
 \end{enumerate}
 
 \hypertarget{publishing-to-the-web-value-statement}{%
@@ -2585,7 +2595,7 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Tableau is a powerful tool to visualize and analyze data, however, its real value comes from being able to share this information with colleagues and the general public through the many options available
+  Tableau is a powerful tool to visualize and analyze data, however, its real value comes from being able to share this information with colleagues and the general public through the many options available.
 \end{enumerate}
 
 \hypertarget{saving-your-work-and-your-datasets}{%
@@ -2683,8 +2693,8 @@
   \end{itemize}
 \end{enumerate}
 
-\hypertarget{summary}{%
-\subsection{Summary}\label{summary}}
+\hypertarget{publishing-to-the-web-summary}{%
+\subsection{Publishing to the Web: Summary}\label{publishing-to-the-web-summary}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2717,21 +2727,25 @@
 \item
   \protect\hyperlink{crafting-your-message}{Crafting your Message}
 \item
-  \protect\hyperlink{the-message-box}{Practice Exercise: Fill Out The Message Box}
+  \protect\hyperlink{the-message-box}{The Message Box}
+\item
+  \protect\hyperlink{practice-exercise-fill-out-the-message-box}{Practice Exercise: Fill Out The Message Box}
 \item
   \protect\hyperlink{communication-resources}{Resources}
 \end{enumerate}
 
 \hypertarget{communication-learning-objectives}{%
-\subsection{Communication Learning Objectives}\label{communication-learning-objectives}}
+\subsection{Communication: Learning Objectives}\label{communication-learning-objectives}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Approach science communication from an engagement framework
+  These three storytelling sessions are additional resources intended for communication professionals or those interested in expanding their skill sets beyond data management and visualization.
 \item
-  Utilize tools like the ``Message Box'' for developing and crafting your message (Practice Exercise)
+  Approach science communication from an engagement framework.
+\item
+  Utilize tools like the ``Message Box'' for developing and crafting your message (practice exercise).
 \end{enumerate}
 
 \includegraphics{images/Mantra_for_Lilli.png}
@@ -2742,9 +2756,9 @@
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Science communication is more than dumping information on your audience. Rather, a successful communication approach will include learning what your audience desires and needs as well as building a relationship with the community you are trying to reach in order to anticipate future interests.
+  Science communication is more than simply providing information to your audience. Rather, a successful communication approach will include learning what your audience desires and needs as well as building a relationship with the community you are trying to reach in order to anticipate future interests.
 \item
-  In this module we present an engagement model of communication. In a deficit model of communication information flows one way. The scientist presents new information to an audience. On the other hand, an engagement model relies on including members of your audience as active collaborators in knowledge-building. Successful engagement means building trust and long-term relationships with the audience you hope to reach.
+  In this module we present an engagement model of communication. In a deficit model of communication, information flows one way. The scientist presents new information to an audience. On the other hand, an engagement model relies on including members of your audience as active collaborators in knowledge-building. Successful engagement means building trust and long-term relationships with the audience you hope to reach.
 \end{enumerate}
 
 \includegraphics{images/m4s1_image1_speedoftrust.jpeg}
@@ -2758,28 +2772,28 @@ Source: Twitter @TheComNetwork
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  A focal point in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience's perspective (\href{https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4}{Cash et. al.~2002}). Another way to think of these terms could be the ``when,'' ``who,'' and ``how'' of the information provided.
+  A guiding principle in effective communication to inform decision making is to consider the perceived salience, credibility, and legitimacy of the information from your audience's perspective (\href{https://dash.harvard.edu/bitstream/handle/1/32067415/Salience_credibility.pdf?sequence=4}{Cash et. al.~2002}). Another way to think of these terms could be the ``when,'' ``who,'' and ``how'' of the information provided.
 
   \begin{itemize}
   \tightlist
   \item
-    Salience: ``\ldots{} the relevance of information for an actor's decision choices.''
+    Salience: ``\ldots{} the relevance of information for an actor's decisions.''
 
     \begin{itemize}
     \tightlist
     \item
-      Ensure that the content you are providing is relevant to the decisions that your audience members encounter in a time frame that meets their needs. For example, there is limited value in informing a tourist that traveled to a beach that the water quality was unhealthy a week after they visited. Rather, aim to anticipate the needs of your audience members such that you can provide digestible information right when they need it.
+      Ensure that the content you are providing is relevant to the decisions that your audience members encounter in a time frame that meets their needs. For example, there is limited value in informing a tourist who traveled to a beach that the water quality was unhealthy a week after they visited. Rather, aim to anticipate the needs of your audience members such that you can provide digestible information right when they need it.
     \end{itemize}
   \item
-    Credibility: ``\ldots whether an actor perceives information as meeting standards of scientific plausibility and technical adequacy.''
+    Credibility: ``\ldots whether an actor perceives information as scientifically plausible and technically adequate.''
 
     \begin{itemize}
     \tightlist
     \item
-      The reputation of an organization or individual is of paramount importance when providing actionable information. Ensuring that ``honest brokers of unbiased information'' are the leading communicators enhances the perceived credibility of the information. This ``credibility'' consideration extends to every member of an organization or collaborative working group involved. Furthermore, after a period of time, audience members may desire to reflect on the accuracy of previous statements to gain an understanding of ``how often have they been right?''
+      The reputation of an organization or individual is of paramount importance when providing actionable information. Ensuring that ``honest brokers of unbiased information'' are the leading communicators enhances the perceived credibility of the information. This ``credibility'' consideration extends to every member of an organization or collaborative working group involved. Furthermore, after a period of time, audience members may desire to reflect on the accuracy of previous statements to gain an understanding of ``how often have those providing the information been right?''
     \end{itemize}
   \item
-    Legitimacy: ``\ldots whether an actor perceives the process in a system as unbiased and meeting standards of political and procedural fairness.''
+    Legitimacy: ``\ldots whether an actor perceives the process in a system as unbiased as well as politically and procedurally fair.''
 
     \begin{itemize}
     \tightlist
@@ -2808,10 +2822,10 @@ Source: Twitter @TheComNetwork
     \item
       \emph{Key term: }\textbf{Call to Action (CTA)}
     \item
-      What is the action you want to motivate people to?
+      What is the action you want to motivate people to do?
     \end{itemize}
   \item
-    Write before you write.
+    Draft before you write.
   \end{itemize}
 \end{enumerate}
 
@@ -2855,7 +2869,7 @@ Source: Twitter @TheComNetwork
       We want to make our messages accessible by leveraging our audience's existing knowledge and framing the language to be socially and culturally relevant. Note that this approach is distinct from simply ``dumbing down'' the content.
     \end{itemize}
   \item
-    Share about yourself to connect to their values, interests, and concerns.
+    Share more details about yourself to connect to the audience's values, interests, and concerns.
 
     \begin{itemize}
     \tightlist
@@ -2889,14 +2903,14 @@ Source: Twitter @TheComNetwork
 \item
   In preparing to communicate your scientific information, consider the use of targeted tools or practices to best focus your messages. One of the most popular tools in the science communication field is the Message Box - developed and shared by \href{https://www.compassscicomm.org/about-us/}{COMPASS}.
 \item
-  The \href{https://www.compassscicomm.org/leadership-development/the-message-box/}{Message Box} is a tool that helps researchers take the information they hold about their research and communicate it in a way that resonates with the chosen audience. It can be used to help prepare for interviews with journalists or employers, plan for a presentation, outline a paper or lecture, prepare a grant proposal, or clearly, and with relevancy, communicate your work to others. While the message box \emph{can} be used in all these ways, you must first identify the audience for your communication as that will drive your messaging. You would have a very different delivery for a group of scientists compared to a group of school children even with the same core message.
+  The \href{https://www.compassscicomm.org/leadership-development/the-message-box/}{Message Box} is a tool that helps researchers take the information they hold about their research and communicate it in a way that resonates with the chosen audience. It can be used to help prepare for interviews with journalists or employers, plan for a presentation, outline a paper or lecture, prepare a grant proposal, or clearly, and with relevance, communicate your work to others. While the message box \emph{can} be used in all these ways, you must first identify the audience for your communication as that will drive your messaging. You would have a very different delivery for a group of scientists compared to a group of school children even with the same core message.
 \end{enumerate}
 
-The Message Box comprises five sections to help you sort and distill your knowledge in a way that will resonate with your (chosen) audience. How we communicate with other scientists (through scholarly publications) is not how the rest of the rest of the world typically communicates.
+The Message Box comprises five sections to help you sort and distill your knowledge in a way that will resonate with your (chosen) audience. How we communicate with other scientists (through scholarly publications) is not how the rest of the world typically communicates.
 
 \includegraphics{images/message-box-blank.png}
 
-In a scientific paper, we establish credibility in the introduction and methods, provide detailed data and results, and then share the significance of our work in the discussion and conclusions. But the rest of the world leads with the impact, the take home message. A quick glance of newspaper headlines demonstrates this.
+In a scientific paper, we establish credibility in the introduction and methods, provide detailed data and results, and then share the significance of our work in the discussion and conclusions. But the rest of the world leads with the impact, the take-home message. A quick glance of newspaper headlines demonstrates this.
 
 \includegraphics{images/Communication.png}
 
@@ -2915,7 +2929,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \begin{itemize}
 \tightlist
 \item
-  The ``Issue'' section in the center of the box identifies and describes the overarching issue or topic that you're addressing in broad terms. It's the big-picture context of your work. This should be very concise and clear; no more than a short phrase. You might find you revisit the Issue after you've filled out your Message Box, to see if your thinking on the overarching topic has changed since you started.
+  The ``Issue'' section in the center of the box identifies and describes the overarching issue or topic that you're addressing in broad terms. It's the big-picture context of your work. This should be very concise and clear; no more than a short phrase. You might find you revisit the issue after you've filled out your Message Box to see if your thinking on the overarching topic has changed since you started.
 \end{itemize}
 
 \textbf{The Problem}
@@ -2923,7 +2937,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \begin{itemize}
 \tightlist
 \item
-  The ``Problem'' is the chunk of the broader issue that you're addressing in your area of expertise. It's your piece of the pie, reflecting your work and expert knowledge. Think about your research questions and what aspect of the specific problem you're addressing would matter to your audience. The Problem is also where you set up the ``So What'' and describe the situation you see and want to address.
+  The ``Problem'' is the chunk of the broader issue that you're addressing in your area of expertise. It's your piece of the pie, reflecting your work and expert knowledge. Think about your research questions and which aspect of the specific problem you're addressing would matter to your audience. The Problem is also where you set up the ``So What'' and describe the situation you see and want to address.
 \end{itemize}
 
 \textbf{The So What}
@@ -2951,7 +2965,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \item
   In the Benefit section, you list the benefits of addressing the Problem --- all the good things that could happen if your Solution section is implemented. This ties into the So What of why your audience cares, but focuses on the positive results of taking action (the ``So What?'' may be a negative thing --- for example, inaction could lead to consequences that your audience cares about). If possible, it can be helpful to be specific here --- concrete examples are more compelling than abstract. Who is likely to benefit, and where, and when?
 \item
-  In addition to the \href{https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf}{Message Box Workbook}, COMPASS have resources on how to \href{https://www.compassscicomm.org/practice/}{increase the impact} of your message (include important statistics, draw comparisons, reduce jargon, use examples), exercises for practicing and \href{https://www.compassscicomm.org/compare/}{refining} your message and published \href{https://www.compassscicomm.org/examples/}{examples}.
+  In addition to the \href{https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf}{Message Box Workbook}, COMPASS provides resources on how to \href{https://www.compassscicomm.org/practice/}{increase the impact} of your message (include important statistics, draw comparisons, reduce jargon, use examples), exercises for practicing and \href{https://www.compassscicomm.org/compare/}{refining} your message and published \href{https://www.compassscicomm.org/examples/}{examples}.
 \end{itemize}
 
 \hypertarget{practice-exercise-fill-out-the-message-box}{%
@@ -2967,22 +2981,22 @@ The five sections of the Message Box are provided below. For a detailed explanat
   \item
     Fill in your audience at the top of the Message Box.
   \item
-    Fill out the Message Boxes 5 sections: ``Issue'', ``Problems'', ``So What?'', ``Solutions'', and ``Benefits''.
+    Fill out the Message Box's 5 sections: ``Issue'', ``Problems'', ``So What?'', ``Solutions'', and ``Benefits''.
   \item
-    Practice providing your talking points for your latest project with a colleagues
+    Practice providing your talking points for your latest project with a colleague.
   \end{itemize}
 \end{enumerate}
 
 \includegraphics{images/message-box-blank.png}
 
-\hypertarget{commmunication-resources}{%
-\subsection{Commmunication Resources}\label{commmunication-resources}}
+\hypertarget{communication-resources}{%
+\subsection{Communication Resources}\label{communication-resources}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  If you'd like to learn more watch \href{https://vimeo.com/323261612}{DataONE Webinar: Communication Strategies to Increase Your Impact} from \href{https://vimeo.com/dataoneorg}{DataONE} on \href{https://vimeo.com/}{Vimeo}.
+  If you'd like to learn more, watch \href{https://vimeo.com/323261612}{DataONE Webinar: Communication Strategies to Increase Your Impact} from \href{https://vimeo.com/dataoneorg}{DataONE} on \href{https://vimeo.com/}{Vimeo}.
 \end{enumerate}
 
 \hypertarget{data-storytelling}{%
@@ -3002,7 +3016,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \item
   \protect\hyperlink{receive-your-data}{Receive Your Data}
 \item
-  \protect\hyperlink{identifying-your-audience}{Identifying Your Audience}
+  \protect\hyperlink{identify-your-audience}{Identifying Your Audience}
 \item
   \protect\hyperlink{understand-key-insights}{Understand Key Insights}
 \item
@@ -3012,7 +3026,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \item
   \protect\hyperlink{share-your-data-stories}{Share Your Data Stories}
 \item
-  \protect\hyperlink{summary}{Summary}
+  \protect\hyperlink{data-storytelling-summary}{Summary}
 \end{enumerate}
 
 \hypertarget{storytelling-learning-objectives}{%
@@ -3030,7 +3044,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
     \emph{\textbf{Data storytelling:} The process of translating data sets into stories, or messages that your target audience can understand.}
   \end{itemize}
 \item
-  To learn a sample of approaches to data storytelling, including connecting stories and visuals to data for maximal effectiveness.
+  To learn a sample of approaches to data storytelling, including connecting stories and visuals to data for maximum effectiveness.
 \end{enumerate}
 
 \hypertarget{storytelling-value-statement}{%
@@ -3071,7 +3085,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
   \begin{itemize}
   \tightlist
   \item
-    This section assumes that the data you have to tell stories from is clean and standardized already. If your data is still raw and not cleaned, please refer to \emph{Module 2} in this training curriculum, titled \emph{``Data''} to learn more about how to clean and standardize your data set.
+    This section assumes that the data you have to tell stories from are clean and standardized already. If your data are still raw and not cleaned, please refer to \emph{Module 2} in this training curriculum, titled \emph{``Data''} to learn more about how to clean and standardize your data set.
   \end{itemize}
 \end{enumerate}
 
@@ -3105,7 +3119,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
   \begin{itemize}
   \tightlist
   \item
-    \href{PDF-Files/M4-S2.Data-Storytelling.Audience-Handout+Exercise.pdf}{\textbf{\emph{``Identify Your Audience'' Handout + Exercise}}}
+    \href{files/M4S2_Data_Storytelling_Audience_Handout_Exercise.pdf}{\textbf{\emph{``Identify Your Audience'' Handout + Exercise}}}
   \end{itemize}
 \item
   What considerations are most relevant as we create these data stories? Drafting a short list of these considerations can be a helpful starting point when initiating a data visualization process.
@@ -3146,7 +3160,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
     \emph{For example, if you are sharing data insights on conservation efforts working with local fisheries, consider including a story of how local fishery members are reacting to recent conservation policy. Perhaps multiple stakeholders note the growing pains of the transition yet later begin to receive and recognize the value that results from the revised actions. The different perspectives noting the implications of the policy on their daily lives---in the short and long term---would make the material more approachable and engaging.}
   \end{itemize}
 \item
-  Include these relatable, or personable, stories and anecdotes to more fully engage your audience in the story of your data.
+  Include these relatable, or personal, stories and anecdotes to more fully engage your audience in the story of your data.
 \item
   If you have difficulty selecting which stories to share, think about your target audience, and choose stories that they will likely relate to, or resonate with. Focus on what they need to hear; not just on what you want to say.
 \end{enumerate}
@@ -3203,8 +3217,10 @@ The five sections of the Message Box are provided below. For a detailed explanat
   The main point in data storytelling is to encourage you to develop and share your data stories with the people who need them! Do not let the effort you and your colleagues have put into your research remain as untold stories.
 \end{enumerate}
 
-\hypertarget{summary---distilled-details-in-this-session-brief}{%
-\subsection{\texorpdfstring{Summary - Distilled details in this \href{PDF-Files/M4-S2.Data-Storytelling.Brief.pdf}{session brief}}{Summary - Distilled details in this session brief}}\label{summary---distilled-details-in-this-session-brief}}
+\hypertarget{data-storytelling-summary}{%
+\subsection{Data Storytelling: Summary}\label{data-storytelling-summary}}
+
+Distilled details with the key messages from this module are in this downloadable \href{files/M4S2_Data_Storytelling_Brief.pdf}{brief}, to be used as a reference guide.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3232,11 +3248,11 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \protect\hyperlink{graphic-design-learning-objectives}{Learning Objectives}
+  \protect\hyperlink{working-with-graphic-designers-learning-objectives}{Learning Objectives}
 \item
-  \protect\hyperlink{graphic-design-value-statement}{Value Statement}
+  \protect\hyperlink{working-with-graphic-designers-value-statement}{Value Statement}
 \item
-  \protect\hyperlink{new-terms}{New Terms}
+  \protect\hyperlink{working-with-graphic-designers-new-terms}{New Terms}
 \item
   \protect\hyperlink{before-you-start}{Before You Start}
 \item
@@ -3250,11 +3266,11 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \item
   \protect\hyperlink{finalize-and-distribute-your-design}{Finalize and Distribute Your Design}
 \item
-  \protect\hyperlink{summary}{Summary}
+  \protect\hyperlink{working-with-graphic-designers-summary}{Summary}
 \end{enumerate}
 
-\hypertarget{graphic-design-learning-objectives-1}{%
-\subsection{Graphic Design: Learning Objectives}\label{graphic-design-learning-objectives-1}}
+\hypertarget{working-with-graphic-designers-learning-objectives}{%
+\subsection{Working with Graphic Designers: Learning Objectives}\label{working-with-graphic-designers-learning-objectives}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3262,11 +3278,11 @@ The five sections of the Message Box are provided below. For a detailed explanat
 \item
   Learn how to work effectively and collaboratively with a designer in the context of a targeted design project.
 \item
-  Learn how to facilitate a successful design project from start to finish with a designer
+  Learn how to facilitate a successful design project from start to finish with a designer.
 \end{enumerate}
 
-\hypertarget{graphic-design-value-statement-1}{%
-\subsection{Graphic Design: Value Statement}\label{graphic-design-value-statement-1}}
+\hypertarget{working-with-graphic-designers-value-statement}{%
+\subsection{Working with Graphic Designers: Value Statement}\label{working-with-graphic-designers-value-statement}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3279,8 +3295,8 @@ The five sections of the Message Box are provided below. For a detailed explanat
   Utilizing designers elevates the effectiveness of your communication through visual storytelling expertise.
 \end{enumerate}
 
-\hypertarget{new-terms-1}{%
-\subsection{New Terms}\label{new-terms-1}}
+\hypertarget{working-with-graphic-designers-new-terms}{%
+\subsection{Working with Graphic Designers: New Terms}\label{working-with-graphic-designers-new-terms}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3351,7 +3367,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
       \emph{\textbf{Writing norms:} A document any staff can refer to for an organization's guidelines for written materials - to aid in copy editing processes.}
     \end{itemize}
   \item
-    Helping a designer know what your organization already has in terms of design material allows them to better design future material, as well as not duplicate efforts that have already previously been completed.
+    Helping a designer know what your organization already has in terms of design material allows them to better design future material, as well as not duplicate efforts that have already been completed.
   \end{itemize}
 \item
   Keep open communication with the designer throughout the project:
@@ -3397,7 +3413,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
   \begin{itemize}
   \tightlist
   \item
-    Ensure you and the designer are on the same page for which audience you are trying to design for.
+    Ensure you and the designer are on the same page for whichever audience you are trying to design for.
   \item
     Share with the designer essential information about your target audience. This can include:
 
@@ -3450,7 +3466,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
     \end{itemize}
   \end{itemize}
 \item
-  Bring your ideas together in slide deck, vision board, collage etc. so you can communicate your specific vision to your designer.
+  Bring your ideas together in a slide deck, vision board, collage etc. so you can communicate your specific vision to your designer.
 \end{enumerate}
 
 \includegraphics{images/Working-With-Graphic-Designers-Quote-3.png}
@@ -3470,7 +3486,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
     \emph{\textbf{Iterative design:} A circular design process that models, evaluates and improves designs based on the results of testing.}
   \end{itemize}
 \item
-  Also, your designer will likely also have some helpful ideas for the vision of the project. Remain open to innovative ideas as they come up!
+  In addition, your designer will likely also have some helpful ideas for the vision of the project. Remain open to innovative ideas as they come up!
 
   \begin{itemize}
   \tightlist
@@ -3606,10 +3622,10 @@ The five sections of the Message Box are provided below. For a detailed explanat
   \end{itemize}
 \end{enumerate}
 
-\hypertarget{summary-1}{%
-\subsection{Summary}\label{summary-1}}
+\hypertarget{working-with-graphic-designers-summary}{%
+\subsection{Working with Graphic Designers: Summary}\label{working-with-graphic-designers-summary}}
 
-Distilled details contained in this \href{files/M4-S3.Working-With-Graphic-Designers.Brief.pdf}{brief}
+Distilled details contained in this \href{files/M4S3_Working_With_Graphic_Designers_Brief.pdf}{brief}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3694,7 +3710,11 @@ Distilled details contained in this \href{files/M4-S3.Working-With-Graphic-Desig
   Data Management
 \end{enumerate}\strut
 \end{minipage} & \begin{minipage}[t]{0.42\columnwidth}\raggedright
-\strut
+\begin{itemize}
+\tightlist
+\item
+  \href{files/metadata_template_blank.xlsx}{Metadata template}
+\end{itemize}\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\raggedright
 \strut
@@ -3707,7 +3727,11 @@ Distilled details contained in this \href{files/M4-S3.Working-With-Graphic-Desig
   Data Cleaning
 \end{enumerate}\strut
 \end{minipage} & \begin{minipage}[t]{0.42\columnwidth}\raggedright
-\strut
+\begin{itemize}
+\tightlist
+\item
+  \href{files/data_processing_checklist.docx}{Data cleaning checklist}
+\end{itemize}\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\raggedright
 \strut
@@ -3723,7 +3747,7 @@ Distilled details contained in this \href{files/M4-S3.Working-With-Graphic-Desig
 \begin{itemize}
 \tightlist
 \item
-  Data Cleaning Exercise and Key
+  Data Cleaning \href{files/M2S3_exercise.xlsx}{Exercise} and \href{files/M2S3_exercise_key.xlsx}{Key}
 \end{itemize}\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\raggedright
