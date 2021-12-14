@@ -20,6 +20,8 @@ jobs:
         env:
           # install full prebuilt version
           TINYTEX_INSTALLER: TinyTeX
+      - name: update TinyTeX
+        run: Rscript -e 'tinytex::tlmgr_update()' 
       - name: Install packages
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown","devtools"))'
       - name: Render gitbook
