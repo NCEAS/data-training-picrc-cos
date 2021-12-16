@@ -27,13 +27,13 @@
 +----------------+-------------------------------------+----------------------------------------------+
 |3. Tableau      |1. Tableau Basics                    | - [CRM_Fish_edit](files/CRM_Fish_edit.xlsx)                              |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |2. Tableau Skills: Part 1            | - M3S2 Progress Check Workbook               |
+|                |2. Tableau Skills: Part 1            | - [M3S2 Progress Check Workbook](files/M3S2_exercise_key.twbx)               |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |3. Tableau Skills: Part 2            | - M3S3 Progress Check Workbook               |
+|                |3. Tableau Skills: Part 2            | - [M3S3 Progress Check Workbook](files/M3S3_exercise_key.twbx)               |
 +----------------+-------------------------------------+----------------------------------------------+
 |                |4. Tableau Skills: Part 3            | - [Biomass as a Calculated Field Slides](files/M3S4_calculated_field_biomass_example.pdf)       |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |5. Tableau Dashboards: Part 1        | - Map Making Homework File                   |
+|                |5. Tableau Dashboards: Part 1        | - [Map Making Homework File](files/M3S5_exercise_key.twbx)                   |
 +----------------+-------------------------------------+----------------------------------------------+
 |                |6. Tableau Dashboards: Part 2        | - M3S6 Progress Check Workbook               |
 +----------------+-------------------------------------+----------------------------------------------+
