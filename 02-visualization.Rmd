@@ -454,8 +454,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Now, let’s say you want to change the color based on the habitat to show the different habitats at different sites on the map. In order to do that, drag and drop Habitat into the Color field of the Marks menu. 
      - Double-click the Habitat legend on the right to explore the many color palettes that Tableau offers. 
         - There are two methods for choosing colors. The first is to just click **Assign Palette** and Tableau will automatically change the color of each Data Item. The second is to change each color manually. Click on the Data Item, for example **Inner_Reef**, so it is highlighted and then click on the specific color you’d like to choose. 
-
-3. Create a bar plot with multiple factors
+1. Create a bar plot with multiple factors
     - In a new sheet, drag **Site** into **Columns** and **Biomass** into **Rows**. 
       - Name this sheet “Bars2” 
       - Sort the bars in descending order. There are two potential approaches:
@@ -468,11 +467,9 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
    - What if we want to know how different species contribute to the overall biomass of each site?
      - Remove **Habitat** from the Marks menu by dragging it to the left column. 
     - This is a fun example of the many possible options you have by adding dimensions and measures into the Marks menu. 
-
-4. Create a timeseries with multiple factors
+1. Create a timeseries with multiple factors
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7KiCSWUZFp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-5. Create a scatter plot with multiple factors
+1. Create a scatter plot with multiple factors
     - In a new sheet, drag **Biomass** into **Columns** and **Size** into **Rows**. Name this sheet “Scatter2”
       - Change the Size from Sum to Average by right-clicking **Size**, choose **Measure** and choose **Average**:
       ![](images/M3S3-scatter-change-size.png)
@@ -484,8 +481,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
       - *Notice that you have two habitat fields in the Marks menu. *
     - Do you notice that there is blank space at the bottom of the plot from zero to twelve? We don’t really need that dead space so let’s get rid of it. 
       - Double-click on the **y-axis**. Uncheck **Include zero**. Exit the pop-up screen and you will see that now the plot is much clearer. 
-
-6. Create a bar plot using continuous data
+1. Create a bar plot using continuous data
     - So far we have been using discrete data in the Marks menu to customize our plots. What happens when we use continuous data? Let’s find out together. 
     - In a new sheet, create a bar plot with **Species** on the x-axis and average **Size** on the y-axis. 
       - *Remember that you have to right-click the Size field in Rows to change it from sum to average. *
@@ -568,7 +564,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. Create filters for species that allow you to select 1 species at a time in a single dropdown menu for any of these graphs.
    - Note: Make sure all axes, labels, tooltips are legible and look presentable for an audience. 
 1. Create a packaged workbook (.twbx).
-1. Check your work by comparing it with this file.
+1. Check your work by comparing it with [this file](files/M3S3_exercise_key.twbx).
 
 
 
