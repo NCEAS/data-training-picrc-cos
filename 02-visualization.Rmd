@@ -516,7 +516,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
       - *The information provided unter Data Layers only applies to the United States. *
     - The map will normally try to occupy the space and show the whole geographic scope of your data as a default. In this case, we see Palau from Kayangel to Angaur. 
     - To explore the whole globe by moving the map around, hover over the triange in the upper left corner and choose **Pan**. 
-   ![](images/M3S3-map3-pan.png)
+     ![](images/M3S3-map3-pan.png)
     - Then, you can click and drag to move the map. 
     - You can also choose the options to the right of Pan to use selection tools that allow you to choose a group of points to highlight. 
     - You can also zoom in and out using the plus and minus buttons. 
@@ -624,7 +624,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Change the view to Entire View.
     - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt.
     ![](images/m3s4_pie-show-labels.png)
-1. Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels.
+1. Next, follow along as Alfredo shows you how to calculate and display percentages of total.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yjssVupYXrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 1. Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:
     - [https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) 
@@ -731,7 +731,6 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. Wouldn’t it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.
 
 1. Before you begin this section, download [this folder of images](https://github.com/NCEAS/data-training-picrc-cos/raw/main/images/TNC%20-%20Fish%20Images.zip) and save it to your desktop folder “Tableau Data Training.” 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joS9x6kKbiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 3. Alfredo’s tips for custom shapes:
@@ -757,7 +756,6 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ### Graphic design: Conclusions
 
 1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 2. Check out https://public.tableau.com/app/profile/datamares to explore a wide range of dashboards that you can create using Tableau.
