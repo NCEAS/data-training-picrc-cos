@@ -485,7 +485,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - So far we have been using discrete data in the Marks menu to customize our plots. What happens when we use continuous data? Let’s find out together. 
     - In a new sheet, create a bar plot with **Species** on the x-axis and average **Size** on the y-axis. 
       - *Remember that you have to right-click the Size field in Rows to change it from sum to average. *
-    - Then sort Species from highest to lowest Size. Right-click the **Species** field in Columns. Choose **Sort**. 
+    - Then sort Species from highest to lowest Size. Right-click the **Species** field in Columns and choose **Sort**.  
     ![](images/M3S3-bars3-species-sort.png)
     - In the pop-up menu, open the drop-down menu under Sort By, choose **Field**, and choose **Descending** under Sort Order. 
     ![](images/M3S3-bars3-species-sort2.png)
@@ -515,9 +515,9 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
         - *You can either move the slider right or you can type in the white box.* 
       - *The information provided unter Data Layers only applies to the United States. *
     - The map will normally try to occupy the space and show the whole geographic scope of your data as a default. In this case, we see Palau from Kayangel to Angaur. 
-    - You can also move around the map to explore the whole globe. In the upper left corner of the hover over the triangle and choose Pan:
+    - To explore the whole globe by moving the map around, hover over the triange in the upper left corner and choose **Pan**. 
    ![](images/M3S3-map3-pan.png)
-   - Then, you can click and drag to move the map. 
+    - Then, you can click and drag to move the map. 
     - You can also choose the options to the right of Pan to use selection tools that allow you to choose a group of points to highlight. 
     - You can also zoom in and out using the plus and minus buttons. 
 
@@ -624,10 +624,9 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Change the view to Entire View.
     - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt.
     ![](images/m3s4_pie-show-labels.png)
-3. Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels.
+1. Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the labels.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yjssVupYXrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-4. Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:
+1. Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:
     - [https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) 
 
 ### Operations and calculated fields: Conclusions
@@ -659,7 +658,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Introduction to dashboards
 
-1. The very first thing to learn about dashboards is how to add different elements to it. Not everything is about the interactive charts, but also the text, symbols and other elements that help you convey a story for the reader. In the video below, you will learn how to set up your canvas and add elements to it.
+1. The very first thing to learn about dashboards is how to add different elements to it. Not everything is about the interactive charts, but also the text, symbols and other elements that help you convey a story for the reader. In this video, you will learn how to set up your canvas and add elements to it.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pP78GuC_7_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Floating dashboards
