@@ -14,7 +14,7 @@
 
 ## Resources
 
-1. The table below provides direct links to all of the files from each Module and Session. The full zipped package can be accessed and downloaded using this link.
+1. The table below provides direct links to all of the files from each Module and Session. The full zipped package can be accessed and downloaded using [this link](files/M5S2_all_resources.zip).
       
 +----------------+-------------------------------------+----------------------------------------------+
 | **Module**     | **Session**                         | **Relevant Resources**                       |
@@ -35,9 +35,9 @@
 +----------------+-------------------------------------+----------------------------------------------+
 |                |5. Tableau Dashboards: Part 1        | - [Map Making Homework File](files/M3S5_exercise_key.twbx)                   |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |6. Tableau Dashboards: Part 2        | - M3S6 Progress Check Workbook               |
+|                |6. Tableau Dashboards: Part 2        |               |
 +----------------+-------------------------------------+----------------------------------------------+
-|                |7. Publishing to the web             |                                              |
+|                |7. Publishing to the Web             |                                              |
 +----------------+-------------------------------------+----------------------------------------------+
 |4. Storytelling |1. Communication Principles          | - [Message Box Workbook](https://www.compassscicomm.org/wp-content/uploads/2020/05/The-Message-Box-Workbook.pdf)                       |
 +----------------+-------------------------------------+----------------------------------------------+
