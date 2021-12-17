@@ -515,7 +515,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
         - *You can either move the slider right or you can type in the white box.* 
       - *The information provided unter Data Layers only applies to the United States. *
     - The map will normally try to occupy the space and show the whole geographic scope of your data as a default. In this case, we see Palau from Kayangel to Angaur. 
-    - To explore the whole globe by moving the map around, hover over the triange in the upper left corner and choose **Pan**. 
+    - To explore the whole globe by moving the map around, hover over the triange in the upper left corner and choose **Pan**.   
      ![](images/M3S3-map3-pan.png)
     - Then, you can click and drag to move the map. 
     - You can also choose the options to the right of Pan to use selection tools that allow you to choose a group of points to highlight. 
@@ -755,7 +755,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Graphic design: Conclusions
 
-1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.
+1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 2. Check out https://public.tableau.com/app/profile/datamares to explore a wide range of dashboards that you can create using Tableau.
