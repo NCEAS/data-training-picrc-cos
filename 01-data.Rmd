@@ -6,25 +6,25 @@
 
 1. [Learning Objectives](#data-management-learning-objectives)
 1. [Value Statement](#data-management-value-statement)
-1. [File naming](#file-naming)
+1. [File Naming](#file-naming)
 1. [Creating a Working Folder Structure](#creating-a-working-folder-structure)
 1. [Metadata](#metadata)
-1. [Version control](#version-control)
-1. [Summary](#data-management-summary)
+1. [Version Control](#version-control)
+3. [Summary](#data-management-summary)
 
-### Data Management: Learning objectives
+### Data Management: Learning Objectives
 
 1. Learn good practices to store, name and keep track of different versions of your data files.
 
 1. Understand the importance of metadata and use a template to create your own format.
 
-### Data Management: Value statement
+### Data Management: Value Statement
 
 1. Learning how to properly store, name, and version control your files is the basis to developing systematic procedures to analyze and visualize data. 
 
 1. Creating metadata files is essential to capturing key information about the context and content of a data file. Every data file should be accompanied by its metadata, which provides data about data. By doing this, you can enable others to better understand your data and work more efficiently.
 
-### File naming
+### File Naming
 
 1. While there is not a unique way to properly name your files, it is important to be consistent within your organization to help your colleagues recognize which data each file contains. Some of the best practices to do this include:
     1. Use descriptive names that would make sense to any reader. For example, don’t use acronyms or abbreviations.
@@ -34,7 +34,7 @@
     1. If you want to keep track of versions, don’t use endings such as “final”, “v5”, etc. Instead, we suggest that you either use the date in format YYYYMMDD, or use a version control system, as we will see in a later section.
     1. Don’t start a file name with a number, though it is fine to use numbers elsewhere in the name, as in the examples above.
 
-### Creating a working folder structure
+### Creating a Working Folder Structure
 
 1. It is important to create a folder structure that will allow you and your colleagues to easily organize and retrieve any files that you are working with.
 
@@ -60,7 +60,7 @@
 
 ![](images/m2s1_metadata_template_filled.jpg)
 
-### Version control
+### Version Control
 
 1. Version control is the process of tracking and organizing the changes you make to files over time. Throughout the lifetime of a project, using a system to keep track of different versions of your files and how and why you changed them can make it easier to revert to earlier versions of files or work collaboratively on the same files. Software like [Git](https://git-scm.com) and the associated interface [GitHub](https://github.com) provide a version control framework, particularly useful for code scripts. If you are interested in learning more about Git and GitHub, [this lesson](https://learning.nceas.ucsb.edu/2021-11-RRCourse/version-control-with-git-and-github.html) and these modules ([Git collaboration](https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-collaboration-and-conflict-management.html), [Git branches](https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-pull-requests-and-branches.html) from a course by NCEAS, focusing on using Git with R, are some starting points. For a broader overview of reproducible science, including the utility of version control, see [this paper](https://www.nature.com/articles/s41559-017-0160) by Lowndes and colleagues. 
 
@@ -75,25 +75,25 @@
 
 ***In this session ***
 
-1. [Learning objectives](#data-cleaning-learning-objectives)
-1. [Value statement](#data-cleaning-value-statement)
-1. [Benefits of clean data](#benefits-of-clean-data)
-1. [Data types](#data-types)
-1. [Best practices](#data-cleaning-best-practices)
-1. [Common cleaning procedures](#common-cleaning-procedures)
+1. [Learning Objectives](#data-cleaning-learning-objectives)
+1. [Value Statement](#data-cleaning-value-statement)
+1. [Benefits of Clean Data](#benefits-of-clean-data)
+1. [Data Types](#data-types)
+1. [Best Practices](#data-cleaning-best-practices)
+1. [Common Cleaning Procedures](#common-cleaning-procedures)
 1. [Summary](#data-cleaning-summary)
 
-### Data Cleaning: Learning objectives
+### Data Cleaning: Learning Objectives
 
 1. Learn the benefits of having clean data sets and best practices for organizing and naming in data sheets. 
 
 2. Learn best practices for cleaning data files.
 
-### Data Cleaning: Value statement
+### Data Cleaning: Value Statement
 
 1. Maintaining clean data sets reduces errors, facilitates searching and analysis, and eases reuse. 
 
-### Benefits of clean data 
+### Benefits of Clean Data 
 
 1. Let’s start by defining what we mean by “clean data”. Clean data are as consistent, complete, and accurate as possible. Cleaning data is the process of reviewing data sets to standardize formatting, remove duplication, and fix or remove inaccuracies before using or analyzing the data set. Creating clean data sets involves steps in setting up your data organization and in reviewing data before analysis.
 
@@ -107,7 +107,7 @@
     - [Some simple guidelines for effective data management. Borer et al. 2009. Bulletin of the Ecological Society of America](https://www.jstor.org/stable/bullecosociamer.90.2.205).
     - [Nine simple ways to make it easier to (re)use your data. White et al. 2013. Ideas in Ecology and Evolution 6](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608).
 
-### Data types
+### Data Types
 
 1. Before we get into cleaning data, let’s go over the different ways computers can classify data. The primary data types are
 
@@ -123,7 +123,7 @@
     
     - Date and time
 
-### Data Cleaning: Best practices
+### Data Cleaning: Best Practices
 
 **Data sheet set-up, column names, and data values**
 
@@ -144,7 +144,7 @@
     - When entering data, make sure there is only one type of value in each column, for example all numeric values or all character strings.
     - As a good practice, we recommend that you and your organization agree on a format and follow it diligently. 
 
-### Common cleaning procedures
+### Common Cleaning Procedures
 
 1. When analyzing data, it is important to make sure that there has been a thorough check of the records to ensure that they are as clean and ready as possible. While there is no straightforward way to make sure that all data is clean (given the unique nature of each dataset), there are some guidelines that can be followed.
 
@@ -196,26 +196,26 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
 
 ***In This Session***
 
-1. [Learning objectives](#normalization-and-standardization-learning-objectives)
-1. [Value statement](#normalization-and-standardization-value-statement)
-1. [Introduction to tidy data](#introduction-to-tidy-data)
+1. [Learning Objectives](#normalization-and-standardization-learning-objectives)
+1. [Value Statement](#normalization-and-standardization-value-statement)
+1. [Introduction to Tidy Data](#introduction-to-tidy-data)
 1. [Normalization](#normalization)
-1. [Data organization](#data-organization)
+1. [Data Organization](#data-organization)
 1. [Standardization](#standardization)
 1. [Exercise](#exercise)
 1. [Summary](#normalization-and-standardization-summary)
 
-### Normalization and Standardization: Learning objectives
+### Normalization and Standardization: Learning Objectives
 
 1. Understand the basics of tidy data, particularly normalization and standardization (the processes of normalization and standardization we refer to here are specific to data management and distinct from the other meanings involving rescaling and recentering data as used in statistics.
 
 1. Learn how to design and create effective data tables.
 
-### Normalization and Standardization: Value statement
+### Normalization and Standardization: Value Statement
 
 1. Normalizing and standardizing data eases analysis and reduces errors. It is also the basis for having datasets that can be easily updated as more data becomes available.
 
-### Introduction to tidy data
+### Introduction to Tidy Data
 
 1. Tidy data describes a method of organizing databases and data tables that makes data analysis, searching, and reuse easier.
 
@@ -244,7 +244,7 @@ software (e.g., Excel, Access, Tableau) is reading it accordingly.
     
 ![](images/M2S3_normalization_data_tables.png)
 
-### Data organization
+### Data Organization
 
 1. Once you have your data tables normalized, make sure that they are arranged in a way that a computer can easily interpret.
 
