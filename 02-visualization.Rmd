@@ -63,7 +63,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
             
 1. It’s very important to make sure that you organize and manage your files such that you know exactly where your files are. Keep in mind that if you connect to a server, any changes that you make in the original file will have an impact on how your visualization looks in Tableau. 
 
-### Opening a file
+### Opening a File
 
 1. Create a new folder on your desktop. Name the folder “Tableau Data Training.”
 
@@ -151,21 +151,21 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. Great job! You have completed your first in depth Tableau session. Now, you know how to explore Tableau’s user interface, to connect a data file, check data types, and open sheets. 
 
 
-## Tableau Skills Part 1: Basic plots with single variables
+## Tableau Skills Part 1: Basic Plots with Single Variables
 
 ***In this Session***
 
 1. [Learning Objectives](#basic-plots-learning-objectives)
 1. [Value Statement](#basic-plots-value-statement)
 1. [Creating Your First Graph](#creating-your-first-graph)
-1. [Basic Plots using the Marks Menu](#basic-plots-using-the-marks-menu)
+1. [Basic Plots Using the Marks Menu](#basic-plots-using-the-marks-menu)
 1. [Line Plot](#line-plot)
 1. [Area Plot](#area-plot)
 1. [Map](#map)
 1. [Bubble Plot](#bubble-plot)
 1. [Scatter Plot](#scatter-plot)
 1. [Editing and Formatting the Axes](#editing-and-formatting-the-axes)
-1. [Saving my Files](#saving-my-files)
+1. [Saving My Files](#saving-my-files)
 1. [Homework Exercise](#homework-exercise)
 1. [Summary](#tableau-skills-part-1-summary)
 
@@ -183,7 +183,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. *For this session we recommend that, if possible, you have two screens open—one with Tableau and one with the course material—so you can follow along with the exercises.*
 
-### Creating your first graph
+### Creating Your First Graph
 
 1. In the menu on the left, find **Habitat** under CRM_Fish
 
@@ -230,7 +230,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DDjAZVewtUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Basic plots using the Marks menu
+### Basic Plots Using the Marks Menu
 
 1. The Show Me menu is a great tool where Tableau can suggest automated graphs, but we want to teach you how to take full control of Tableau. In order to do that, we will utilize the Marks menu. 
     - The Marks menu is located to the left of your bar graph: 
@@ -294,7 +294,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     
 ![](images/M3S2_Line-Plot.png)
 
-### Area plot
+### Area Plot
 
 1. Good job! From here, it is easy to change your **Line** plot to an **Area** plot. Under the **Marks** menu, open the dropdown menu where it says **Automatic** and click on **Area**.
   
@@ -340,7 +340,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 7. You have just created an interactive map showing the various sites around Palau where data was collected. 
     - Take a moment to explore the functionality of the map you created by moving your cursor around the map and clicking on a few of the data points.
 
-### Bubble plot
+### Bubble Plot
 
 1. To create a Bubble plot, you always start with a Bar plot. 
     - In a new sheet, drag and drop **Species** into **Columns** and **Biomass** into **Rows**.
@@ -350,7 +350,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     ![](images/M3S2_bubble-plot.png)
     - Name this sheet “Bubble.”
 
-### Scatter plot
+### Scatter Plot
 
 1. Finally, let’s create a Scatter plot. Scatter plots are tricky; follow along with this video to learn about scatter plots in Tableau. 
 
@@ -374,7 +374,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 5. Do the same for the x-axis. 
 6. When you are done, click on the X in the right corner of the Format window to exit. 
 
-### Saving my Files
+### Saving My Files
 
 1. There are two primary ways to save your work in Tableau. The first is similar to saving any other type of file on your computer. 
     - Click on **File > Save As** on the menu bar at the top of your screen. Name this file “Tableau_class_skills_1”. Save the file under your Tableau Data Training folder.
@@ -408,13 +408,13 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 2. You also know that when sharing your work with colleagues, you should always include the data, either as a separate file, or included in your workbook as a data extract. 
 
 
-## Tableau Skills Part 2: Multiple factors and dynamic tables
+## Tableau Skills Part 2: Multiple Factors and Dynamic Tables
 
 ***In this session ***
 
-1. [Learning objectives](#multiple-factors-and-dynamic-tables-learning-objectives)
-1. [Value statement](#multiple-factors-and-dynamic-tables-value-statement)
-1. [Multiple factor plots using the Marks menu](#multiple-factor-plots-using-the-marks-menu)
+1. [Learning Objectives](#multiple-factors-and-dynamic-tables-learning-objectives)
+1. [Value Statement](#multiple-factors-and-dynamic-tables-value-statement)
+1. [Multiple Factor Plots Using the Marks Menu](#multiple-factor-plots-using-the-marks-menu)
    - Create a map with multiple factors
    - Create a bar plot with multiple factors
    - Create a timeseries with multiple factors
@@ -423,22 +423,22 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. [Maps](#maps)
     - Practice exercise: Search and reset on a Map.
 1. [Filters](#filters)
-1. [Dynamic tables](#dynamic-tables)
-1. [Save your work](#save-your-work)
+1. [Dynamic Tables](#dynamic-tables)
+1. [Save Your Work](#save-your-work)
 1. [Conclusions](#conclusions)
 1. [Homework](#homework)
 
-### Multiple Factors and Dynamic Tables: Learning objectives
+### Multiple Factors and Dynamic Tables: Learning Objectives
 
 1. Learn how to create plots with multiple factors (e.g., colors, mark size, shapes).
 1. Explore Tableau’s mapping functionalities and learn to customize them.
 1. Understand Tableau’s powerful filtering capabilities.
 
-### Multiple Factors and Dynamic Tables: Value statement
+### Multiple Factors and Dynamic Tables: Value Statement
 
 1. In this session you will take your skills to the next level and gain full control of how your plots and maps look and how to use filters to display only the information that you are interested in. By adding multiple factors, you can communicate more information through color, size, and shapes. These are the building blocks that make a full interactive visualization!
 
-### Multiple factor plots using the Marks menu
+### Multiple Factor Plots Using the Marks Menu
 1. So far we have learned how to make simple plots, meaning that the plot has one dimension and one measure and you can modify the Marks. But what really makes Tableau awesome is that you can make interactive plots very quickly that look very appealing. Let's start with an example. 
 1. Create a map with multiple factors
    - In a new sheet, drag **Longitude** into **Columns** and **Latitude** into **Rows**. Name the sheet “Map2”
@@ -547,7 +547,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/scRzDONC9GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Save your work
+### Save Your Work
 
 ![](images/M3S3-save-work.png)
 
@@ -568,38 +568,38 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 
 
-## Tableau Skills Part 3: Operations and calculated fields
+## Tableau Skills Part 3: Operations and Calculated Fields
 
 ***In this session*** 
 
-1. [Learning objectives](#operations-and-calculated-fields-learning-objectives)
-1. [Value statement](#operations-and-calculated-fields-value-statement)
-1. [Convert units using Calculated Fields](#convert-units-using-calculated-fields)
-1. [Manually calculate average](#manually-calculate-average)
-1. [More functions](#more-functions)
-1. [Table calculations: percentage of total and running total](#table-calculations-percentage-of-total-and-running-total)
+1. [Learning Objectives](#operations-and-calculated-fields-learning-objectives)
+1. [Value Statement](#operations-and-calculated-fields-value-statement)
+1. [Convert Units Using Calculated Fields](#convert-units-using-calculated-fields)
+1. [Manually Calculate Average](#manually-calculate-average)
+1. [More Functions](#more-functions)
+1. [Table Calculations: Percentage of Total and Running Total](#table-calculations-percentage-of-total-and-running-total)
 1. [Conclusions](#operations-and-calculated-fields-conclusions)
 
-### Operations and calculated fields: Learning objectives
+### Operations and Calculated Fields: Learning Objectives
 
 1. Learning the different ways to calculate custom fields in Tableau.
 1. Using new calculations to extract new insights from data.
 
-### Operations and calculated fields: Value statement
+### Operations and Calculated Fields: Value Statement
 
 1. In this session you will learn how to create new calculated fields in tableau, ranging from simple sums and averages, to more complex operations such as running totals and percentages.
 
-### Convert units using Calculated Fields
+### Convert Units Using Calculated Fields
 
 1. So far we have mostly used measures to create plots by using SUM and AVERAGE. In certain situations, however, we might need to perform some operations by using one or more variables or calculate a new field. In the example below you will see how these calculated fields can be used to change a value from grams to tonnes.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V_CysItY2CU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Manually calculate average
+### Manually Calculate Average
 
 1. While Tableau provides an easy way to calculate the AVERAGE through using the right click functionalities on a field that is being used in an active chart, there are other ways to estimate it manually, and with more control over what the software is doing. The video below shows how to do this and how it compares to Tableau’s automatic method.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tnAnwczQ3mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### More functions
+### More Functions
 
 1. While we have covered the basics of how to create calculated fields, there is a lot more to explore.
 1. Open a new **Calculated Field** and click on the small arrow on the right to expand the menu.
@@ -613,7 +613,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 <iframe width="700" height="532" src="files/M3S4_calculated_field_biomass_example.pdf" frameborder="0" allowfullscreen></iframe>
 
-### Table calculations: percentage of total and running total
+### Table Calculations: Percentage of Total and Running Total
 
 1. One additional way to perform custom calculations is by using Table calculations, which are affected explicitly by whatever is being displayed in the active chart.
 1. In order to understand these better, let's do an example. Create a new pie chart.
@@ -624,59 +624,59 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Change the view to Entire View.
     - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt.
     ![](images/m3s4_pie-show-labels.png)
-1. Next, follow along as Alfredo shows you how to calculate and display percentages of total.
+1. Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the label.    
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yjssVupYXrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 1. Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:
     - [https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) 
 
-### Operations and calculated fields: Conclusions
+### Operations and Calculated Fields: Conclusions
 
 1. Great work! You have completed the section on how to create your own calculations and use them to enhance your understanding of the data through visualizations. You are now ready to put all of these elements together and dive right into the creation of dashboards.
 
 
-## Tableau Dashboards Part 1: Basic dashboards
+## Tableau Dashboards Part 1: Basic Dashboards
 
 ***In this session*** 
 
-1. [Learning objectives](#basic-dashboards-learning-objectives)
-1. [Value statement](#basic-dashboards-value-statement)
-1. [Introduction to dashboards](#introduction-to-dashboards)
-1. [Floating dashboards](#floating-dashboards)
-1. [Actions: filter and highlight](#actions-filter-and-highlight)
+1. [Learning Objectives](#basic-dashboards-learning-objectives)
+1. [Value Statement](#basic-dashboards-value-statement)
+1. [Introduction to Dashboards](#introduction-to-dashboards)
+1. [Floating Dashboards](#floating-dashboards)
+1. [Actions: Filter and Highlight](#actions-filter-and-highlight)
 1. [Conclusions](#basic-dashboards-conclusions)
 1. [Homework](#basic-dashboards-homework)
 
-### Basic dashboards: Learning objectives
+### Basic Dashboards: Learning Objectives
 
 1. Learn the basic windows and menus to create dashboards.
 1. Explore how to make different charts interact with each other through dashboard actions.
 
-### Basic dashboards: Value statement
+### Basic Dashboards: Value Statement
 
 1. In this session, you will jump from creating individual charts, to creating dashboards where you can combine multiple charts and make them interact with each other.
 1. You will also learn the basics for how to make your visualizations more visually appealing through the customization of colors, positions, legends, and other visual elements.
 
-### Introduction to dashboards
+### Introduction to Dashboards
 
-1. The very first thing to learn about dashboards is how to add different elements to it. Not everything is about the interactive charts, but also the text, symbols and other elements that help you convey a story for the reader. In this video, you will learn how to set up your canvas and add elements to it.
+1. The very first thing to learn about dashboards is how to add different elements to it. Not everything is about the interactive charts, but also the text, symbols and other elements that help you convey a story for the reader. In the video below, you will learn how to set up your canvas and add elements to it.  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pP78GuC_7_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Floating dashboards
+### Floating Dashboards
 
 1. Another important skill to master is the correct positioning of the elements in a dashboard. While Tableau tries to help with a tiled arrangement (as in the video above), it is important that you know how to gain full control of the exact size and position of each item that you add. The video below will help you get familiar with these important skills.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C96zusYc3vE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 2. Remember that when working with graphic designers, managing sizes and positions is extremely important. Make sure to practice these skills.
 
-### Actions: filter and highlight
+### Actions: Filter and Highlight
 
 1. Once you have added various elements, and charts, to your dashboards, it is time to make them interact with each other. The video below will show you two methods (filtering and highlighting) to use one chart to control the items in another chart. We will also cover some common troubleshooting situations.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tYmT9A1wZUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Basics dashboards: Conclusions
+### Basics Dashboards: Conclusions
 
 1. Congratulations! You have completed the most important step in moving from single charts, to fully interactive data visualizations. The next step is to enhance these visuals a little more by learning how to incorporate graphic design elements.
 
-### Basic dashboards: Homework 
+### Basic Dashboards: Homework 
 
 1. Create a map. 
     - Remember that you know how to change the background and edit colors of the dots. 
@@ -691,42 +691,42 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. Try a few adjustments to practice getting the aesthetic feel just the way you want.
 
 
-## Tableau Dashboards Part 2: Graphic design elements
+## Tableau Dashboards Part 2: Graphic Design Elements
 
 ***In this session ***
 
-1. [Learning objectives](#graphic-design-learning-objectives)
-1. [Value statement](#graphic-design-value-statement)
-1. [Recap: Tooltip customization and exact colors](#recap-tooltip-customization-and-exact-colors)
-1. [Background images](#background-images)
-1. [Custom shapes](#custom-shapes)
-1. [Filters in dashboards](#filters-in-dashboards)
-1. [Dynamic text elements](#dynamic-text-elements)
-1. [Creating a template](#creating-a-template)
+1. [Learning Objectives](#graphic-design-learning-objectives)
+1. [Value Statement](#graphic-design-value-statement)
+1. [Recap: Tooltip Customization and Exact Colors](#recap-tooltip-customization-and-exact-colors)
+1. [Background Images](#background-images)
+1. [Custom Shapes](#custom-shapes)
+1. [Filters in Dashboards](#filters-in-dashboards)
+1. [Dynamic Text Elements](#dynamic-text-elements)
+1. [Creating a Template](#creating-a-template)
 1. [Conclusions](#graphic-design-conclusions)
 
-### Graphic design: Learning objectives
+### Graphic Design: Learning Objectives
 
 1. Learn how to add custom graphic design elements to your visualizations.
 1. Learn how to add custom shapes to your plots.
 1. Learn how to use text interactively.
 1. Create your own template for amazing-looking visualizations.
 
-### Graphic design: Value statement
+### Graphic Design: Value Statement
 
 1. You already have the tools to create visualizations and communicate your data. Let’s take it to the next level by adding custom shapes, images, and other graphic design elements!
 
-### Recap: Tooltip customization and exact colors
+### Recap: Tooltip Customization and Exact Colors
 
 1. Before we get started, let’s remind ourselves of the importance of using good tooltips and the perfect colors. When working with graphic designers, ask them for the specific color code, so that you can reproduce their vision accurately.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jcuoPNreWJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Background images
+### Background Images
 
 1. When creating dashboards, tableau usually prefers solid colors. However, you can add your own images to make it more lively. Remember to use PNGs with transparent backgrounds whenever possible. The video below shows how to do so.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iKzcIJDWgvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Custom shapes
+### Custom Shapes
 
 1. Wouldn’t it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.
 
@@ -737,23 +737,23 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - *Save the files as .png with transparent background*.
     - *Save all the .png images in one folder*.
 
-### Filters in dashboards
+### Filters in Dashboards
 
 1. So far, we have focused on using sheets to filter each other when together in a dashboard. However, sometimes we might want to use a field (not a sheet) to filter the information in the whole dashboard. 
 
 1. Below, you will find an example of how to do this.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QnUH-GObfgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Dynamic text elements
+### Dynamic Text Elements
 
 1. Another important aspect of using interactive elements in Tableau is that we not only have the possibility to filter charts, but also tables. Remember, Tableau is a table manager in the end. While this might not seem too helpful, the video below will show you how powerful this concept can be. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZmctDlHTPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Creating a template
+### Creating a Template
 
 1. We strongly recommend that you develop a template with a graphic designer when possible before you create dashboards. This is the best way to enhance the quality of your dashboards. See [Module 4 Session 3](#working-with-graphic-designers) for tips on working with a graphic designer. 
 
-### Graphic design: Conclusions
+### Graphic Design: Conclusions
 
 1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -771,24 +771,24 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ***In this session ***
 
-1. [Learning objectives](#Publishing-to-the-web-learning-objectives)
-1. [Value statement](#Publishing-to-the-web-value-statement)
-1. [Saving your work and your datasets](#saving-your-work-and-your-datasets)
-1. [Sharing your work](#sharing-your-work)
-1. [Embedding into a website](#embedding-into-a-website)
+1. [Learning Objectives](#Publishing-to-the-web-learning-objectives)
+1. [Value Statement](#Publishing-to-the-web-value-statement)
+1. [Saving Your Work and Your Datasets](#saving-your-work-and-your-datasets)
+1. [Sharing Your Work](#sharing-your-work)
+1. [Embedding into a Website](#embedding-into-a-website)
 1. [Summary](#publishing-to-the-web-summary)
 
-### Publishing to the Web: Learning objectives
+### Publishing to the Web: Learning Objectives
 
 1. Learn how to share your content with colleagues.
 1. Publish your work online.
 1. Embed your dashboards in your website.
 
-### Publishing to the Web: Value statement
+### Publishing to the Web: Value Statement
 
 1. Tableau is a powerful tool to visualize and analyze data, however, its real value comes from being able to share this information with colleagues and the general public through the many options available.
 
-### Saving your work and your datasets
+### Saving Your Work and Your Datasets
 
 1. As we learned in Session 2, there are two primary ways to save your work in Tableau. The first is similar to saving any other type of file on your computer. 
     - Click on **File > Save As** on the menu bar at the top of your screen. Name this file “Tableau_class_skills_1”. Save the file under your Tableau Data Training folder.
@@ -808,7 +808,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - If you want to share your work with colleagues who also have Tableau installed, you will share Packaged Workbooks (.twbx) with them. 
     - Remember that packaged workbooks will not be automatically updated when your datasets get more information. In order to do this, you will need to reconnect your file to have a “live connection” to your data source. To do this, go to **Data > CRM_Fish > Data Source** and select **Live** in the upper right corner. If the software cannot automatically locate the file, it will ask you to manually select it. Once you have selected the file and verified that your new data records are reflected in the visualization, go ahead and create a new data extract and packaged workbook with the updated information.
 
-### Sharing your work
+### Sharing Your Work
 
 1. Exporting images
     - One way to share your results is through presentations and printed reports. In these cases, you cannot use the interactive dashboard, but instead use fixed images. Once you are happy with your dashboard or worksheet’s design, you can export it as an image. To export an image, click on **Worksheet or Dashboard -> Export image**. A menu will pop-up that will allow you to select the output format and directory.
@@ -821,7 +821,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     
 ![](images/M3S7_tableau_public_link.png)
 
-### Embedding into a website 
+### Embedding into a Website 
 
 1. Using the embed code
     - From the same **Share** menu where you would get the link to share with colleagues, there is another option to get an **Embed Code**. This code is useful when you are trying to incorporate your visualization directly into your website. For example, if you are using an html-based website, the only thing you need to do is to copy and paste this embed code into your html code, and the interactive visualization will display in your website. (Note: WordPress is an html platform, thus you could add a new section with the Tableau Embed Code).
