@@ -22,7 +22,7 @@ github-repo: rstudio/bookdown-demo
 
 1. ***Relevance:*** As environmental issues increase in scale and scope, there will be an increasing need to “tell the story” of monitoring and conservation efforts. To address this need, data enthusiasts - such as you - have an opportunity to expand their knowledge base in working with complex data sets to creatively convey impactful, data-driven messages to a variety of audiences. This compilation of training materials is intended to provide an accessible, digestible resource for anyone interested in any aspect of data management or visualization.
 
-2. ***Background:*** This compilation of data management and visualization training materials stems from a multi-year engagement amongst the Palau International Coral Reef Center ([PICRC](https://picrc.org/picrcpage/)), the Stanford Center for Ocean Solutions ([COS](https://oceansolutions.stanford.edu/)), and the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)) through financial support by [Future Earth](https://futureearth.org/). The funding supported a collaborative working group requested by former Palauan President, Tommy Remengesau, Jr. to investigate major implications of the full implementation of the Palau National Marine Sanctuary and compile a report of the findings (see [PICRC page](https://picrc.org/picrcpage/palau-national-marine-sanctuary/) or [COS page](https://oceansolutions.stanford.edu/pnms-report)). One key lesson from that experience was the importance of enhancing the capacity for managing and visualizing data driven messages to more effectively communicate significant management findings.
+2. ***Background:*** This compilation of data management and visualization training materials stems from a multi-year engagement amongst the Palau International Coral Reef Center ([PICRC](https://picrc.org/picrcpage/)), the Stanford Center for Ocean Solutions ([COS](https://oceansolutions.stanford.edu/)), and the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)) through financial support by [Future Earth](https://futureearth.org/). The funding supported a collaborative working group requested by former Palauan President, Tommy Remengesau, Jr. to investigate major implications of the full implementation of the Palau National Marine Sanctuary and compile a report of the findings (see [PICRC page](https://picrc.org/picrcpage/palau-national-marine-sanctuary/) or [COS page](https://oceansolutions.stanford.edu/pnms-report)). One key lesson from that experience was the importance of enhancing the capacity for managing and visualizing data-driven messages to more effectively communicate significant management findings.
 
 ![](images/PNMS_Report_Cover.png)
 
@@ -37,14 +37,13 @@ github-repo: rstudio/bookdown-demo
 
 4. ***Intended audience:*** In recognizing the wide range of roles and responsibilities individuals may have with respect to data use within an organization, this training is designed to be completed either in a sequence of all material from beginning to end or compartmentalized into modules and sessions to focus on specific skills. Whether you are a data novice interested in learning about all aspects of management and visualization, a data nerd who wants to learn more about visualization and communication, or a communications wizard who wants to be more familiar with data details or skills - this training package includes material to advance your understanding. This content is intended to equip you to better utilize and communicate data stories. In preparation for this course, it may help to briefly consider which data role(s) from the non-exhaustive list below best describes your interests and which lessons best suit your position and needs. 
 
+![](images/Data_Roles.png)
+
 5. ***Required tools:*** To take this training you will need:
 
     - An internet connection, either to download the training booklet and supplementary documents or to view the training through a web browser. Watching the videos in Module 3 on Tableau requires an internet connection.
     - Access to the software Tableau for Module 3. Details on how to install Tableau are in [Module 3, Session 1: Tableau Basics](https://nceas.github.io/data-training-picrc-cos/visualizing-data.html#tableau-basics) and [this website](https://www.tableau.com/products/techspecs#desktop) provides details on the necessary operating system requirements to install Tableau.
     - The example data sets for exercises in Modules 2 and 3 are provided as Microsoft Excel files.
-
-
-![](images/Data_Roles.png)
 
 5. ***Authors:*** This Data Management and Visualization Training package is a collaborative effort amongst researchers and staff from PICRC, NCEAS, and COS. The core contributors to the existing content are recognized below.
 
