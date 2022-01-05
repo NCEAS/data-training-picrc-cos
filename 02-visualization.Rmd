@@ -18,18 +18,18 @@
 
 1. Get familiar with the user interface of Tableau.
 
-1. Learn how to connect data sets to Tableau interface.
+1. Learn how to connect data sets to the Tableau interface.
 
 ### Why Tableau?
 
-1. We are focusing on Tableau for two primary reasons. 
+1. We are focusing on Tableau for two primary reasons: 
     - First, Tableau can read a variety of data types, as you will learn in this session. This means that many different software applications and assets can be combined in a single visualization to present to your audience. 
     - Second, Tableau is extremely intuitive. Once you get a grasp of the basic skills, you can create compelling visualizations of data in half of the time it would take in other coding software applications. 
     - Note: For this training, all the exercises and examples were done with Tableau version 2021.1. The menus may look slightly different in other versions of Tableau.
 
 ### Installing Tableau
 
-1. Let’s get started with installing the software, to do so, go to 
+1. Let’s get started with installing the software. To do so, go to 
 https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. Register your email address and username and download the software.
@@ -45,14 +45,14 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ![](images/M3S1_image0_User_Interface.png)
 
 (a) The examples under **Sample Workbooks** are a great resource for inspiration to see the potential of Tableau. 
-(b) This column on the left is where you will load data. 
+(b) This **Connect** column on the left is where you will load data. 
 (c) The **Training** and **Resources tabs** are very useful to help you keep learning new skills. If you are interested in investigating or expanding your skills, we recommend starting with the materials in these tabs, rather than searching for other sources on the internet. The materials in these two tabs are very well thought out and provide step-by-step instructions on how to learn new Tableau skills.
 
 ### Loading Data
 
 1. The most important section of this interface is the **Connect** menu, where you will load data. There are three main categories of sources that you can load into Tableau. 
     - [*Tableau Server:*](https://www.tableau.com/trial/tableau-server?utm_campaign_id=2017049&utm_campaign=Prospecting-PROD-ALL-ALL-ALL-ALL&utm_medium=Paid+Search&utm_source=Bing&utm_language=EN&utm_country=USCA&kw=tableau%20server&adgroup=CTX-Brand-Tableau+Server-E&adused=ETA&matchtype=e&placement=&gclid=c64d924d9b59166571a0f375554410ea&gclsrc=3p.ds&msclkid=c64d924d9b59166571a0f375554410ea) Data you have saved through your Tableau account. We will not cover that process in this course because most of the users of this training will probably not have a server setup explicitly for Tableau.
-    - *Connecting to a local file:* Files from your computer can be Excel files, text files, statistical files, PDFs, and spatial files
+    - *Connecting to a local file:* Files from your computer can be Excel files, text files, statistical files, PDFs, and spatial files.
         - Text files include .csv .doc .log
             - You are going to be using **Text file** frequently if you have .csv (comma separated value) files. 
         - Spatial files are commonly referred to as shape files or GIS files. If you have ever dealt with shape files, you might remember that shape files are composed of a [few different files](https://gisgeography.com/arcgis-shapefile-files-types-extensions/) – some containing the coordinates, metadata, and a table. Tableau has made the adjustments necessary to load one shape file and all the associated files. 
@@ -74,7 +74,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EIItd2fpKDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 4. Progress check-in. So far, you have: 
-    - Downloaded an excel file and connected it to Tableau
+    - Downloaded an excel file and connected it to Tableau.
     - In Tableau, you learned about drag and drop. As Alfredo always says, “Tableau is all about drag and drop.”
     - You connected the two tabs CRM_Fish and CRM_Site within the CRM_fish_edit Excel file—now in the Tableau interface. There is an orange line showing the connection. 
 
@@ -90,12 +90,12 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
             - Example: Fish size, population count, temperature
         - Tricky Case: Coordinates
             - Coordinates are a factor when you already know the coordinates where you are going to take your sample. Example: You have ten sites that you visit each year to count the number of whales. The coordinates of each site are a factor because they are predetermined. You know where you are going to gather data each time. 
-            - Coordinates are a measurement when it is part of the information that you are recording and it is not predefined. Example: you put a gps tracker on a whale and every time the whale surfaces, you record the coordinates. You did not know ahead of time where the whale would surface and the location is what the study is measuring. 
+            - Coordinates are a measurement when they are part of the information that you are recording and are not predefined. Example: you put a gps tracker on a whale and every time the whale surfaces, you record the coordinates. You did not know ahead of time where the whale would surface and the location is what the study is measuring. 
         - Tricky case: Is depth a factor or a measurement? 
             - Depth is a factor when indicating a transect location. Example: If you are always putting transects at either 3m or 30m you can categorize depth into shallow or deep. 
             - Depth is a measurement when it is recorded with every observation. Example: If you are swimming for 50 minutes to record visual observations of fish while also noting the depth at each observation, then depth is also a measurement. You measured and recorded your depth as you recorded the observation of the fish.
         - Practice exercise: Time
-            - SCENARIO 1: Let’s say that you are birdwatching and you want to know what time of day birds are more active.  You count the birds and you write down the time that you saw each bird. Is time a measurement or a factor?
+            - SCENARIO 1: Let’s say that you are birdwatching and you want to know what time of day birds are more active.  You count the birds and you write down the time that you see each bird. Is time a measurement or a factor?
                 - Answer: Measurement because you are registering the time every time you see a bird.
             - SCENARIO 2: You want to know whether there are more birds in the morning, the afternoon, or in the evening.
                 - Answer: In this case, time is a factor because you go out three times a day, you count all the birds you see at that time and categorize by morning, afternoon, or evening. 
@@ -105,7 +105,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
                 - Any kind of numeric field, except Boolean (binary or true/false statements). Examples include integer, double, floating, etc.
             - Text - strings, including special characters
             - Yes/no, true/false - Also known as logical or boolean
-            - Spatial Location - Coordinates, Country Name, City Name, ZIP code
+            - Spatial location - coordinates, country name, city name, ZIP code
             - Date and time. Tableau can recognize different date formats. One best practice is to separate fields for year, month, and day, which can be linked together directly in Tableau.
 
     - ***Discrete and Continuous Data***
