@@ -214,7 +214,7 @@
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Learn good practices to store, name and keep track of different versions of your data files.
+  Learn good practices to store, name, and keep track of different versions of your data files.
 \item
   Understand the importance of metadata and use a template to create your own format.
 \end{enumerate}
@@ -245,13 +245,13 @@
   \item
     Use descriptive names that would make sense to any reader. For example, don't use acronyms or abbreviations.
   \item
-    Avoid the use of special characters, such as !@\#\$\%\^{}\&*() and others, these are sometimes not supported by some software.
+    Avoid the use of special characters, such as !@\#\$\%\^{}\&*() and others, as these are sometimes not supported by some software.
   \item
-    Make consistent use of capitalization. Are you going to use capital letters in every word? Maybe only at the beginning of the column name? For example: My\_File1.xlsx vs.~my\_file1.xslx. While none of them is wrong, it is good to choose one format and stick to it
+    Make consistent use of capitalization. Are you going to use capital letters in every word? Maybe only at the beginning of the file name? For example: My\_File1.xlsx vs.~my\_file1.xslx. While neither is wrong, it is good to choose one format and stick to it
   \item
     Use underscores instead of blank spaces, just as in the example above.
   \item
-    If you want to keep track of versions, don't use endings such as ``final'', ``v5'', etc. Instead, we suggest that you either use the date in format YYYYMMDD, or use a version control system, as we will see in a later section.
+    If you want to keep track of versions, don't use endings such as ``final'', ``v5'', etc. Instead, we suggest that you either use the date in format YYYYMMDD, or use a version control system, as we will see in a \protect\hyperlink{version-control}{later section}.
   \item
     Don't start a file name with a number, though it is fine to use numbers elsewhere in the name, as in the examples above.
   \end{enumerate}
@@ -273,12 +273,12 @@
   \item
     Store your raw data in its own folder. Every time that you get new data, the first thing you should do is to create a backup by adding it to your raw data folder. This will allow you to always be able to come back to the original file and look for processing errors.
   \item
-    Create a separate folder for ``working'' files. These are the files where you will change column names, clean data errors and merge multiple files when necessary. For example, if your team performs annual assessments of reef fish biomass, you may want to store separate files for each year, but combine them in a ``master'' file, which should be located in your ``working'' files folder.
+    Create a separate folder for ``working'' files. These are the files where you will change column names, clean data errors, and merge multiple files when necessary. For example, if your team performs annual assessments of reef fish biomass, you may want to store separate files for each year, but combine them in a ``master'' file, which should be located in your ``working'' files folder.
   \item
     Having a consistent file structure across projects, such as folders for script outputs or figures, can make it easier for colleagues and collaborators to understand where to find the files they need.
   \end{enumerate}
 \item
-  In the example file structure below, each project has its own folder and within each project folder, there are folders for code, data, and output files. The Code folder could store scripts for data cleaning or analysis, the Data folder has subfolders for the raw dataset and a version that has been tidied, and the Output folder could store plots or other results.
+  In the example file structure below, each project has its own folder. Within each project folder, there are folders for code, data, and output files. The Code folder could store scripts for data cleaning or analysis, the Data folder has subfolders for the raw dataset and a version that has been tidied, and the Output folder could store plots or other results.
 \end{enumerate}
 
 \includegraphics{images/M2S1_example_file_structure.png}
@@ -291,7 +291,7 @@
 \item
   Metadata are documentation describing the content, context, and structure of data to enable future interpretation and reuse of the data. Generally, metadata describe who collected the data, what data were collected, when and where they were collected, and why they were collected so that anyone who looks at the data can understand what they mean.
 \item
-  Along with this class, we provided you with a metadata template, downloadable \href{files/meatadata_template_blank.xlsx}{here}. Please notice that this template can be adjusted to reflect your organization's needs, therefore some of the requested information might change accordingly. Below, you will find an example of a filled out metadata template for the data that we will be using in Module 3.
+  Along with this class, we provide you with a metadata template, downloadable \href{files/metadata_template_blank.xlsx}{here}. Please notice that this template can be adjusted to reflect your organization's needs, therefore some of the requested information might change accordingly. Below, you will find an example of a filled out metadata template for the data that we will be using in Module 3.
 \item
   Make sure to always share the metadata along with your data files. Some recommendations to do this include:
 
@@ -299,7 +299,7 @@
   \def\labelenumii{\arabic{enumii}.}
   \tightlist
   \item
-    If working in Excel, create a new tab named ``metadata'' and put the information there
+    If working in Excel, create a new tab named ``metadata'' and put the information there.
   \item
     If working in other data formats, create a new file with the metadata, store it in the same folder, and name it exactly the same as the data file, adding ``\_metadata'' at the end.
   \end{enumerate}
@@ -314,7 +314,7 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Version control is the process of tracking and organizing the changes you make to files over time. Throughout the lifetime of a project, using a system to keep track of different versions of your files and how and why you changed them can make it easier to revert to earlier versions of files or work collaboratively on the same files. Software like \href{https://git-scm.com}{Git} and the associated interface \href{https://github.com}{GitHub} provide a version control framework, particularly useful for code scripts. If you are interested in learning more about Git and GitHub, \href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/version-control-with-git-and-github.html}{this lesson} and these modules (\href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-collaboration-and-conflict-management.html}{Git collaboration}, \href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-pull-requests-and-branches.html}{Git branches} from a course by NCEAS, focusing on using Git with R, are some starting points. For a broader overview of reproducible science, including the utility of version control, see \href{https://www.nature.com/articles/s41559-017-0160}{this paper} by Lowndes and colleagues.
+  Version control is the process of tracking and organizing the changes you make to files over time. Throughout the lifetime of a project, using a system to keep track of different versions of your files and how and why you changed them can make it easier to revert to earlier versions of files or work collaboratively on the same files. Software like \href{https://git-scm.com}{Git} and the associated interface \href{https://github.com}{GitHub} provide a version control framework, particularly useful for code scripts. If you are interested in learning more about Git and GitHub, \href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/version-control-with-git-and-github.html}{this lesson} and these modules (\href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-collaboration-and-conflict-management.html}{Git collaboration}, \href{https://learning.nceas.ucsb.edu/2021-11-RRCourse/git-pull-requests-and-branches.html}{Git branches}) from a course by NCEAS that focuses on using Git with R, are some starting points. For a broader overview of reproducible science, including the utility of version control, see \href{https://www.nature.com/articles/s41559-017-0160}{this paper} by Lowndes and colleagues.
 \end{enumerate}
 
 \hypertarget{data-management-summary}{%
@@ -400,9 +400,9 @@
   \begin{itemize}
   \tightlist
   \item
-    \href{https://www.jstor.org/stable/bullecosociamer.90.2.205}{Some simple guidelines for effective data management. Borer et al.~2009. Bulletin of the Ecological Society of America}.
+    \href{https://www.jstor.org/stable/bullecosociamer.90.2.205}{Some simple guidelines for effective data management}. Borer et al.~2009. Bulletin of the Ecological Society of America.
   \item
-    \href{https://ojs.library.queensu.ca/index.php/IEE/article/view/4608}{Nine simple ways to make it easier to (re)use your data. White et al.~2013. Ideas in Ecology and Evolution 6}.
+    \href{https://ojs.library.queensu.ca/index.php/IEE/article/view/4608}{Nine simple ways to make it easier to (re)use your data}. White et al.~2013. Ideas in Ecology and Evolution 6.
   \end{itemize}
 \end{enumerate}
 
@@ -434,7 +434,7 @@
       Also known as logical or boolean
     \end{itemize}
   \item
-    Spatial Location: Coordinates, Country Name, City Name, ZIP code
+    Spatial location: coordinates, country name, city name, ZIP code
   \item
     Date and time
   \end{itemize}
@@ -454,7 +454,7 @@
   \item
     Design your tables to add new observations as rows, not columns. A column should be only one variable and a row should be only one observation.
 
-    \emph{For example, Table 1 below does not follow this design. The highlighted box has information for two types of variables in it and the Observations column has many rows with multiple observations listed. In Table 2, the data has been reentered so that each column has only one data type - see the moved note in orange - and Species column now has only one observation per row.}
+    \emph{For example, Table 1 below does not follow this design. The highlighted box has information for two types of variables in it and the Observations column has many rows with multiple observations listed. In Table 2, the data has been reentered so that each column has only one data type - see the moved note in orange - and the Species column now has only one observation per row.}
     \includegraphics{images/M2S2_image1_observations_in_rows_and_columns.png}
   \item
     Name columns in a clear way that is easy for both people and computers to interpret.
@@ -463,13 +463,13 @@
     \item
       Use descriptive column names that would make sense to any reader. For example, don't use acronyms or abbreviations.
     \item
-      Avoid the use of special characters, such as !@\#\$\%\^{}\&*() and others
+      Avoid the use of special characters, such as !@\#\$\%\^{}\&*() and others.
     \item
       Make consistent use of capitalization. Are you going to use capital letters in every word? Maybe only at the beginning of the column name?
     \item
       Use underscores instead of blank spaces.
 
-      \emph{For example: Number of fish -\textgreater{} Number\_of\_fish}
+      \emph{For example: Number of fish → Number\_of\_fish}
     \end{itemize}
   \item
     When entering data, make sure there is only one type of value in each column, for example all numeric values or all character strings.
@@ -492,7 +492,7 @@
   \item
     Verify that your column names follow the conventions stated in the section above.
   \item
-    Verify that there are no empty columns in your dataset, and if there are, eliminate them
+    Verify that there are no empty columns in your dataset, and if there are, eliminate them.
   \item
     If you have a column with the date, verify that it is in the right format and that your
     software (e.g., Excel, Access, Tableau) is reading it accordingly.
@@ -501,7 +501,7 @@
     \item
       Word of caution: when working with international collaborators, check the format of dates. Many places use DD/MM/YYYY as the standard date format. The US uses MM/DD/YYYY as the standard date format.
     \item
-      Tableau can recognize different date formats. Sometimes it is easier to capture data in 3 separate columns, (year, month, and day), which can then be linked together directly in Tableau.
+      Tableau can recognize different date formats. Sometimes it is easier to capture data in 3 separate columns (year, month, and day), which can then be linked together directly in Tableau.
     \end{itemize}
   \item
     Verify that your database is in long format, as opposed to wide format.
@@ -512,7 +512,7 @@
     \item
       In long format, columns only include the type of data and not any information about your actual observations. Having information about your observations in the column headers makes it hard to use that information when analyzing data in Tableau or coding software like R.
     \item
-      The same data set often has more rows and fewer columns when in long format compared to wide format, as you can see in the example below. Wide format presents the data efficiently - we can see the whole table - but contains information about the type of meal and type of food in the column headers, which is moved to the rows in long format.
+      The same data set often has more rows and fewer columns when in long format compared to wide format, as you can see in the example below. Wide format, shown in Table 1, presents the data efficiently - we can see the whole table - but contains information about the type of meal and type of food in the column headers, which is moved to the rows in long format, shown in Table 2.
     \end{itemize}
   \end{itemize}
 \end{enumerate}
@@ -531,9 +531,9 @@
 
     \begin{itemize}
     \item
-      Verify that there are no text values
+      Verify that there are no text values.
     \item
-      Plot a histogram with binned values in the x-axis and frequency in the y-axis. If there are very few observations for very low/high values, those are likely outliers or mistakes in the data, like the single high value in the example below. Find them in your raw data and decide whether it is something that you can fix
+      Plot a histogram with binned values in the x-axis and frequency in the y-axis. If there are very few observations for very low/high values, those are likely outliers or mistakes in the data, like the single high value in the example below. Find them in your raw data and decide whether it is something you should include.
 
       \includegraphics{images/M2S2_image3_data_cleaning_histogram.png}
     \end{itemize}
@@ -542,12 +542,12 @@
 
     \begin{itemize}
     \item
-      Verify that there are no numeric values
+      Verify that there are no numeric values.
     \item
-      Create a list with all the unique elements and sort them out in alphabetical order. From this list, verify that there are no leading or trailing spaces, misspellings, or typos. Get back to your raw data and correct accordingly.
+      Create a list with all the unique elements and sort them out in alphabetical order. From this list, verify that there are no leading or trailing spaces, misspellings, or typos. If you find any, go back to your raw data and correct accordingly.
     \end{itemize}
   \item
-    Make sure that you distinguish between values that are zero and data that was not collected. Zeros should be used for values that were measured and found to be zero, for example the number of fish on a transect you swam but saw no fish. Data that was not collected, for example the number of fish you saw at a site you skipped sampling, should be recorded as NA or another symbol you use consistently throughout your data set.
+    Make sure to distinguish between values that are zero and data that was not collected. Zeros should be used for values that were measured and found to be zero, for example the number of fish on a transect you swam but saw no fish. Data that was not collected, for example the number of fish you saw at a site you skipped sampling, should be recorded as NA or another symbol you use consistently throughout your data set.
   \end{itemize}
 \end{enumerate}
 
@@ -593,7 +593,7 @@
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  Understand the basics of tidy data, particularly normalization and standardization (the processes of normalization and standardization we refer to here are specific to data management and distinct from the other meanings involving rescaling and recentering data as used in statistics.
+  Understand the basics of tidy data, particularly normalization and standardization (the processes of normalization and standardization we refer to here are specific to data management and distinct from the other meanings involving rescaling and recentering data as used in statistics).
 \item
   Learn how to design and create effective data tables.
 \end{enumerate}
@@ -627,7 +627,7 @@
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  One characteristic of tidy data is normalization - a process of streamlining data structures and reducing redundancy. Normalized data are essentially data in the long format we discussed in the previous session: each column contains only one type of measurement, each row contains one observation, and data are stored in different tables such that each data point only appears once in the database.
+  One characteristic of tidy data is normalization - a process of streamlining data structures and reducing redundancy. Normalized data are essentially data in the long format we discussed in the previous session: each column contains only one type of measurement, each row contains one observation, and data are stored in different tables such that each data point appears only once in the database.
 \item
   Three practices to keep in mind when designing your tables are:
 
@@ -669,7 +669,7 @@
 
   \begin{itemize}
   \item
-    Make sure that each table is stored separately. For example, if you are using a spreadsheet software, each table should hve its own sheet or tab. Multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.
+    Make sure that each table is stored separately. For example, if you are using a spreadsheet software, each table should have its own sheet or tab. Multiple tables on the same sheet are hard for software programs like Tableau to read in and understand.
   \item
     Do calculations, like statistics or marginal sums, outside of your data spreadsheet. They are not observations, like the other rows, but rather data analysis.
   \end{itemize}
@@ -687,7 +687,7 @@
   \item
     Checking that you use consistent entries for the same data values (``Yes'' vs.~``Y'' vs.~``yes'' → choose just one).
   \item
-    Checking for data points that are outside the realm of possibility and are likely to be errors, like a dog recorded as weighing 500kg.
+    Checking for data points that are outside the realm of possibility and are likely to be errors, like a dog recorded as weighing 500 kg.
   \item
     Verifying that all values within a column are the same data type.
   \end{itemize}
@@ -700,7 +700,7 @@
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Time to practice with an untidy data set! Use what you've learned about data cleaning to normalize and standardize the data set \href{files/M2S2_exercise.xlsx}{here}. See the tidied version \href{files/M2S3_exercise_key.xlsx}{here}.
+  Time to practice with an untidy data set! Use what you've learned about data cleaning to normalize and standardize the data set \href{files/M2S3_exercise.xlsx}{here}. Download the tidied version \href{files/M2S3_exercise_key.xlsx}{here}.
 \end{enumerate}
 
 \hypertarget{normalization-and-standardization-summary}{%
