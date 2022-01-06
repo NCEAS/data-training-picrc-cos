@@ -76,7 +76,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 4. Progress check-in. So far, you have: 
     - Downloaded an excel file and connected it to Tableau.
     - In Tableau, you learned about drag and drop. As Alfredo always says, “Tableau is all about drag and drop.”
-    - You connected the two tabs CRM_Fish and CRM_Site within the CRM_fish_edit Excel file—now in the Tableau interface. There is an orange line showing the connection. 
+    - You connected the two tabs CRM_Fish and CMR_Site within the CRM_fish_edit Excel file—now in the Tableau interface. There is an orange line showing the connection. 
 
 ![](images/M3S1_image1_draganddrop.png)
 
@@ -185,16 +185,16 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Creating Your First Graph
 
-1. In the menu on the left, find **Habitat** under CRM_Fish
+1. In the menu on the left, find **Habitat** under CRM_Fish.
 
 ![](images/M3S2_find-habitat.png)
 
-2. Drag and drop **Habitat** into **Columns**
-    - This will place **Habitat** in the x-axis of the graph
+2. Drag and drop **Habitat** into **Columns**.
+    - This will place **Habitat** in the x-axis of the graph.
 
 ![](images/M3S2_drag-habitat.png)
 
-3. Find **Biomass** under CRM_Fish
+3. Find **Biomass** under CRM_Fish.
 
 ![](images/M3S2_find-biomass.png)
 
@@ -220,7 +220,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ![](images/M3S2_show-me-menu-zoom.png)
  
 
-3. How to use the **Show Me** menu
+3. How to use the **Show Me** menu:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6FSgaXM__TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -256,11 +256,11 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
     - If you click on Size, a slider will appear. In bar graphs, the slider changes the width of each bar. Let’s see how Size affects a pie chart.
         - First, name this sheet “Bars.”  <span style="color: turquoise;">REMEMBER TO ALWAYS NAME YOUR SHEETS</span>   
-    - To edit, double-click on the bottom where it says “Sheet 1”
+    - To edit, double-click on the bottom where it says “Sheet 1.”
     ![](images/M3S2_rename-sheets.png)
-    - Create a new worksheet by clicking on the button directly to the right of “Bars”.
+    - Create a new worksheet by clicking on the button directly to the right of “Bars.”
     ![](images/M3S2_button.png)
-    - Name this sheet “Pie”.
+    - Name this sheet “Pie.”
     - In the new sheet, create exactly the same graph. Drag **Habitat** into **Columns** and **Biomass** into **Rows**. 
     - Go to **Show Me** and choose Pie Chart. 
         - The pie chart will look very small, so change the view to Entire View. Your current sheet should look like the image below:
@@ -283,10 +283,10 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ### Line Plot
 
 1. Practice Exercise: Create and modify a **Line Plot**
-    - Create a new sheet and name it “Line”.
+    - Create a new sheet and name it “Line.”
     - Drag **Year** into **Columns** and drag **Size** into **Rows**.
     - For a line plot, summing the size of all the fish doesn’t make much sense. In this case, showing the average size of the fish per year makes more sense, so let's do that. 
-    - Right click on the field where it says **SUM (Size cm)** and a drop down menu will appear. Choose **Measure**, then click on **Average**.
+    - Right click on the field where it says **SUM (Size cm)** and a drop-down menu will appear. Choose **Measure**, then click on **Average**.
     
     ![](images/M3S2_change-measure.png)
 
@@ -296,11 +296,11 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Area Plot
 
-1. Good job! From here, it is easy to change your **Line** plot to an **Area** plot. Under the **Marks** menu, open the dropdown menu where it says **Automatic** and click on **Area**.
+1. Good job! From here, it is easy to change your **Line** plot to an **Area** plot. Under the **Marks** menu, open the drop-down menu where it says **Automatic** and click on **Area**.
   
 ![](images/M3S2_Plot-types.png)
 
-2. As you can see, there are many options in this dropdown menu. This is where you can manually change the type of plot displayed.  
+2. As you can see, there are many options in this drop-down menu. This is where you can manually change the type of plot displayed.  
 
 ### Map
 
@@ -318,7 +318,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Your map should look exactly the same as the previous visualization:
     ![](images/M3S2_map-1.png)
 
-5. Name this sheet “Map”
+5. Name this sheet “Map.”
 6. Customizing the Map using the **Marks** menu
     - Using the **Color** tool, change the color of the elements to a preferred color and add a black border. 
     - Using the **Size** tool, make the elements a bit larger so you can see them better.
@@ -329,7 +329,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
       - Click on **Tooltip** so we can edit the text. We want the name of the site to be at the top, so cut and paste “Site: <ATTR(Site)>” to move it above Latitude and Longitude. 
       - Delete the static text “Site:” leaving just “<ATTR(Site)>” at the top. 
       - Select all the text and change the alignment to center. 
-      - Next, add “˚N” to the right of \<Latitude\> and “˚W” to the right of \<Longitude\>
+      - Next, add “˚N” to the right of \<Latitude\> and “˚W” to the right of \<Longitude\>.
         - Mac shortcut: “Option + Shift + 8”
         - Windows shortcut: “”Alt + 0176” (with Num Lock on)
         - If you have trouble with the degree symbol, copy and paste from this text: ˚N  ˚W
@@ -395,8 +395,8 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. Open data file  Excel file CRM_Fish in Tableau, check field dimensions vs measure, data types, discrete vs. continuous. 
 1. Create a bar plot, a pie chart, line, map, scatter plot.
-1. Make presentable for an audience. Ensure that: 
-    - Axes are legible size and descriptive titles
+1. Make them presentable for an audience. Ensure that: 
+    - Axes are legible size and have descriptive titles
     - Marks utilize nice and legible colors
     - Tooltips provide useful information
     - Name all worksheets
@@ -405,7 +405,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Tableau Skill Part 1: Summary 
 1. Congratulations! You are now equipped to create basic plots in Tableau and take full control of their design.
-2. You also know that when sharing your work with colleagues, you should always include the data, either as a separate file, or included in your workbook as a data extract. 
+2. You also know that when sharing your work with colleagues, you should always include the data, either as a separate file or included in your workbook as a data extract. 
 
 
 ## Tableau Skills Part 2: Multiple Factors and Dynamic Tables
@@ -456,7 +456,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
         - There are two methods for choosing colors. The first is to just click **Assign Palette** and Tableau will automatically change the color of each Data Item. The second is to change each color manually. Click on the Data Item, for example **Inner_Reef**, so it is highlighted and then click on the specific color you’d like to choose. 
 1. Create a bar plot with multiple factors
     - In a new sheet, drag **Site** into **Columns** and **Biomass** into **Rows**. 
-      - Name this sheet “Bars2” 
+      - Name this sheet “Bars2.” 
       - Sort the bars in descending order. There are two potential approaches:
         - 1) Right-click the **Site** item in the Rows field. Click sort and then choose descending and close the pop out menu. 
        - 2) At the top of Tableau, there is a shortcut menu with many symbols. An explanation of each function should show when you hover over the button. Click this one:
@@ -505,7 +505,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Maps
 
-1. Let’s explore the capabilities of maps. In a new sheet, double-click **Longitude** and **Latitude** to create a new map. Name this sheet “Map3”
+1. Let’s explore the capabilities of maps. In a new sheet, double-click **Longitude** and **Latitude** to create a new map. Name this sheet “Map3.”
    - Change the color of the points. In the Marks menu, click **Colors** and choose **orange**. 
    - On the bar at the very top of your screen, you will see that there is a whole menu for Maps. You can go to Background Maps and choose from an array of styles.
     ![](images/M3S3-map3-menu.png)
@@ -513,7 +513,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
       - Under Background choose **Style: Satellite**. 
       - Change **Washout** to **20%**.  
         - *You can either move the slider right or you can type in the white box.* 
-      - *The information provided unter Data Layers only applies to the United States. *
+      - *The information provided under Data Layers only applies to the United States. *
     - The map will normally try to occupy the space and show the whole geographic scope of your data as a default. In this case, we see Palau from Kayangel to Angaur. 
     - To explore the whole globe by moving the map around, hover over the triange in the upper left corner and choose **Pan**.   
      ![](images/M3S3-map3-pan.png)
@@ -541,7 +541,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. The last thing we are going to learn in this session is how to create and use tables. 
 1. There are three conditions to keep in mind when you create a table in Tableau:
     - Data should be dragged into Rows because we are following a long format. 
-      - Refer to [Module 2](#data-cleaning-best-practices) to learn more about long versus block format
+      - Refer to [Module 2](#data-cleaning-best-practices) to learn more about long versus block format.
     - Everything has to be discrete because the software will always attempt to plot continuous data as a chart, not as text. 
     - You can use filters, sort, and all the other functionalities that you learned for other types of plots. Tables in Tableau are similar to dynamic tables in Excel.      
 
@@ -582,12 +582,12 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Operations and Calculated Fields: Learning Objectives
 
-1. Learning the different ways to calculate custom fields in Tableau.
-1. Using new calculations to extract new insights from data.
+1. Learn the different ways to calculate custom fields in Tableau.
+1. Use new calculations to extract new insights from data.
 
 ### Operations and Calculated Fields: Value Statement
 
-1. In this session you will learn how to create new calculated fields in tableau, ranging from simple sums and averages, to more complex operations such as running totals and percentages.
+1. In this session you will learn how to create new calculated fields in Tableau, ranging from simple sums and averages, to more complex operations such as running totals and percentages.
 
 ### Convert Units Using Calculated Fields
 
@@ -619,7 +619,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. In order to understand these better, let's do an example. Create a new pie chart.
     - Create a new sheet and name it “Pie4.”
     - Drag **Habitat** into **Columns** and **Biomass tonnes** into **Rows**.
-      - *A bar chart will appear *.
+      - *A bar chart will appear*.
     - Open the **Show Me** menu and choose **pie charts**. 
     - Change the view to Entire View.
     - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt.
@@ -674,15 +674,15 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Basics Dashboards: Conclusions
 
-1. Congratulations! You have completed the most important step in moving from single charts, to fully interactive data visualizations. The next step is to enhance these visuals a little more by learning how to incorporate graphic design elements.
+1. Congratulations! You have completed the most important step in moving from single charts to fully interactive data visualizations. The next step is to enhance these visuals a little more by learning how to incorporate graphic design elements.
 
 ### Basic Dashboards: Homework 
 
 1. Create a map. 
-    - Remember that you know how to change the background and edit colors of the dots. 
+    - Remember that you know how to change the background and edit the colors of the dots. 
 1. Create a scatter plot where the x-axis is average size, y-axis is total biomass and each mark within the scatterplot is a different species. 
 1. Now, create a dashboard with the map and the scatterplot. Create a filter so that when you click on the map it filters the scatterplot.
-    - Remember to include title and text that describes the purpose of the dashboard. 
+    - Remember to include a title and text that describes the purpose of the dashboard. 
     - Feel free to create a canvas size that fits your taste. If you want a place to start, try 1000x800 (WxH).
     - Pay special attention to the positioning of your elements by using the 'layout' menu. Look at the answer key to see the exact positioning that the instructor used.
     - Remember that you can also change the font size and color of any item in the dashboard (including the color legend) by clicking on the particular element and selecing 'format'.
@@ -723,7 +723,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Background Images
 
-1. When creating dashboards, tableau usually prefers solid colors. However, you can add your own images to make it more lively. Remember to use PNGs with transparent backgrounds whenever possible. The video below shows how to do so.
+1. When creating dashboards, Tableau usually prefers solid colors. However, you can add your own images to make it more lively. Remember to use PNGs with transparent backgrounds whenever possible. The video below shows how to do so.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iKzcIJDWgvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Custom Shapes
@@ -771,8 +771,8 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ***In this session ***
 
-1. [Learning Objectives](#Publishing-to-the-web-learning-objectives)
-1. [Value Statement](#Publishing-to-the-web-value-statement)
+1. [Learning Objectives](#publishing-to-the-web-learning-objectives)
+1. [Value Statement](#publishing-to-the-web-value-statement)
 1. [Saving Your Work and Your Datasets](#saving-your-work-and-your-datasets)
 1. [Sharing Your Work](#sharing-your-work)
 1. [Embedding into a Website](#embedding-into-a-website)
@@ -817,7 +817,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Another way to share results is by saving your workbook and sharing it directly with another Tableau user. The limitation is that you can only share workbooks with people who have Tableau installed on their computers. Another solution is to publish it to a server and send the link to anyone you would like to look at the results. There are two kinds of services that Tableau provides to share information online: through a Public server (Tableau Public) or through a Private server (Tableau Server).
     - To publish to Tableau Public, click on **Server -> Tableau Public -> Save to Tableau Public**. This will pop-up a menu that allows you to login to your Tableau Public profile (create a free user in case you don’t have one yet), write the name of the workbook and add a description.
     - To publish to a Private server (Tableau Server), click on **Server -> Publish Workbook**. This will pop-up a menu that allows you to log in to your Tableau Server profile (your institution should provide you with a username and password), select the project inside your server, write the name for the workbook and add a description.
-    - To find the hyperlink that can be shared with colleagues, go to your public tableau profile, navigate to the visualization of interest and click on **Share** in the lower right corner of the visualization. Copy and paste the provided link and share it with colleagues!
+    - To find the hyperlink that can be shared with colleagues, go to your public Tableau profile, navigate to the visualization of interest and click on **Share** in the lower right corner of the visualization. Copy and paste the provided link and share it with colleagues!
     
 ![](images/M3S7_tableau_public_link.png)
 
@@ -829,7 +829,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Publishing to the Web: Summary
 
-1. After completing this session you are equipped to save your datasets in Tableau format, your workbooks, and share them with colleagues who have Tableau either with .twb or .twbx files.
+1. After completing this session you are equipped to save your datasets in Tableau format, save your workbooks, and share them with colleagues who have Tableau either with .twb or .twbx files.
 1. You are also ready to publish your visualizations to different services online, either through a public website or a private server. Remember to create your Tableau Public account to get access to these services. While not covered in this session, we encourage you to explore the different settings available, including how to set some of your visualizations as private even though published in the public service.
 1. Finally, you are ready to make these visualizations part of your own website! Remember to be in constant communication with your website manager to make sure that you follow the right format.
 
