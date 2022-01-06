@@ -686,7 +686,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Feel free to create a canvas size that fits your taste. If you want a place to start, try 1000x800 (WxH).
     - Pay special attention to the positioning of your elements by using the 'layout' menu. Look at the answer key to see the exact positioning that the instructor used.
     - Remember that you can also change the font size and color of any item in the dashboard (including the color legend) by clicking on the particular element and selecing 'format'.
-    - If you have trouble making the filter work, use the answer key to open up the available action in the Dashboard/Actions menu. Make sure you understand everything that is going on within the action.
+    - If you have trouble making the filter work, use the [answer key](files/M3S5_exercise_key.twbx) to open up the available action in the Dashboard/Actions menu. Make sure you understand everything that is going on within the action.
     - Finally, remember that you can right click on the titles of each chart and hide them. This might be helpful to streamline the number of titles in the dashboard.
 1. Try a few adjustments to practice getting the aesthetic feel just the way you want.
 
@@ -767,7 +767,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 
 
-## Publishing to the web from Tableau
+## Publishing to the Web from Tableau
 
 ***In this session ***
 
