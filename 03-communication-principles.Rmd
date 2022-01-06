@@ -13,9 +13,9 @@
 
 ### Communication: Learning Objectives
 
-1. These three storytelling sessions are additional resources intended for communication professionals or those interested in expanding their skill sets beyond data management and visualization.
-2. Approach science communication from an engagement framework.
-3. Utilize tools like the "Message Box" for developing and crafting your message (practice exercise).
+These three storytelling sessions are additional resources intended for communication professionals or those interested in expanding their skill sets beyond data management and visualization. The learning objectives are:
+1. Approach science communication from an engagement framework.
+2. Utilize tools like the "Message Box" for developing and crafting your message (practice exercise).
 
 ![](images/Mantra_for_Lilli.png)
 
@@ -54,8 +54,8 @@ Source: Twitter @TheComNetwork
   
     - Invite your audience into conversation
   
-      - Avoid jargon
-       - Instead, use descriptive language that your audience would be familiar with
+      - Avoid jargon.
+       - Instead, use descriptive language that your audience would be familiar with.
        - When you can’t find a perfect synonym for a jargon term, define the term or provide an analogy to something they are familiar with. 
        - Consider these examples of “jargony” terms and their “audience-friendly” counterparts:
           - Anthropogenic → human-caused
@@ -174,7 +174,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ### Receive Your Data
 1. The first step in effective data storytelling is to ensure you are working with clean, standardized data:
-   - This section assumes that the data you have to tell stories from are clean and standardized already. If your data are still raw and not cleaned, please refer to *Module 2* in this training curriculum, titled *“Data”* to learn more about how to clean and standardize your data set.
+   - This section assumes that the data you have to tell stories from are clean and standardized already. If your data are still raw and not cleaned, please refer to *Module 2* in this training curriculum, titled *“Working with Data”* to learn more about how to clean and standardize your data set.
 
 ### Identify Your Audience 
 
@@ -229,7 +229,7 @@ The five sections of the Message Box are provided below. For a detailed explanat
 
 ### Data Storytelling: Summary
 
-Distilled details with the key messages from this module are in this downloadable [brief](files/M4S2_Data_Storytelling_Brief.pdf), to be used as a reference guide.
+Distilled details with the key messages from this session are in this downloadable [brief](files/M4S2_Data_Storytelling_Brief.pdf), to be used as a reference guide.
 
 1. Receive Your Data
 1. Identify Your Audience
@@ -248,7 +248,7 @@ Distilled details with the key messages from this module are in this downloadabl
 1. [Value Statement](#working-with-graphic-designers-value-statement)
 1. [New Terms](#working-with-graphic-designers-new-terms)
 1. [Before You Start](#before-you-start)
-1. [Know Your Audience](#know-your-audience)
+1. [Communicate Audience Needs](#communicate-audience-needs)
 1. [Define Your Vision](#define-your-vision)
 1. [Leave Execution to The Designer](#leave-execution-to-the-designer)
 1. [Continue to Iterate](#continue-to-iterate)
@@ -387,7 +387,7 @@ Distilled details with the key messages from this module are in this downloadabl
 
 ### Working with Graphic Designers: Summary
 
-Distilled details contained in this [brief](files/M4S3_Working_With_Graphic_Designers_Brief.pdf)
+Distilled details from this session are contained in this downloadable [brief](files/M4S3_Working_With_Graphic_Designers_Brief.pdf).
 
 1. *Before You Start - Set Expectations*
 1. *Know Your Audience*
