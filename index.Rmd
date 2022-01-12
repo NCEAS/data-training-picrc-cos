@@ -1,6 +1,6 @@
 --- 
 title: "Data Management and Visualization Training"
-author: "Stanford Center for Open Solutions, National Center for Ecological Analysis and Synthesis"
+author: "Stanford Center for Ocean Solutions, Palau International Coral Reef Center, National Center for Ecological Analysis and Synthesis"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
