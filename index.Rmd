@@ -4,7 +4,7 @@ author:
     - Stanford Center for Ocean Solutions
     - Palau International Coral Reef Center
     - National Center for Ecological Analysis and Synthesis
-date: "`r Sys.Date()`"
+date: "2022-01-12" ## updated links to videos 2024-11
 site: bookdown::bookdown_site
 documentclass: book
 # url: your book url like https://bookdown.org/yihui/bookdown
