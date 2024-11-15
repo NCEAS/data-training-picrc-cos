@@ -222,13 +222,13 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 3. How to use the **Show Me** menu:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6FSgaXM__TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=2DsKgT-PI58&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***Troubleshooting: Switching Rows and Columns***
 
 1. Lilli has a question that came up when she was exploring the Show Me menu. When she tried to go back to a bar chart, the chart was flipped! Watch Alfredo’s answer: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DDjAZVewtUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=tfmFScV20gA&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Basic Plots Using the Marks Menu
 
@@ -270,7 +270,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 4. Labels
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YXfZ2kcLdWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Fe4tQyp0M6E&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 5. Details
 
@@ -278,7 +278,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 6. Tooltip
  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tv4Ccex2m68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=sMk4U88gh2I&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Line Plot
 
@@ -354,7 +354,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. Finally, let’s create a Scatter plot. Scatter plots are tricky; follow along with this video to learn about scatter plots in Tableau. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iKfEnj1RQJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=pRnym7aglPo&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Editing and Formatting the Axes
 
@@ -468,7 +468,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
      - Remove **Habitat** from the Marks menu by dragging it to the left column. 
     - This is a fun example of the many possible options you have by adding dimensions and measures into the Marks menu. 
 1. Create a timeseries with multiple factors
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7KiCSWUZFp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=QhKPEoAHYos&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 1. Create a scatter plot with multiple factors
     - In a new sheet, drag **Biomass** into **Columns** and **Size** into **Rows**. Name this sheet “Scatter2”
       - Change the Size from Sum to Average by right-clicking **Size**, choose **Measure** and choose **Average**:
@@ -530,11 +530,11 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 3. Another interesting feature of maps in Tableau is that you are not limited to coordinates. For example, your data set can include country names instead. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7cYNY4_bvLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=SrrMRayQQuc&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Filters
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FRa394sTYmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=F09-e0DGTZ0&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Dynamic Tables
 
@@ -545,7 +545,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Everything has to be discrete because the software will always attempt to plot continuous data as a chart, not as text. 
     - You can use filters, sort, and all the other functionalities that you learned for other types of plots. Tables in Tableau are similar to dynamic tables in Excel.      
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/scRzDONC9GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=uxR41XSZSps&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Save Your Work
 
@@ -592,12 +592,12 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ### Convert Units Using Calculated Fields
 
 1. So far we have mostly used measures to create plots by using SUM and AVERAGE. In certain situations, however, we might need to perform some operations by using one or more variables or calculate a new field. In the example below you will see how these calculated fields can be used to change a value from grams to tonnes.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V_CysItY2CU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=yaPky7ZLb58&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Manually Calculate Average
 
 1. While Tableau provides an easy way to calculate the AVERAGE through using the right click functionalities on a field that is being used in an active chart, there are other ways to estimate it manually, and with more control over what the software is doing. The video below shows how to do this and how it compares to Tableau’s automatic method.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tnAnwczQ3mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=zsgeBmXHP00&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### More Functions
 
@@ -625,7 +625,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
     - Activate labels by clicking on **Label** in the Marks menu and check **Show mark labels** and change the font size to 14pt.
     ![](images/m3s4_pie-show-labels.png)
 1. Next, follow along as Alfredo shows you how to calculate percentages of total and display them in the label.    
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yjssVupYXrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=jxlnK3_O--I&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 1. Just like with Calculated Fields, Table Calculations are a powerful tool in Tableau’s repository. If you want to explore more resources, go to:
     - [https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm](https://help.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm) 
 
@@ -659,18 +659,18 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ### Introduction to Dashboards
 
 1. The very first thing to learn about dashboards is how to add different elements to it. Not everything is about the interactive charts, but also the text, symbols and other elements that help you convey a story for the reader. In the video below, you will learn how to set up your canvas and add elements to it.  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pP78GuC_7_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=nH6pzT-ZwbU&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Floating Dashboards
 
 1. Another important skill to master is the correct positioning of the elements in a dashboard. While Tableau tries to help with a tiled arrangement (as in the video above), it is important that you know how to gain full control of the exact size and position of each item that you add. The video below will help you get familiar with these important skills.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C96zusYc3vE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6J12c0HpQN0&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 2. Remember that when working with graphic designers, managing sizes and positions is extremely important. Make sure to practice these skills.
 
 ### Actions: Filter and Highlight
 
 1. Once you have added various elements, and charts, to your dashboards, it is time to make them interact with each other. The video below will show you two methods (filtering and highlighting) to use one chart to control the items in another chart. We will also cover some common troubleshooting situations.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tYmT9A1wZUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=O6YllvP35M0&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Basics Dashboards: Conclusions
 
@@ -719,19 +719,19 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ### Recap: Tooltip Customization and Exact Colors
 
 1. Before we get started, let’s remind ourselves of the importance of using good tooltips and the perfect colors. When working with graphic designers, ask them for the specific color code, so that you can reproduce their vision accurately.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jcuoPNreWJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ooE0TJqGxRE&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Background Images
 
 1. When creating dashboards, Tableau usually prefers solid colors. However, you can add your own images to make it more lively. Remember to use PNGs with transparent backgrounds whenever possible. The video below shows how to do so.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iKzcIJDWgvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=rD4yv1s4OcU&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Custom Shapes
 
 1. Wouldn’t it be cool if you could have a little image of each fish species in your database show up on top of their respective bar plot or instead of the little circles in a scatter plot? This is your lucky day, that is exactly what the video below will show you how to do.
 
 1. Before you begin this section, download [this folder of images](https://github.com/NCEAS/data-training-picrc-cos/raw/main/images/TNC%20-%20Fish%20Images.zip) and save it to your desktop folder “Tableau Data Training.” 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/joS9x6kKbiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=K0HEbSlnBPg&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 3. Alfredo’s tips for custom shapes:
     - *Save the files as .png with transparent background*.
@@ -742,12 +742,12 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 1. So far, we have focused on using sheets to filter each other when together in a dashboard. However, sometimes we might want to use a field (not a sheet) to filter the information in the whole dashboard. 
 
 1. Below, you will find an example of how to do this.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QnUH-GObfgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dijzVBwPYFU&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Dynamic Text Elements
 
 1. Another important aspect of using interactive elements in Tableau is that we not only have the possibility to filter charts, but also tables. Remember, Tableau is a table manager in the end. While this might not seem too helpful, the video below will show you how powerful this concept can be. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZmctDlHTPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KrlfOVUcTsU&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Creating a Template
 
@@ -756,7 +756,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 ### Graphic Design: Conclusions
 
 1. Congratulations! You have completed all of the technical Tableau skill sessions of this training. You have come a long way, and while you may not realize it yet, you are ready to create some of those amazing dashboards that you have seen published on the web or that we saw in our introductory session to Tableau. The video below will help you notice how simple elements can add up to amazing visualizations.  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pzccZH0HUIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=AHety3w-IgA&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 2. Check out https://public.tableau.com/app/profile/datamares to explore a wide range of dashboards that you can create using Tableau.
 
