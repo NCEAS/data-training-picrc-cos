@@ -71,7 +71,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 1. Follow along with this video to connect the new data file to Tableau.
  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=TpF-oXbKxBs&list=PLVC5RXohm34VYLP1Li5IzkkwDS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oXbKxBs&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 4. Progress check-in. So far, you have: 
     - Downloaded an excel file and connected it to Tableau.
@@ -136,7 +136,7 @@ https://www.tableau.com/ and select “Try Tableau for Free.”
 
 ### Sheets
 
-<iframe width="560" height="315" src="https://www.youtube.com//embed/v=LMIk6zLuq6E&list=PLVC5RXohm34VYLP1Li5IzkkwDS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v=TpF-oXbKxBs&list=PLVC5RXohm34VYLP1Li5IzkkwDS0--zd48&index=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Sheets Cheat Sheet
     - Discrete vs. Continuous
