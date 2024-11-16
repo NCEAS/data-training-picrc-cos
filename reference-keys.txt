@@ -82,7 +82,6 @@ tableau-dashboards-part-2-graphic-design-elements
 graphic-design-learning-objectives
 graphic-design-value-statement
 recap-tooltip-customization-and-exact-colors
-background-images
 custom-shapes
 filters-in-dashboards
 dynamic-text-elements
